@@ -45,7 +45,7 @@ if($speaker_ids) {
 			if($speaker_links == 'yes') {
 				$name='<a href="'.esc_url(get_permalink()).'">'.$name.'</a>';
 			}
-			$speakers[]='<span class="om-agenda-item-speaker">'.$name.$photo.'</span>';
+			$speakers[]='<span class="om-agenda-item-speaker">'.$name.$photo.'</span>'.'<div class="om-speakers-post">'.get_post_meta(get_the_ID(), 'om_persons_post', true).'</div><div class="om-agenda-item-speaker-bio">'.get_the_excerpt().'</div>';
 		}
 		wp_reset_postdata();
 	}
@@ -82,7 +82,7 @@ echo '<div class="'.$classes.' clearfix-a">';
 		}
 	echo '</div>';
 	echo '<div class="om-agenda-item-room-col">'.($room != '' ? '<div class="om-agenda-item-room-inner">' . $room . '</div>' : '' ).'</div>';
-	echo '<div class="om-agenda-item-speakers">'.(!empty($speakers) ? '<div class="om-agenda-item-speakers-inner">' . implode(', ',$speakers) . '</div>' : '').'</div>';
+	echo '<div class="om-agenda-item-speakers">'.(!empty($speakers) ? '<div class="om-agenda-item-speakers-inner">' . implode(' ',$speakers) . '</div>' : '').'</div>';
 	if ( $a_href !== false && trim($content) == '' ) {
 		echo '<a class="om-agenda-item-link" href="'. esc_url( $a_href ) .'" title="'. esc_attr( $a_title ) .'" target="'. trim( esc_attr( $a_target ) ) .'"></a>';
 	} elseif ( trim($content) != '' ) {
