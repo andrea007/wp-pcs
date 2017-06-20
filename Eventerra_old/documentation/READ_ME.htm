@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Eventerra Theme - Documentation</title>
+
+	<link rel="stylesheet" href="assets/style.css" type="text/css" media="all" />
+	
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.nav.js"></script>
+	<script>
+		$(function() {
+			$('#toc').onePageNav({
+				currentClass: 'active',
+				scrollSpeed: 400,
+				scrollThreshold: 0.15
+			});
+		});	
+	</script>
+</head>
+<body>
+
+	<div class="menu">
+		<ul class="toc" id="toc">
+			<li>
+				<a href="#Getting-Started">Getting Started</a>
+				<ul>
+					<li><a href="#Theme-installation">Theme installation</a></li>
+					<li><a href="#Customizer">Live Customizer</a></li>
+					<li><a href="#Theme-Options">Theme Options</a></li>
+					<li><a href="#Homepage">Setting up the Homepage</a></li>
+					<li>
+						<a href="#Blog">Setting up the News/Blog</a>
+						<ul>
+							<li><a href="#Blog-layouts">Blog Layouts</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#Theme-Features">Theme Features</a>
+				<ul>
+						<li><a href="#F-Theme-Options">Theme Options</a></li>
+						<li><a href="#F-WPB">Visual Page Builder</a></li>
+						<li><a href="#F-Tickets">Registration form & Tickets</a></li>
+						<li><a href="#F-MegaMenu">MegaMenu</a></li>
+						<li><a href="#F-Sliders">Sliders</a></li>
+						<li><a href="#F-Galleries">Galleries</a></li>
+						<li><a href="#F-Templates">Page Templates</a></li>
+						<li><a href="#F-Page-Titles">Page Titles</a></li>
+						<li><a href="#F-Widgets">Custom Widgets</a></li>
+						<li><a href="#F-Unlimited-Sidebars">Unlimited Sidebars</a></li>
+						<li><a href="#F-Speakers">Speakers</a></li>
+						<li><a href="#F-Testimonials">Testimonials</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#How-To">How To`s</a>
+				<ul>
+						<li><a href="#How-To-Buttons">Buttons in the header</a></li>
+						<li><a href="#How-Add-Animation">Add animation</a></li>
+				</ul>
+			</li>
+			<li><a href="#Demo-Content">Demo Content</a></li>
+			<li><a href="#WPML">WPML Multilingual Plugin</a></li>
+			<li><a href="#Theme-Update">Theme Update</a></li>
+		</ul>
+	</div>
+	
+	<div class="container">
+		<div class="container-inner">
+			<div class="title">Eventerra &mdash; WordPress Theme</div>
+			<div class="meta">
+				<ul>
+					<li>By <a href="http://www.olevmedia.com" target="_blank">Olevmedia</a></li>
+					<li>Author`s profile on ThemeForest: <a href="http://themeforest.net/user/mopc76" target="_blank">mopc76</a></li>
+					<li><a href="http://themeforest.net/user/mopc76/portfolio" target="_blank">Other Author`s items</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<h1 id="Getting-Started">Getting Started</h1>
+				<p>To install this theme you must have a working WordPress already installed on your web-hosting. For information in regard to installing the WordPress platform, please see the WordPress Codex - <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">http://codex.wordpress.org/Installing_WordPress</a></p>
+				<p>If you are new to WordPress it’s better to read Guides about basic WordPress functionality firstly, which you can find at <a href="http://wordpress.org" target="_blank">http://wordpress.org</a>. This Guide describes only current Theme specifics.</p>
+	
+				<h2 id="Theme-installation">Theme installation</h2>
+				<p>
+					To install theme you should upload theme files into the proper directory and activate theme. You have two ways to upload theme files:</p>
+				<ul>
+					<li>
+						<strong>WordPress Upload</strong>: Navigate to <b>Appearance &gt; Themes &gt; Add New &gt; Upload Theme</b>. Select the zipped theme folder and it will be uploaded and installed.</li>
+					<li>
+						<strong>FTP Upload:</strong> Using your FTP client, upload the non-zipped theme folder into the <i>/wp-content/themes/</i> folder on your server.</li>
+				</ul>
+				<p>
+					Once the theme is uploaded, you need to activate it. Go to <b>Appearance &gt; Themes</b> and activate your new theme.</p>
+				<h3>
+					Installation of Bundled Plugins</h3>
+				<p>
+					Once the theme is activated you will see a suggestion to install recommended plugins, which supplied with a theme. To get full Theme functionality you should install and activate them.</p>
+				<h3>
+					Demo content</h3>
+				<p>
+					You can import demo content just in a one click, which will give you the start point for the building of your site (<b>Appearance &gt; Demo content</b>). See the &ldquo;<a href="#Demo-Content">Demo Content</a>&rdquo; section for more details.</p>
+	
+				<!------------------------->
+	
+				<h2 id="Customizer">Live Customizer</h2>
+				
+				<p>
+					This Theme supports WordPress Theme Customizer Feature (<b>Appearance &gt; Customize</b>). You can cutomize colors, few other options and see changes live. Also, please, note that full list of options is available only in the "<b>Theme Options</b>" (<b>Appearance &gt; Theme Options</b>) section of the back-end.</p>
+				
+				<!------------------------->
+				
+				<h2 id="Theme-Options">Theme Options</h2>
+	
+				<p>
+					After theme installation navigate to <b>Appearance &gt; Theme Options</b>, take a look at available options to gain an understanding of what can be changed and set the prefered options. Also you can modify options at any time later.</p>
+				<h3>
+					Theme Options: Export / Import</h3>
+				<p>
+					You can export current saved options to a file and import options values from the file. You can do it by navigating to the bottom of the options page.</p>
+				<p class="image">
+					<img src="assets/img/theme/options-ei.jpg" /></p>
+				
+				<!------->
+				
+				<h2 id="Homepage">Setting up the Homepage</h2>
+				<p>
+					By default WordPress sets the front page as a Blog index Page. You can set as a Front page any custom page.</p>
+				<p>
+					To set a custom page as front page do the following: navigate to <strong>Pages &gt; Add New</strong>. Enter page title and content, then click &ldquo;<i>Publish</i>&rdquo;.</p>
+				<p>
+					Once you have created your new page which you want to be a &ldquo;Front page&rdquo;, navigate to <strong>Settings &gt; Reading</strong> and configure the &ldquo;<em>Front Page Displays</em>&rdquo; setting. Select the static page option and choose the page you just created as your front page.</p>
+				
+				<!------->
+				
+				<h2 id="Blog">Setting up the News/Blog</h2>
+				<p>
+					To set up the blog, you have to create a new page, you can do so by navigating to <strong>Pages &gt; Add New</strong>. You do not have to include any content. Select &ldquo;<em>Blog</em>&rdquo; template from the <em>Page Attributes</em> section and click &ldquo;<em>Publish</em>&rdquo;.</p>
+				<p>
+					Once you have created blog index page you can add posts to the blog (<strong>Posts &gt; Add New</strong>). Blog options can be set under <strong>Theme Options &gt; Blog Options</strong>.</p>
+				
+				<h3 id="Blog-layouts">Blog Layouts</h3>
+				<p>
+					Once "<i>Blog</i>" template is chosen for the page, "<i>Blog options</i>" options box appears below the content editor. You can choose layout of the blog page in this options box:</p>
+				<p class="image">
+								<img src="assets/img/theme/blog-options.jpg" /></p>
+				
+
+	
+				<h1 id="Theme-Features">Theme Features</h1>
+				<p>This document section describes key features of the Theme.</p>
+
+				<h2 id="F-Theme-Options">
+					Theme Options</h2>
+				<p>
+					The theme comes with a built-in options panel. You can access it by navigating to <strong>Appearance &gt; Theme Options</strong>. The theme options are separated by a number of tabs. Most of the options related to overall layout (colors, fonts, header, footer, etc.) are located in this panel.</p>
+
+				<h2 id="F-WPB">
+					Visual Page Builder</h2>
+				<p>
+					The theme comes with Visual Page Builder plugin (Visual Composer). It allow you to build page just visually managing blocks with the content.</p>
+				<p>
+					The Plugin which comes with the Theme is the most popular visual page builder plugin. It comes with number of available content elements (text blocks, icons, tabs, buttons, galleries, etc.). We styled them with accordance to the theme styling. Also we have added number of additional content elements into this plugin to provide more flexibility when you create pages.</p>
+				<p class="image">
+					<img src="assets/img/theme/wpb.jpg" /></p>
+				<p>
+					By default Visual Page Builder is available only for "Pages", since Blog Post content usually have simple layout. If you want to activate VPB for Posts pages, navigate to <strong>Settings &gt; Visual Composer</strong> and activate necessary checkboxes next to "Content types" section.</p>
+				<p>
+					To enable Visual Page Builder when you edit the Page, click "Classic mode" (to enable editor in the backend mode) or "Frontend editor".</p>
+				<p class="image">
+					<img src="assets/img/theme/wpb-enable.jpg" /></p>
+
+				<h2 id="F-Tickets">
+					Registration form & Tickets</h2>
+				<p>
+					The theme is compatible with "<b><a href="https://wordpress.org/plugins/contact-form-7/" target="_blank">Contact Form 7</a></b>" and "<b><a href="https://wordpress.org/plugins/tickera-event-ticketing-system/" target="_blank">Tickera Event Ticketing</a></b>" plugin</p>
+				<ul>
+					<li><p>In case you need just registration form and you do not need to sell tickets online you can use <b>Contact Form 7</b> plugin. Navigate to <strong>Appearance &gt; Install Plugins</strong> to install it.</p></li>
+					<li>
+						<p>In case you need to sell tickets online you can use <b>Tickera Event Ticketing</b> plugin. Navigate to <strong>Appearance &gt; Install Plugins</strong> to install it.</p>
+						<p><b>Tickera Event Ticketing</b> is a free plugin which provides you basic functionality to create, sell and check tickets. Also paid add-ons available to extend possibilities of the plugin.</p>
+						<p><a href="https://tickera.com/documentation-category/tickera/" target="_blank">Tickera Event Ticketing plugin documentation.</a></p>
+					</li>
+				</ul>
+				
+					
+				<h2 id="F-MegaMenu">
+					MegaMenu</h2>
+				<p>
+					The theme allows to create extended navigation menus (several columns) and attach icons to the menu item.</p>
+				<p class="image">
+					<img src="assets/img/theme/megamenu.jpg" /></p>
+				<p>
+					To activate MegaMenu, navigate to <strong>Appearance &gt; Menus</strong>, choose the menu item, submenu of which you would like to make MegaMenu and check option "<i>Enable MegaMenu for nested items</i>".</p>
+				<p class="image">
+					<img src="assets/img/theme/megamenu-2.jpg" /></p>
+				<p>
+					Number of child items of the root MegaMenu item defines number of MegaMenu columns. 1st level child items are column headings, 2nd level child items are column body items</p>
+				<p class="image">
+					<img src="assets/img/theme/megamenu-3.jpg" /></p>
+											
+				<h2 id="F-Sliders">
+					Sliders</h2>
+				<p>
+					The theme bundled with two premium slider plugins: &quot;<em>LayerSlider Responsive WordPress Slider Plugin</em>&quot; and &quot;<em>Slider Revolution Responsive WordPress Plugin</em>&quot; so you don&#39;t need to buy it. You just need to install and activate them under &quot;<strong>Appearance &gt; Install Plugins</strong>&quot;.</p>
+				<p>
+					You can attach slider to any page using "Slider" options box:</p>
+				<p class="image">
+					<img src="assets/img/theme/slider.jpg" /></p>
+				
+
+				<h2 id="F-Galleries">
+					Galleries</h2>
+				<p>
+					If you don't use Visual Page Builder for some page or you edit blog post and insert standard WordPress Gallery via "Add media" button, few extended options are still available. The Theme provides 3 additional layouts for galleries: Slider, Sliced, Masonry. Click "Add Media &gt; Create Gallery" and choose a layout under "Gallery Settings"</p>
+				<p class="image">
+					<img src="assets/img/theme/gallery.jpg" /></p>				
+
+				<!------->
+	
+				<h2 id="F-Templates">
+					Page Templates</h2>
+				<p>
+					The Theme provides several page templates (<i>Page Attributes &gt; Templates</i>):</p>
+				<p class="image">
+					<img src="assets/img/theme/page-templates.jpg" /></p>	
+				<h3>Blog</h3>
+				<p>
+					When you choose this template, the Blog is displayed on the page.</p>
+				<h3>Sitemap</h3>
+				<p>
+					When you choose this template, the Sitemap is displayed on the page.</p>
+				<h3>Without Header/Footer</h3>
+				<p>
+					When you choose this template, page is displayed without Header and Footer. This is useful for Landing Pages.</p>
+	
+				<!------->
+	
+				<h2 id="F-Page-Titles">
+					Page Titles</h2>
+				<p>
+					For each page custom Page Title layout can be set. See "<em>Page Title</em>" options box when you edit the page.</p>
+				<p class="image">
+					<img src="assets/img/theme/page-title.jpg" /></p>
+				<!------->
+				
+				<h2 id="F-Widgets">
+					Custom Widgets</h2>
+				<p>
+					The theme comes with 4 custom widgets which can be used in all sidebar areas. They can be found under <b>Appearance &gt; Widgets</b>.</p>
+				<div class="pad-left">
+					<h3>
+						Contacts</h3>
+					<p>
+						This widget displays contact information (email, phone, address).</p>
+					<h3>
+						Latest Tweets</h3>
+					<p>
+						This widget allows you to configure and display your latest Twitter tweets.</p>
+					<h3>
+						Facebook Like Box</h3>
+					<p>
+						This widget allows you to display Facebook Like Box.</p>
+					<h3>
+						Testimonials</h3>
+					<p>
+						This widget displays Testimonials and available when "Olevmedia Testimonials" plugin is activated. Testimonials itself are managed in the <strong>Testimonials</strong> section of the backend.</p>
+				</div>
+
+				<h2 id="F-Unlimited-Sidebars">
+					Unlimited Sidebars</h2>
+				<p>
+					You can choose an individual sidebar for every post/page. When editing post/page there is &ldquo;Sidebar&rdquo; option pane available, where you can chose the sidebar which should be displayed on the page. It can be &ldquo;Main&rdquo; (default) sidebar or one of the additional. Additional sidebars can be created in the <strong>Appearance &gt; Sidebars</strong> section.</p>
+				<p class="image">
+					<img src="assets/img/theme/sidebars.jpg" /></p>	
+
+				<!------->
+				
+				<h2 id="F-Speakers">
+					Speakers</h2>
+				<p>
+					Speakers functionality is powered by <b>"Olevmedia Persons"</b> plugin, which supplied with the Theme. Please, make sure that you've installed and activated it, otherwise navigate to <b>Appearance &gt; Install Plugins</b> and install the plugin.</p>
+				<p>You can add Speakers into <b>Speakers</b> section of the backend and display them on the page via "<em>Speakers</em>" content element available in Visual Page Builder. Also you can attach Speakers to Event Schedule items (<em>Agenda/Schedule</em> item in Visual Page Builder).</p>
+
+
+				<!------->
+				
+				<h2 id="F-Testimonials">
+					Testimonials</h2>
+				<p>
+					Testimonials functionality is powered by <b>"Olevmedia Testimonials"</b> plugin, which supplied with the Theme. Please, make sure that you've installed and activated it, otherwise navigate to <b>Appearance &gt; Install Plugins</b> and install the plugin.</p>
+				<p>You can add Testimonials into <b>Testimonials</b> section of the backend and display them on the page via "<em>Testimonials</em>" content element available in the Visual Page Builder or via "<em>Testimonials</em>" widget.</p>
+
+				<!-------->
+				
+				<h1 id="How-To">How To`s</h1>
+				<p>Direct answers to common questions.</p>
+				
+				
+				
+	
+				
+				<h2 id="How-To-Buttons">How To: Configure buttons in the header next to the menu</h2>			
+				<p class="image">
+					<img src="assets/img/theme/howto-buttons.jpg" /></p>
+				<h3>Answer</h3>
+				<ul>
+					<li>Navigate to <b>Appearance &gt; Theme Options &gt; Menu</b>.</li>
+					<li>First button can be configured under <b>Highlighted menu button</b> section.</li>
+					<li>Second button can be configured under <b>Dropdown secondary menu button</b> section. This button displays dropdown menu, which must be configured under <b>Appearance &gt; Menus</b>
+						<ul>
+							<li>Navigate to <b>Appearance &gt; Menus</b>, create the menu and attach it to <b>Secondary menu location</b>.</li>
+						</ul>
+					</li>
+				</ul>
+				
+				<h2 id="How-Add-Animation">How To: Add animation to content elements</h2>			
+				<h3>Answer</h3>
+				<ul>
+					<li>When you edit the page, make sure you switched the editor to Visual Page Builder.</li>
+					<li>You can apply animation to any Row or Column in the Row. Click edit icon and choose desired animation type in the "CSS Animation" option.
+						<p class="image">
+						<img src="assets/img/theme/howto-animation.jpg" /></p></li>	
+					</li>
+					<li>Some content elements also have "CSS Animation" option, so you can apply animation not only to Rows and Columns, but to Specific elements.</li>
+				</ul>
+				<!-------->
+				
+				<h1 id="Demo-Content">Demo Content</h1>
+				<p>
+					<i>The theme provides "<b>One Click Demo Content Import Tool</b>". Just navigate to "<b>Appearance &gt; Demo content</b>" and import the Demo Content.</i></p>
+				<p>
+					<b>Note:</b> Please, make sure that you've installed all recommended plugins (Visual Composer, Slider Revolution, Olevmedia Portfolio, Olevmedia Testimonials) if you want to get correctly working demo.</p>
+				<p class="image">
+					<img src="assets/img/theme/demo.jpg" /></p>	
+				<p>
+					Also the theme contains separated demo content files, which can be found in the <em>demo_content</em> folder of the package.</p>
+				<ul>
+					<li>
+						<strong>wordpress.xml</strong><br />
+						This is standard WordPress export file, which contains the content for pages, menus, etc. You can import data by navigating <strong>Tools &gt; Import</strong>.
+						<ul>
+							<li>
+								Please note, when importing demo content if you check &quot;<em>Download and import attachments</em>&quot; option it could hang the import process because of huge number of images. If it happens, just don&#39;t check this option and import content without images.</li>
+						</ul>
+					</li>
+					<li>
+						<strong>theme_options.dat</strong><br />
+						This is theme options export file, which contains option values. You can import data by navigating to <strong>Appearance &gt; Theme options</strong> and scroll down to<strong> Export/Import</strong>.</li>
+					<li>
+						<strong>widgets.wie</strong><br />
+						This is widgets export file. This data can be imported via <a href="http://wordpress.org/plugins/widget-importer-exporter/" target="_blank">Widget Importer & Exporter</a> plugin.</li>
+					<li>
+						<strong>primary-slider.zip</strong><br />
+						This is Slider Revolution export file. Slider can be imported via Slider Revolution plugin.</li>
+				</ul>
+	
+				<!-------->
+	
+				<h1 id="WPML">WPML Multilingual Plugin</h1>
+				<p>The theme supports one of the most popular plugin, which could turn your WordPress website to multilingual &mdash; <a href="http://wpml.org/?aid=27841&affiliate_key=JDolwv5oU9El">WPML</a>. To proceed with it you need to buy, download and install the plugin. You can check out the guide "<a href="http://wpml.org/faq/install-wpml/?aid=27841&affiliate_key=JDolwv5oU9El" target="_blank">How to Download and Install WPML</a>". The complete WPML documentation you can find here: <a href="http://wpml.org/documentation/?aid=27841&affiliate_key=JDolwv5oU9El" target="_blank">http://wpml.org/documentation/</a></p>
+				<p>Once the plugin is installed, you can enable a theme option to display languages selector menu in the header under <b>Theme Options &gt; WPML</b></p>
+				
+				<!-------->
+	
+				<h1 id="Theme-Update">Theme Update</h1>
+				<p>
+					You can receive notifications to WordPress backend and update the theme automatically using Envato API or you can do it manually.</p>
+				<h3>Automatic updates</h3>
+				<p>
+					Navigate to &quot;<strong>Theme Options &gt; Theme updates</strong>&quot; and specify your ThemeForest username and API key.</p>
+				<p>
+					API key you can get on ThemeForest website: <b>Profile &gt; Settings &gt; API Keys</b></p>
+				<p>
+					Once you specified username and API key, you will start receiving notifications about theme updates into WordPress automatically.</p>
+				<h3>Manual updates</h3>
+				<p>Firstly download new theme version from “Downloads” section of your ThemeForest account. There are two ways to update the theme:</p>
+				<ol>
+				<li>you can just activate another theme, delete <em>Amax</em>, upload new version and activate it.</li>
+				<li>if you know how to use FTP manager, upload and replace all theme files into <strong>wp-content/themes/amax</strong> folder via FTP</li>
+				</ol>
+				<p><b>Note:</b> <i>You won’t lose any settings/content until you made any changes directly into theme files.</i></p>
+	
+			</div>
+		</div>
+	</div>
+</body>
+</html>

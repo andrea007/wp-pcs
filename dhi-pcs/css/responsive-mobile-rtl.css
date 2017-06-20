@@ -1,0 +1,217 @@
+@media only screen and (max-width: 959px) {
+
+	html .om-wpb .vc_tta.vc_tta-style-classic .vc_tta-tab {
+		margin-right:0;
+		margin-left:20px;
+	}
+	
+	html .om_theme .tickera_additional_info .tickera_checkout {
+		margin-right:20px;
+	}
+
+	html .blog-posts.layout-small .post-date-wrapper,
+	html .blog-posts.layout-large .post-date-wrapper {
+		padding-right:0;
+		padding-left:20px;
+	}
+	html .om-agenda-day-title,
+	html .vc_om-agenda.om-layout-grid .om-agenda-day-title {
+		padding-left:0;
+		padding-right:20px;
+	}
+	
+	html .header-logo,
+	html .header-info {
+		float:none;
+	}	
+	
+	html .header-location {
+		margin-right:0;
+		margin-left:1em;
+	}
+	
+	html .header-wpml-selector {
+		margin-right:0;
+	}
+	
+	html .header-social-icons {
+		margin-left:0;
+		margin-right:1em;
+	}
+
+	html .vc_om-speakers.vc_om-layout-grid.vc_om-description-next .om-speakers-item {
+		float:none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	html .header-menu.extra-buttons-one .header-menu-mobile-control,
+	html .header-menu.extra-buttons-two .header-menu-mobile-control {
+		float:right;
+	}
+	
+	html .header-menu.extra-buttons-one .header-buttons,
+	html .header-menu.extra-buttons-two .header-buttons {
+		margin-left:0;
+		margin-right:4.2em;
+		float:none;
+	}
+	
+	html .header-menu.extra-buttons-one .header-extra-button,
+	html .header-menu.extra-buttons-one .header-extra-dropdown-button-wrapper {
+		float:none;
+	}
+
+	html .sidebar-display .content-column-sidebar,
+	html .sidebar-display .content-column-content,
+	html .sidebar-display.flip-sidebar .content-column-sidebar,
+	html .sidebar-display.flip-sidebar .content-column-content {
+		float:none;
+	}
+
+	html .blog-posts.layout-small .post-media {
+		float:none;
+	}		
+	
+	html .vc_om-testimonials.vc_om-mode-box .vc_om-testimonials-controls .om-prev {
+		right:0;
+	}
+	
+	html .vc_om-testimonials.vc_om-mode-box .vc_om-testimonials-controls .om-next {
+		left:0;
+	}
+	
+	html .footer-widgets-column {
+		border-right:0;
+	}
+	
+	html .om-agenda-item-speaker-photo-popup {
+		margin-right:-5px;
+	}
+	
+	html .om-agenda-item-speaker-photo-popup:after {
+		right:2px;
+		margin-right:0;
+	}
+
+	html .om-columns .om-column {
+		float:none;
+	}	
+
+	html .om-speaker-single-photo,
+	html .om-speaker-single-info {
+		float:none;
+	}
+
+	html .om-speaker-single-sidebar,
+	html .om-speaker-single-desc {
+		float:none;
+	}
+
+	html .om-agenda-day-title,
+	html .om-agenda-day-date,
+	html .om-agenda-item-time-room,
+	html .om-agenda-item-description,
+	html .vc_om-agenda.om-speakers-display .om-agenda-item-speakers {
+    float:none !important;
+	}			
+
+	html .vc_om-agenda.om-layout-grid .om-agenda-day,
+	html .vc_om-agenda.om-layout-grid.om-columns-2 .om-agenda-day {
+		float:none;
+	}
+		
+	html table.event_tickets tr {
+		float:left;
+	}
+	
+	html .tickera-checkout .tickera_table thead,
+	html table.event_tickets tr:first-child {
+		float:right;
+	}
+	
+	html .tickera-checkout .tickera_table tbody {
+		float:right;
+	}
+	
+	html .tickera-checkout .tickera_table thead th,
+	html table.event_tickets thead th {
+		text-align:right !important;
+	}
+	
+	html .tickera-checkout .tickera_table tbody td.ticket-total-all,
+	html .tickera-checkout .tickera_table tbody td.actions {
+		text-align:left !important;
+	}
+
+	html .tickera-checkout .tickera_table .tickera_update {
+		float:none;
+	}
+	
+	html .om_theme .tickera_buyer_info,
+	html .om_theme .tickera_owner_info {
+		float:none;
+	}
+	
+	html .om_theme .tickera_additional_info .tickera_checkout {
+		float:none;
+	}
+	
+	html .footer-social-icons,
+	html .sub-footer-text {
+		text-align:center;
+	}
+}
+
+
+@media only screen and (max-width: 639px) {
+	
+	html .countdown-box {
+		margin-right:5px;
+	}
+	
+	html .blog-posts.layout-small .post-body-wrapper,
+	html .blog-posts.layout-large .post-body-wrapper {
+		float:none;
+	}
+
+	html .blog-posts.layout-small .post-date-wrapper,
+	html .blog-posts.layout-large .post-date-wrapper {
+		text-align:right;
+		padding-right:20px;
+		float:none;
+	}
+	
+	html .search-results-list li.with-thumbnail .search-results-desc {
+		margin-right:0;
+	}
+
+	html .blog-posts.layout-shortcode.columns-2 .blog-post,
+	html .blog-posts.layout-shortcode.columns-3 .blog-post,
+	html .vc_om-speakers.vc_om-layout-grid.vc_om-columns-3 .om-speakers-item,
+	html .vc_om-speakers.vc_om-layout-grid.vc_om-columns-4 .om-speakers-item,
+	html .vc_om-speakers.vc_om-layout-grid.vc_om-description-next .om-speakers-pic-wrapper,
+	html .vc_om-speakers.vc_om-layout-grid.vc_om-description-next .om-speakers-body {
+		float:none;
+	}
+	
+}
+
+
+@media only screen and (max-width: 519px) {
+
+	html .gallery-sliced .img-box.img-1,
+	html .gallery-sliced .img-box.img-2,
+	html .gallery-sliced .img-box.img-3,
+	html .gallery-sliced .img-box.img-4,
+	html .gallery-sliced .img-box.img-5 {
+		float:none;
+	}
+	
+	html .gallery-masonry .item,
+	html .gallery-grid .item {
+		float:none;
+	}
+	
+}

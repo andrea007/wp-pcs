@@ -1,0 +1,4 @@
+.menu-item .field-megamenu,
+.menu-item .field-megamenu_hide_titles {display:none}
+.menu-item.menu-item-depth-0 .field-megamenu,
+.menu-item.menu-item-depth-0 .field-megamenu_hide_titles {display:block}

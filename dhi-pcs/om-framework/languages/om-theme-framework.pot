@@ -1,0 +1,637 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Olevmedia Theme Framework\n"
+"POT-Creation-Date: 2016-05-30\n"
+"PO-Revision-Date: 2016-05-30\n"
+"Last-Translator: \n"
+"Language-Team: Olevmedia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;__ngettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: \n"
+
+#: classes/class-demo-import.php:57
+msgid "Demo Content"
+msgstr ""
+
+#: classes/class-demo-import.php:64
+msgid "One Click Demo Content Import"
+msgstr ""
+
+#: classes/class-demo-import.php:66
+msgid "Import of demo content completed! Enjoy!"
+msgstr ""
+
+#: classes/class-demo-import.php:70
+msgid "Please, note:"
+msgstr ""
+
+#: classes/class-demo-import.php:72
+msgid ""
+"Please, make sure that you have <b>installed all recommended for the Theme "
+"plugins</b> before importing demo content to get correctly working demo."
+msgstr ""
+
+#: classes/class-demo-import.php:73
+#, php-format
+msgid ""
+"All settings which were made under \"Theme Options\" will be replaced with "
+"the \"Demo\". If you have already made any changes under \"Theme Options\" "
+"and want to save them, navigate to %s and export current settings."
+msgstr ""
+
+#: classes/class-demo-import.php:73
+#: classes/class-theme-options.php:79
+#: classes/class-theme-options.php:160
+msgid "Theme Options"
+msgstr ""
+
+#: classes/class-demo-import.php:74
+msgid ""
+"<b>All demo images are only for demo purpose.</b> A license requeried for "
+"some images from demo content in case you want to use it on the final "
+"website."
+msgstr ""
+
+#: classes/class-demo-import.php:75
+#, php-format
+msgid ""
+"In case you want to remove all demo content and bring WordPress to the clean "
+"state you can use %s."
+msgstr ""
+
+#: classes/class-demo-import.php:75
+msgid "WordPress Reset plugin"
+msgstr ""
+
+#: classes/class-demo-import.php:95
+msgid "Import demo content WITH media files"
+msgstr ""
+
+#: classes/class-demo-import.php:96
+msgid ""
+"This will import all demo images, but it can take much time to complete an "
+"import."
+msgstr ""
+
+#: classes/class-demo-import.php:99
+msgid "Import demo content WITHOUT media files"
+msgstr ""
+
+#: classes/class-demo-import.php:100
+msgid ""
+"This is a quick import, which will import all pages, posts, menus, etc. "
+"without demo images."
+msgstr ""
+
+#: classes/class-framework.php:26
+msgid "Latin Extended"
+msgstr ""
+
+#: classes/class-framework.php:27
+msgid "Arabic"
+msgstr ""
+
+#: classes/class-framework.php:28
+msgid "Cyrillic"
+msgstr ""
+
+#: classes/class-framework.php:29
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: classes/class-framework.php:30
+msgid "Devanagari"
+msgstr ""
+
+#: classes/class-framework.php:31
+msgid "Greek"
+msgstr ""
+
+#: classes/class-framework.php:32
+msgid "Greek Extended"
+msgstr ""
+
+#: classes/class-framework.php:33
+msgid "Hebrew"
+msgstr ""
+
+#: classes/class-framework.php:34
+msgid "Khmer"
+msgstr ""
+
+#: classes/class-framework.php:35
+msgid "Telugu"
+msgstr ""
+
+#: classes/class-framework.php:36
+msgid "Vietnamese"
+msgstr ""
+
+#: classes/class-live-customizer.php:128
+msgid "Variant"
+msgstr ""
+
+#: classes/class-meta-box.php:131
+#: classes/class-theme-options.php:412
+msgid "Choose a file"
+msgstr ""
+
+#: classes/class-meta-box.php:131
+#: classes/class-theme-options.php:412
+msgid "Select"
+msgstr ""
+
+#: classes/class-meta-box.php:131
+msgid "Browse"
+msgstr ""
+
+#: classes/class-meta-box.php:183
+#: classes/class-meta-box.php:222
+#: classes/class-theme-options.php:302
+msgid "All Categories"
+msgstr ""
+
+#: classes/class-meta-box.php:264
+msgid "Manage Images"
+msgstr ""
+
+#: classes/class-meta-box.php:282
+msgid "Choose which images you want to show in gallery"
+msgstr ""
+
+#: classes/class-meta-box.php:292
+msgid "Custom images set from Media Library"
+msgstr ""
+
+#: classes/class-meta-box.php:293
+msgid ""
+"Images uploaded and attached to current post via WordPress standard Media "
+"Manager"
+msgstr ""
+
+#: classes/class-meta-box.php:303
+msgid "Gallery images"
+msgstr ""
+
+#: classes/class-meta-box.php:312
+msgid "Chosen Images"
+msgstr ""
+
+#: classes/class-meta-box.php:313
+msgid "No images yet, choose from the images below"
+msgstr ""
+
+#: classes/class-meta-box.php:321
+msgid "Upload images"
+msgstr ""
+
+#: classes/class-meta-box.php:321
+msgid "Add media"
+msgstr ""
+
+#: classes/class-meta-box.php:322
+msgid "Refresh"
+msgstr ""
+
+#: classes/class-meta-box.php:342
+msgid "Select a Slider"
+msgstr ""
+
+#: classes/class-meta-box.php:353
+#: classes/class-meta-box.php:365
+msgid "No sliders created yet"
+msgstr ""
+
+#: classes/class-styling.php:43
+msgid "on"
+msgstr ""
+
+#: classes/class-theme-options.php:154
+msgid "Options Updated"
+msgstr ""
+
+#: classes/class-theme-options.php:155
+msgid "Options Reset"
+msgstr ""
+
+#: classes/class-theme-options.php:156
+msgid "Options Imported"
+msgstr ""
+
+#: classes/class-theme-options.php:157
+msgid "Sorry, there has been an error while import"
+msgstr ""
+
+#: classes/class-theme-options.php:165
+#: classes/class-theme-options.php:180
+msgid "Save All Changes"
+msgstr ""
+
+#: classes/class-theme-options.php:178
+msgid "Reset Options"
+msgstr ""
+
+#: classes/class-theme-options.php:189
+msgid "(+) Export / Import Options"
+msgstr ""
+
+#: classes/class-theme-options.php:192
+msgid "Export:"
+msgstr ""
+
+#: classes/class-theme-options.php:194
+msgid "Download Export File"
+msgstr ""
+
+#: classes/class-theme-options.php:199
+msgid "Import:"
+msgstr ""
+
+#: classes/class-theme-options.php:201
+msgid "Choose a file from your computer:"
+msgstr ""
+
+#: classes/class-theme-options.php:203
+msgid "Upload and Import"
+msgstr ""
+
+#: classes/class-theme-options.php:303
+msgid "No Categories"
+msgstr ""
+
+#: classes/class-theme-options.php:335
+msgid "None (default)"
+msgstr ""
+
+#: classes/class-theme-options.php:346
+msgid "All"
+msgstr ""
+
+#: classes/class-theme-options.php:347
+msgid "No"
+msgstr ""
+
+#: classes/class-theme-options.php:451
+msgid "Source:"
+msgstr ""
+
+#: classes/class-theme-options.php:453
+msgid "Standard fonts"
+msgstr ""
+
+#: classes/class-theme-options.php:454
+msgid "Google.Fonts"
+msgstr ""
+
+#: classes/class-theme-options.php:455
+msgid "Any external fonts (e.g. Typekit)"
+msgstr ""
+
+#: classes/class-theme-options.php:459
+#: classes/class-theme-options.php:525
+msgid "Font family:"
+msgstr ""
+
+#: classes/class-theme-options.php:468
+msgid "Font name:"
+msgstr ""
+
+#: classes/class-theme-options.php:469
+#, php-format
+msgid "Choose the the font from %s and enter the name."
+msgstr ""
+
+#: classes/class-theme-options.php:473
+msgid "Font weight for normal text:"
+msgstr ""
+
+#: classes/class-theme-options.php:477
+#: classes/class-theme-options.php:510
+msgid "standard"
+msgstr ""
+
+#: classes/class-theme-options.php:488
+msgid "Font weight for semibold text:"
+msgstr ""
+
+#: classes/class-theme-options.php:503
+msgid "Font weight for bold text:"
+msgstr ""
+
+#: classes/class-theme-options.php:516
+msgid "Please, make sure that chosen font supports chosen weight"
+msgstr ""
+
+#: classes/class-theme-options.php:517
+#, php-format
+msgid ""
+"Latin charset by default. Include additional character sets for fonts (make "
+"sure at %s before that charset is available for chosen font):"
+msgstr ""
+
+#: classes/class-theme-options.php:524
+msgid "Embed code for the &lt;head&gt; section:"
+msgstr ""
+
+#: classes/class-theme-options.php:526
+msgid ""
+"Enter the value for \"font-family\" attribute, also you can specify the "
+"stack of the fonts"
+msgstr ""
+
+#: classes/class-theme-options.php:565
+msgid "No presets created yet."
+msgstr ""
+
+#: classes/class-theme-options.php:571
+msgid "Apply"
+msgstr ""
+
+#: classes/class-theme-options.php:572
+msgid "Remove"
+msgstr ""
+
+#: classes/class-theme-options.php:577
+msgid "Save current styling options as new preset:"
+msgstr ""
+
+#: classes/class-theme-options.php:577
+msgid "Save"
+msgstr ""
+
+#: libraries/envato-theme-updater/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: libraries/envato-theme-updater/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: libraries/envato-theme-updater/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: libraries/envato-theme-updater/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: libraries/widgets-importer/widgets-import.php:35
+msgid "You must upload a <b>.wie</b> file generated by this plugin."
+msgstr ""
+
+#: libraries/widgets-importer/widgets-import.php:82
+msgid "Import file could not be found. Please try again."
+msgstr ""
+
+#: libraries/widgets-importer/widgets-import.php:117
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: libraries/widgets-importer/widgets-import.php:159
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: libraries/widgets-importer/widgets-import.php:181
+msgid "Site does not support widget"
+msgstr ""
+
+#: libraries/widgets-importer/widgets-import.php:217
+msgid "Widget already exists"
+msgstr ""
+
+#: libraries/widgets-importer/widgets-import.php:279
+msgid "Imported"
+msgstr ""
+
+#: libraries/widgets-importer/widgets-import.php:282
+msgid "Imported to Inactive"
+msgstr ""
+
+#: libraries/widgets-importer/widgets-import.php:289
+msgid "No Title"
+msgstr ""
+
+#: libraries/wordpress-importer/parsers.php:42
+#: libraries/wordpress-importer/parsers.php:72
+#: libraries/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: libraries/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: libraries/wordpress-importer/parsers.php:84
+#: libraries/wordpress-importer/parsers.php:89
+#: libraries/wordpress-importer/parsers.php:279
+#: libraries/wordpress-importer/parsers.php:467
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:134
+#: libraries/wordpress-importer/wordpress-importer.php:143
+#: libraries/wordpress-importer/wordpress-importer.php:194
+#: libraries/wordpress-importer/wordpress-importer.php:198
+#: libraries/wordpress-importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused "
+"by a permissions problem."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as admins entries."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:511
+#: libraries/wordpress-importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:914
+#: libraries/wordpress-importer/wordpress-importer.php:922
+msgid "Remote server did not respond"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:928
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:935
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:940
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:946
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:1046
+msgid "Import WordPress"
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:1053
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:1068
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: libraries/wordpress-importer/wordpress-importer.php:1069
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""

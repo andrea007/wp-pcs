@@ -1,0 +1,1053 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Eventerra Child Theme
+	Theme URI: http://themeforest.net/item/eventerra-event-conference-wordpress-theme/15717811
+	Description: Eventerra Child Theme
+	Author: OlevMedia
+	Author URI: http://www.olevmedia.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0.0
+	Template: eventerra
+	Text Domain: eventerra-child
+	
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+-----------------------------------------------------------------------------------*/
+/*----------------------------
+Header
+-----------------------------*/
+@import "compass/css3";
+
+.countdown-box .box-bg {
+    border: 0px solid;
+   }
+
+.primary-menu > li {
+    float: left;
+    margin-right: 15px;
+}
+
+.header-menu {
+    position: relative;
+    font-size: 90%;
+}
+.countdown-box {
+	border: 0px solid;
+}
+
+/*add spacing below the registration button */
+.header-buttons {
+    margin-bottom: 6px;
+}
+/* reducing the size of the registration button */
+.header-extra-button {
+    padding: 1.0em 2.7em;
+}
+
+
+.om-wpb .vc_call_to_action .vc_cta-text, .om-wpb .vc_call_to_action .vc_cta-button-wrapper {
+    padding: 1em 10px;
+}
+.om-wpb .vc_call_to_action.vc_with_btn.vc_cta_btn_pos_bottom .vc_cta-text {
+    padding-bottom: 0em;
+}
+
+.vc_om-testimonials.vc_om-mode-box .om-item {
+    display: block;
+}
+.content-footer {
+    box-shadow: 0 0 1px 0 rgba(0,0,0,.5);
+}
+.header_supporters {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* FOOTER */
+
+#sign_up_btn {
+	background-color: #ff7900 !important;
+	font-weight: bolder;
+	font-size: 16px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.latest-tweets {
+	padding: 20px !important;
+	background-color: #262628;
+}
+.mc4wp-form-theme input[type=text] {
+    background: #262628;
+}
+
+
+/*===================================== NEW STYLE CSS ADDED ====================================== */
+
+/*----------------- Header Start ------------------------ */
+.header {
+    color: #fff;
+padding-bottom: 8px;
+}
+
+.header-top {
+    transform: skew(0deg, -2deg);
+    background: #262628;
+    margin: -20px 0 24px;
+    padding: 41px 0 15px;
+}
+
+.header-logo {
+    transform: skew(0deg, 2deg);
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.header-info {
+    transform: skew(0deg, 2deg);
+    padding-right: 30px;
+    box-sizing: border-box;
+    margin: 18px 0 0;
+}
+.header-info-top {
+    margin: 0 0 14px;
+}
+.header-social-icons .om-social-icon {
+    border-radius: 0;
+    background: #f76b00;
+    position: relative;
+}
+.header-social-icons .om-social-icon i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.header-social-icons .om-social-icon::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    height: 0;
+    width: 0;
+    border-left: 12px solid #262628;
+    border-bottom: 12px solid transparent;
+}
+
+.header-info .header-extra-button {
+    background: none;
+    border: 5px solid #f1711f;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 8px 33px;
+    color: #f1711f;
+    overflow: visible;
+}
+.header-info .header-extra-button::before {
+    content: '';
+    background-image: none;
+    transform: inherit;
+    height: 0;
+    width: 0;
+    top: -5px;
+    left: -5px;
+    border-left: 26px solid #f1711f;
+    border-bottom: 26px solid transparent;
+}
+.header-info .header-extra-button::after {
+    content: '';
+    height: 0;
+    width: 0;
+    top: -6px;
+    left: -5px;
+    border-left: 19px solid #262628;
+    border-bottom: 19px solid transparent;
+    position: absolute;
+}
+.header-info .header-extra-button:hover::before {
+    animation: inherit;
+}
+.header-menu{
+    padding-top: 3px;
+}
+
+.header-menu-primary {
+    float: right;
+}
+
+.main-sponsor-text {
+   color: #262628;
+   font-size: 9px;
+   float: left;
+}
+.main-sponsor {
+   margin-left: 16px;
+   float: left;
+}
+    
+.sponsors-home {
+    float: right;
+    margin: -23px 0 0 0;
+}
+.header-menu .main-sponsor {
+    float: none;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 94px;
+}
+.header-menu .header-menu-primary {
+    float: none;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.header-menu.root-items-bold .primary-menu > li > a {
+    padding: 0;
+  font-size: 14px;
+    color: #262628;
+}
+.main-sponsor .main-sponsor-text,.sponsors-home .main-sponsor-text {
+    color: #262628;
+    font-size: 12px;
+    float: left;
+    font-weight: 500;
+    width: 53px;
+    text-align: right;
+    line-height: 11px;
+    padding: 0 14px 0 0;
+}
+.sponsors-home .main-sponsor-text{
+    width: 68px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 11px 0 0;
+}
+.primary-menu > li {
+    margin-right: 30px;
+}
+.primary-menu > li > a:before{
+display:none;
+}
+
+/*----------------- Header End ------------------------ */
+
+/*----------------- Slider Button CSS Start ------------------------ */
+#post-12 .om-vc_row:first-child .vc_row-fluid .vc_col-sm-12 {
+    display: none;
+}
+#post-12 .om-vc_row:first-child {
+    background: #262628;
+}
+#post-12 .om-vc_row:first-child .vc_custom_1493045735467 {
+    background-color: inherit !important;
+}
+#post-12 .om-vc_row:first-child .call_to_action {
+    background: none !important;
+}
+#post-12 .om-vc_row:first-child .vc_cta-button {
+    background: none !important;
+    border: 4px solid #e5e5e5;
+    color: #e5e5e5 !important;
+    padding: 12px 0;
+    font-size: 15px;
+    width: 244px;
+}
+#post-12 .om-vc_row:first-child .vc_cta-button:before {
+    display: none;
+}
+#post-12 .om-vc_row:first-child .vc_cta-button:hover {
+    background: #e5e5e5 !important;
+    border-color: #e5e5e5 !important;
+    color: #262628 !important;
+}
+#post-12 .om-vc_row:first-child .vc_call_to_action {
+    background: none;
+}
+#post-12 .om-vc_row:first-child .vc_column_container>.vc_column-inner {
+    padding: 0;
+}
+#post-12 .om-vc_row:first-child .vc_column_container>.vc_column-inner .vc_call_to_action {
+    margin: 0 !important;
+    width: auto;
+}
+#post-12 .om-vc_row:first-child .vc_column_container>.vc_column-inner .vc_call_to_action .vc_cta-button-wrapper {
+    padding: 0;
+}
+
+.header-slider {
+    position: relative;
+    z-index: 1;
+}
+
+/*----------------- Slider Button CSS End ------------------------ */
+
+/*----------------- Cyber Section CSS Start ------------------------ */
+
+#post-12 .om-vc_row:first-child {
+    transform: skew(0deg, -2deg);
+    padding: 42px 0 48px;
+    margin-top: -35px;
+}
+#post-12 .om-vc_row:first-child .om-vc_row-inner,#post-12 .om-vc_row:nth-of-type(2) .om-vc_row-inner{
+    transform: skew(0deg, 2deg);
+}
+
+#post-12 .om-vc_row:nth-of-type(2) {
+    transform: skew(0deg, -2deg);
+    margin-top: 0px !important;
+    margin-bottom: 0 !important;
+    background: #f76b00;
+    color: #fff;
+    padding: 20px 0 30px;
+}
+
+#post-12 .om-vc_row:nth-of-type(2) .vc_btn3.vc_btn3-style-flat.vc_btn3-color-om-accent-color-1 .vc_btn3-icon {
+    background-color: #262628;
+    border-radius: 0;
+    height: 35px !important;
+    width: 35px;
+    line-height: 35px !important;
+    font-size: 23px !important;
+    color: #f76b00;
+    left: auto !important;
+    right: -50px;
+}
+#post-12 .om-vc_row:nth-of-type(2) .vc_btn3.vc_btn3-style-flat.vc_btn3-color-om-accent-color-1 .vc_btn3-icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    border-left: 13px solid #f76b00;
+    border-bottom: 13px solid transparent;
+}
+#post-12 .om-vc_row:nth-of-type(2) .vc_general.vc_btn3.vc_btn3-style-flat .vc_btn3-inner {
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #262628;
+}
+#post-12 .om-vc_row:nth-of-type(2) .vc_btn3.vc_btn3-style-flat:hover .vc_btn3-icon-effect {
+    display: none;
+}
+
+/*----------------- Cyber Section CSS End------------------------ */
+
+/*----------------- Speakers Please Section CSS Start ------------------------ */
+
+#post-12 .om-vc_row:nth-of-type(3) {
+    background: #ececec;
+ transform: skew(0deg, -2deg);
+    padding: 40px 0 0;
+}
+#post-12 .om-vc_row:nth-of-type(3) .om-vc_row-inner {
+    transform: skew(0deg, 2deg);
+}
+#post-12 .om-vc_row:nth-of-type(3) h1 {
+    margin: 0 0 50px;
+}
+#post-12 .om-vc_row:nth-of-type(3) .vc_om-speakers.vc_om-layout-grid.vc_om-columns-4 .om-speakers-item {
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 0 30px;
+    position: relative;
+}
+#post-12 .om-vc_row:nth-of-type(3) .vc_om-speakers.vc_om-layout-grid.vc_om-columns-4 .om-speakers-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 0;
+    width: 0;
+    border-left: 100px solid #ececec;
+    border-bottom: 95px solid transparent;
+    z-index: 1;
+}
+
+#post-12 .om-vc_row:nth-of-type(3) + .om-with-background.om-vc_row {
+    display: none;
+}
+
+/*----------------- Speakers Please Section CSS End------------------------ */
+
+/*----------------- Conference Section CSS Start ------------------------ */
+
+#post-12 .om-vc_row:nth-of-type(5) {
+    background: #262628;
+    transform: skew(0deg, -2deg);
+    color: #ececec;
+}
+
+#post-12 .om-vc_row:nth-of-type(5) .om-vc_row-inner {
+    transform: skew(0deg, 2deg);
+}
+#post-12 .om-vc_row:nth-of-type(5) h1 {
+    font-size: 64px;
+    text-align: right !important;
+    padding: 0 420px 30px 0;
+    line-height: 64px;
+    margin: 0 0 30px;
+    border-bottom: 1px dashed #f1711f;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-inner {
+    border-bottom: 1px dashed #f1711f;
+    padding: 0 0 30px;
+    margin: 0 30px 50px;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-day.om-color-om-accent-color-1 .om-agenda-day-header {
+    background: none;
+}
+
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-day-title,#post-12 .om-vc_row:nth-of-type(5) .om-agenda-day-date {
+    display: block;
+    width: auto;
+    float: none;
+    font-size: 24px;
+    color: #ececec;
+    line-height: initial;
+padding:0;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-day-date {
+    font-size: 18px;
+    color: #f1711f;
+    opacity: 1;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item {
+    background: none;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+        padding: 0 15px 0 0;
+    box-sizing: border-box;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item:last-child {
+    padding-right: 0;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-time-room,
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-description,
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-room-col {
+    float: none;
+    width: auto;
+    display: block;
+padding: 0;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-time-room .om-agenda-item-icon i::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: #f1711f;
+    position: absolute;
+    top: -17px;
+    left: 0;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-time-room .om-agenda-item-icon i::after {
+    content: '';
+    position: absolute;
+    top: -17px;
+    left: 0;
+    border-left: 9px solid #262628;
+    border-bottom: 9px solid transparent;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-time {
+    font-weight: normal;
+    font-size: 17px;
+    position: relative;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-time::before {
+    content: '';
+    position: absolute;
+    top: 11px;
+    right: 0;
+    width: 190px;
+    border-bottom: 1px solid #86868e;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-description-title {
+    font-size: 22px;
+    line-height: initial;
+    font-weight: normal;
+padding: 0 0 0 30px;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-room-inner {
+    padding: 0;
+    color: #86868e;
+    padding: 0 0 0 30px;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-room-inner::before{
+display:none;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-description-more {
+    padding: 0 0 15px 30px;
+}
+
+/*----------------- Conference Section CSS End------------------------ */
+
+/*----------------- Sponsors Section CSS Start ------------------------ */
+
+#post-12 .om-vc_row:nth-of-type(6) {
+    transform: skew(0deg, -2deg);
+    background: #ececec;
+    padding: 10px 0;
+}
+#post-12 .om-vc_row:nth-of-type(6) .om-vc_row-inner {
+    transform: skew(0deg, 2deg);
+}
+
+#post-12 .om-vc_row:nth-of-type(6) h1 {
+    margin: 0;
+    font-size: 64px !important;
+    color: #262628 !important;
+    font-family: 'Roboto';
+    font-weight: 800;
+}
+#post-12 .om-vc_row:nth-of-type(6) .vc_om-logos-img-w {
+    margin: 10px 19px;
+}
+
+/*----------------- Sponsors Section CSS End------------------------ */
+
+/*-----------------  Registration Button CSS Start ------------------------ */
+
+#post-12 .om-vc_row:nth-of-type(7) {
+    transform: skew(0deg, -2deg);
+    padding: 13px 0 0;
+    margin-bottom: -49px;
+}
+#post-12 .om-vc_row:nth-of-type(7) .om-vc_row-inner {
+    transform: skew(0deg, 2deg);
+}
+
+#post-12 .om-vc_row:nth-of-type(7) .vc_cta-button.vc_cta_button-color-om-accent-color-1 {
+    border: 5px solid #262628;
+    padding: 10px 30px;
+overflow: visible;
+}
+#post-12 .om-vc_row:nth-of-type(7) .vc_cta-button.vc_cta_button-color-om-accent-color-1::before {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 30px solid #262628;
+    border-bottom: 30px solid transparent;
+    top: -5px;
+    left: -5px;
+    transform: inherit;
+}
+#post-12 .om-vc_row:nth-of-type(7) .vc_cta-button.vc_cta_button-color-om-accent-color-1::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 23px solid #f1711f;
+    border-bottom: 23px solid transparent;
+    top: -5px;
+    left: -5px;
+}
+#post-12 .om-vc_row:nth-of-type(7) .vc_cta-button.vc_cta_button-color-om-accent-color-1:hover::before {
+    animation: inherit;
+}
+
+#post-12 .om-vc_row:nth-of-type(7) h2.wpb_heading {
+    text-align: center;
+}
+
+/*----------------- Registration Button CSS End ------------------------ */
+
+/*----------------- About Us Registration Button CSS Start ------------------------ */
+
+#post-539 .om-vc_row:nth-of-type(2),#post-695 .om-vc_row:nth-of-type(4),#post-386 .om-vc_row:nth-of-type(2) {
+    transform: skew(0deg, -2deg);
+    padding: 13px 0 0;
+    margin-bottom: -49px;
+}
+#post-539 .om-vc_row:nth-of-type(2) .om-vc_row-inner,#post-695 .om-vc_row:nth-of-type(4) .om-vc_row-inner,
+#post-386 .om-vc_row:nth-of-type(2) .om-vc_row-inner {
+    transform: skew(0deg, 2deg);
+}
+
+#post-539 .om-vc_row:nth-of-type(2) .vc_cta-button.vc_cta_button-color-om-accent-color-1,
+#post-695 .om-vc_row:nth-of-type(4) .vc_cta-button.vc_cta_button-color-om-accent-color-1,
+#post-386 .om-vc_row:nth-of-type(2) .vc_cta-button.vc_cta_button-color-om-accent-color-1 {
+    border: 5px solid #262628;
+    padding: 10px 30px;
+overflow: visible;
+}
+#post-539 .om-vc_row:nth-of-type(2) .vc_cta-button.vc_cta_button-color-om-accent-color-1::before,
+#post-695 .om-vc_row:nth-of-type(4) .vc_cta-button.vc_cta_button-color-om-accent-color-1::before,
+#post-386 .om-vc_row:nth-of-type(2) .vc_cta-button.vc_cta_button-color-om-accent-color-1::before {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 30px solid #262628;
+    border-bottom: 30px solid transparent;
+    top: -5px;
+    left: -5px;
+    transform: inherit;
+}
+#post-539 .om-vc_row:nth-of-type(2) .vc_cta-button.vc_cta_button-color-om-accent-color-1::after,
+#post-695 .om-vc_row:nth-of-type(4) .vc_cta-button.vc_cta_button-color-om-accent-color-1::after,
+#post-386 .om-vc_row:nth-of-type(2) .vc_cta-button.vc_cta_button-color-om-accent-color-1::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 23px solid #f1711f;
+    border-bottom: 23px solid transparent;
+    top: -5px;
+    left: -5px;
+}
+#post-539 .om-vc_row:nth-of-type(2) .vc_cta-button.vc_cta_button-color-om-accent-color-1:hover::before,
+#post-695 .om-vc_row:nth-of-type(4) .vc_cta-button.vc_cta_button-color-om-accent-color-1:hover::before,
+#post-386 .om-vc_row:nth-of-type(2) .vc_cta-button.vc_cta_button-color-om-accent-color-1:hover::before {
+    animation: inherit;
+}
+
+#post-539 .om-vc_row:nth-of-type(2) h2.wpb_heading,#post-695 .om-vc_row:nth-of-type(4) h2.wpb_heading,
+#post-386 .om-vc_row:nth-of-type(2) h2.wpb_heading {
+    text-align: center;
+}
+
+#post-695 .om-vc_row:nth-of-type(4) .vc_cta-button.vc_cta_button-color-om-accent-color-1::after,
+#post-386 .om-vc_row:nth-of-type(2) .vc_cta-button.vc_cta_button-color-om-accent-color-1::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 27px solid #f1711f;
+    border-bottom: 27px solid transparent;
+    top: -8px;
+    left: -6px;
+}
+
+/*-----------------About Us Registration Button CSS End ------------------------ */
+
+
+
+/*----------------- Footer Section CSS Start ------------------------ */
+
+footer-widgets {
+    padding: 0;
+    border-top: none;
+    position: relative;
+    z-index: 1;
+}
+.footer-widgets .om-columns {
+    margin: 0 30px 50px;
+    border-top: 1px dashed #262628;
+    border-bottom: 1px dashed #262628;
+position: relative;
+    z-index: 1;
+}
+.footer-widgets-column {
+    border-left: 1px dashed rgb(38, 38, 40);
+    margin: 15px 0;
+}
+.footer-widget {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer-widgets-column:nth-of-type(2) {
+    border-left: none;
+}
+.sub-footer.no-sub-footer-text {
+    display: none;
+}
+.content-footer{
+margin:0;
+box-shadow:none;
+}
+.mc4wp-form-theme input[type=text], .mc4wp-form-theme input[type=email] {
+    border: none;
+    padding: 12px 16px;
+    background: #262628 !important;
+}
+.page-titles-apply-uppercase .footer-widget-title {
+    line-height: initial;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+.textwidget > span {
+    line-height: initial;
+    font-size: 23px !important;
+}
+ul.latest-tweets {
+    color: #ececec;
+    height: 267px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+ul.latest-tweets::-webkit-scrollbar-track{
+    background-color: #262628;
+}
+
+ul.latest-tweets::-webkit-scrollbar{
+    width: 6px;
+    background-color: #262628;
+}
+
+ul.latest-tweets::-webkit-scrollbar-thumb{
+    background-color: #353538;
+}
+.footer-widgets ul.latest-tweets a,.footer-widget.eventerra_widget_tweets .tweet-time a {
+    color: #f1711f;
+}
+.footer-widget.eventerra_widget_tweets .tweet-time:before{
+display:none;
+}
+
+/*----------------- Footer Section CSS End ------------------------ */
+
+/*----------------- About Us Page CSS Start ------------------------ */
+
+.content-footer > .content {
+    background: none;
+}
+
+.page-title-wrapper {
+    border: none;
+}
+
+.page-title-inner {
+    padding: 30px 0 0;
+    margin: 0 0 0 16px;
+    width: 66.67%;
+}
+/*
+#post-539 .vc_column-inner {
+    padding: 0;
+}
+*/
+.om-wpb .vc_column_container>.vc_column-inner {
+    padding-left: 16px;
+}
+
+
+.page-title-inner h1 {
+    position: relative;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 45px;
+    border-bottom: 10px solid;
+}
+.page-title-inner h1::before {
+    /*content: '';*/
+    position: absolute;
+    bottom: 17px;
+    right: 187px;
+    height: 20px;
+    width: 20px;
+    background: #f1711f;
+}
+/*.page-title-inner h1::after {
+    content: '';
+    position: absolute;
+    top: 31px;
+    right: 197px;
+    height: 0;
+    width: 0;
+    border-left: 10px solid #f6f6f6;
+    border-bottom: 10px solid transparent;*/
+}
+
+
+/*----------------- About Us Page CSS End ------------------------ */
+
+
+/*----------------- Inner Pages conent---------------------------*/
+
+.wpb_wrapper {
+    margin-left: 14px;
+}
+
+@media(max-width: 767px) {
+   .page-title-inner h1 {
+     font-size: 25px;
+   }
+
+   .om-wpb .vc_cta-button {
+     padding: 12px;
+     font-size: 14px;
+   }
+
+   #post-12 .om-vc_row:nth-of-type(5) h1 {
+	font-size: 26px !important;
+        padding-right: 0px;
+        line-height: 40px;
+   }
+
+   #post-12 .om-vc_row:nth-of-type(6) h1 {
+      font-size: 30px !important;
+   }
+   
+   #post-12 .om-vc_row:nth-of-type(3) h1 {
+     font-size: 20px;
+   }
+
+   #post-12 .om-vc_row:nth-of-type(5) .om-agenda-item {
+     width: 100%;
+   }	
+}
+.om-speaker-single-card {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.om-speaker-single-content {
+    margin-bottom: 78px;
+}
+.om-speaker-single-sidebar .om-item {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*-----------------  Inner Pages CSS End ------------------------ */
+
+/*-----------------  Programme Pages CSS Start ------------------------ */
+
+#post-386 .vc_om-agenda {
+    margin: 0;
+}
+
+#post-386 .om-agenda-day-header {
+    display: none;
+}
+
+#post-386 .om-agenda-item {
+    background: none;
+    position: relative;
+    margin: 0;
+}
+
+#post-386 .om-agenda-item:first-child {
+    padding-top: 0;
+}
+
+#post-386 .om-agenda-item:last-child {
+    padding-bottom: 0;
+}
+
+#post-386 .om-agenda-item .om-agenda-item-time-room {
+    width: 116px;
+    text-align: right;
+    padding: 0 29px 0 0;
+}
+
+#post-386 .om-agenda-item .om-agenda-item-time-room .om-agenda-item-time {
+    font-size: 17px;
+    font-weight: normal;
+    color: #262628;
+}
+
+#post-386 .om-agenda-item .om-agenda-item-time-room .om-agenda-item-icon {
+    display: none;
+}
+
+#post-386 .om-agenda-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 16%;
+    height: 100%;
+    border-right: 1px solid #86868e;
+}
+
+#post-386 .om-agenda-item .om-agenda-time-room-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -42px;
+    width: 24px;
+    background: #f1711f;
+    height: 24px;
+    z-index: 1;
+}
+
+#post-386 .om-agenda-item .om-agenda-time-room-inner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -26px;
+    height: 0;
+    width: 0;
+    border-left: 8px solid #f5f5f5;
+    border-bottom: 8px solid transparent;
+    z-index: 1;
+}
+
+#post-386 .om-agenda-item .om-agenda-item-description {
+    position: relative;
+}
+
+#post-386 .om-agenda-item .om-agenda-item-description-title {
+    font-size: 22px;
+    line-height: initial;
+    font-weight: normal;
+    color: #262628;
+}
+
+#post-386 .om-agenda-item .om-agenda-item-description::before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: -20px;
+    width: 40px;
+    height: 54px;
+    background: #f5f5f5;
+}
+
+#post-386 .vc_call_to_action.om-bg-stripes .vc_cta-inner {
+    background: none;
+}
+
+
+
+/*-----------------  ProgrammePages CSS End ------------------------ */
+
+/*-----------------  Contact Pages CSS End ------------------------ */
+div.wpcf7-mail-sent-ok {
+    background: #f1711f;
+    color: #fff;
+}
+
+.wpcf7 textarea {
+    resize: none;
+}
+
+.wpcf7 p.label {
+    color: #8e8e8e;
+}
+
+/*-----------------  Contact Pages CSS End ------------------------ */
+
+/*===================================== NEW STYLE CSS END ====================================== */
+
+/*===================================== Responsive CSS Start====================================== */
+
+@media only screen and (max-width: 959px){
+
+/*-----------------  Home Page CSS Start ------------------------ */
+   .header-logo {
+    float:left !important;
+   }
+.header-menu {
+    padding-top: 25px;
+}
+#post-12 .om-vc_row:nth-of-type(2) .vc_custom_1493220942028 {
+    margin-left: 7px !important;
+}
+#post-12 .om-vc_row:nth-of-type(5) .om-agenda-item .om-agenda-item-time::before{
+width:90px;
+}
+.page-title-inner h1{
+font-size:43px;
+}
+
+/*-----------------  Home Page CSS End------------------------ */
+}
+
+@media only screen and (max-width: 767px){
+
+/*-----------------  Home Page CSS Start ------------------------ */
+.header-logo {
+    float:none !important;
+    margin-bottom: 10px;
+    padding: 0;
+   }
+
+.header-menu .header-menu-primary {
+    display: none;
+}
+.sponsors-home {
+    margin: 0;
+}
+.header-logo img {
+    width: 100px;
+}
+.header-info {
+    margin: 0 0 0;
+    padding: 0 15px;
+}
+.header-info-top {
+    margin-bottom: 20px;
+}
+.header-location {
+    margin: 0 0 10px;
+}
+.header-social-icons {
+    margin: 0;
+}
+.header-buttons {
+    margin-bottom: 6px;
+    float: none;
+}
+.header-info .header-extra-button {
+    width: 211px;
+    float: none;
+    margin: 0 auto;
+}
+.main-sponsor .main-sponsor-text, .sponsors-home .main-sponsor-text {
+    width: auto;
+    text-align: inherit;
+    line-height: inherit;
+    display: block;
+    float: none;
+}
+.header-menu .main-sponsor{
+margin:0 0 0 15px;
+}
+#post-12 .om-vc_row:nth-of-type(2) .vc_custom_1493220942028 {
+    text-align: left !important;
+    margin: 0;
+}
+#post-12 .om-vc_row:nth-of-type(2) .vc_empty_space {
+    display: none;
+}
+#post-12 .om-vc_row:nth-of-type(3) .vc_om-speakers.vc_om-layout-grid.vc_om-columns-4 .om-speakers-item{
+min-height:inherit;
+}
+#post-12 .om-vc_row:nth-of-type(7) .vc_call_to_actionm,#post-539 .om-vc_row:nth-of-type(2) .vc_call_to_action,
+#post-695 .om-vc_row:nth-of-type(4) .vc_call_to_action {
+    margin: 10px 0;
+    width: auto;
+}
+#post-12 .om-vc_row:nth-of-type(2) .vc_row {
+    padding: 0 !important;
+}
+
+/*-----------------  Home Page CSS End------------------------ */
+
+/*-----------------  About Page CSS Start ------------------------ */
+
+.page-title-inner {
+    padding: 15px 0 0;
+    width: auto;
+}
+
+.page-title-inner h1 {
+    font-size: 32px;
+border-bottom: 5px solid;
+}
+
+/*-----------------  About Page CSS End------------------------ */
+
+}
+@media(max-width:380px){
+
+/*-----------------  Home Page CSS Start ------------------------ */
+.sponsors-home img {
+    width: 100px;
+}
+.main-sponsor img {
+    max-width: 69px;
+}
+.header-menu {
+    padding-top: 15px;
+}
+
+/*-----------------  Home Page CSS End------------------------ */
+
+}
+
+/*===================================== Responsive CSS END ====================================== */

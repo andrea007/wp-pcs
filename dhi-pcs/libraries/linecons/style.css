@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'linecons';
+  src: url('fonts/linecons.eot');
+  src: url('fonts/linecons.eot?#iefix') format('embedded-opentype'), url('fonts/linecons.woff') format('woff'), url('fonts/linecons.ttf') format('truetype'), url('fonts/linecons.svg#linecons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lic-heart:before {
+	content: "\e000";
+}
+.lic-cloud:before {
+	content: "\e001";
+}
+.lic-star:before {
+	content: "\e002";
+}
+.lic-tv:before {
+	content: "\e003";
+}
+.lic-sound:before {
+	content: "\e004";
+}
+.lic-video:before {
+	content: "\e005";
+}
+.lic-trash:before {
+	content: "\e006";
+}
+.lic-user:before {
+	content: "\e007";
+}
+.lic-key:before {
+	content: "\e008";
+}
+.lic-search:before {
+	content: "\e009";
+}
+.lic-settings:before {
+	content: "\e00a";
+}
+.lic-camera:before {
+	content: "\e00b";
+}
+.lic-tag:before {
+	content: "\e00c";
+}
+.lic-lock:before {
+	content: "\e00d";
+}
+.lic-bulb:before {
+	content: "\e00e";
+}
+.lic-pen:before {
+	content: "\e00f";
+}
+.lic-diamond:before {
+	content: "\e010";
+}
+.lic-display:before {
+	content: "\e011";
+}
+.lic-location:before {
+	content: "\e012";
+}
+.lic-eye:before {
+	content: "\e013";
+}
+.lic-bubble:before {
+	content: "\e014";
+}
+.lic-stack:before {
+	content: "\e015";
+}
+.lic-cup:before {
+	content: "\e016";
+}
+.lic-phone:before {
+	content: "\e017";
+}
+.lic-news:before {
+	content: "\e018";
+}
+.lic-mail:before {
+	content: "\e019";
+}
+.lic-like:before {
+	content: "\e01a";
+}
+.lic-photo:before {
+	content: "\e01b";
+}
+.lic-note:before {
+	content: "\e01c";
+}
+.lic-clock:before {
+	content: "\e01d";
+}
+.lic-paperplane:before {
+	content: "\e01e";
+}
+.lic-params:before {
+	content: "\e01f";
+}
+.lic-banknote:before {
+	content: "\e020";
+}
+.lic-data:before {
+	content: "\e021";
+}
+.lic-music:before {
+	content: "\e022";
+}
+.lic-megaphone:before {
+	content: "\e023";
+}
+.lic-study:before {
+	content: "\e024";
+}
+.lic-lab:before {
+	content: "\e025";
+}
+.lic-food:before {
+	content: "\e026";
+}
+.lic-t-shirt:before {
+	content: "\e027";
+}
+.lic-fire:before {
+	content: "\e028";
+}
+.lic-clip:before {
+	content: "\e029";
+}
+.lic-shop:before {
+	content: "\e02a";
+}
+.lic-calendar:before {
+	content: "\e02b";
+}
+.lic-vallet:before {
+	content: "\e02c";
+}
+.lic-vynil:before {
+	content: "\e02d";
+}
+.lic-truck:before {
+	content: "\e02e";
+}
+.lic-world:before {
+	content: "\e02f";
+}

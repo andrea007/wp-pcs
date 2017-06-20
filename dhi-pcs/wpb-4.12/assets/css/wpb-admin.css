@@ -1,0 +1,195 @@
+.vc_block_clear {
+	clear:both;
+}
+
+.wpb-vc-button,
+.button.wpb-vc-button {
+	padding: 7px;
+	border-radius:0;
+	height:auto;
+	line-height:normal;
+	font-size:14px;
+}
+
+body .wpb_om_icon_separator > .wpb_element_wrapper {
+	background-image: url(../img/vc/separator.gif);
+	background-repeat: repeat-x;
+	background-position: center center;
+	padding: 0;
+	height: 31px;
+	min-height: 31px;
+	text-align:center;
+}
+
+body .wpb_om_icon_separator > .wpb_element_wrapper:before {
+	content:'( i )';
+	display:inline-block;
+	padding:0 10px;
+	position:relative;
+	top:5px;
+	background:#fff;
+	font-size:11px;
+}
+
+body .wpb_om_icon_separator > .wpb_element_wrapper .wpb_element_title {
+	display:none;
+}
+
+/*
+.vc_css-editor.vc_row .vc_settings {
+	display:none !important;
+}
+*/
+
+.vc_btn.vc_btn-xlg {
+	padding: 12px 18px;
+	font-size: 22px;
+	line-height: 1.33;
+}
+
+
+option.wpb_button, select.wpb_button {
+	background:#c8c8c8;
+	color:#fff;
+}
+
+.wpb_om_a_button button.title {
+	border-radius:0;
+}
+
+.wpb_el_type_om_info .vc_description {
+	border:1px solid #E6DB55;
+	background:#FFFFE0;
+	padding:1em;
+}
+
+.wpb_content_element.wpb_om_click_icon_box2 .wpb_vc_param_value.title,
+.wpb_content_element.wpb_om_teaser .wpb_vc_param_value.title {
+	margin:0.5em 0;
+}
+
+/**
+ * Icons
+ */
+ 
+.vc_element-icon.om-wpb-icon-box,
+.vc_element-icon.om-wpb-icon-counter,
+.vc_element-icon.om-wpb-icon-pricing-table,
+.vc_element-icon.om-wpb-icon-html-table,
+.vc_element-icon.om-wpb-icon-posts,
+.vc_element-icon.om-wpb-icon-testimonials,
+.vc_element-icon.om-wpb-icon-portfolio,
+.vc_element-icon.om-wpb-icon-logos,
+.vc_element-icon.om-wpb-icon-charts,
+.vc_element-icon.om-wpb-icon-person,
+.vc_element-icon.om-wpb-icon-click-box,
+.vc_element-icon.om-wpb-icon-moving-box,
+.vc_element-icon.om-wpb-icon-cib,
+.vc_element-icon.om-wpb-icon-cib2,
+.vc_element-icon.om-wpb-icon-teaser,
+.vc_element-icon.om-wpb-icon-a-button,
+.vc_element-icon.om-wpb-icon-list,
+.vc_element-icon.om-wpb-icon-max-width,
+.vc_element-icon.om-wpb-icon-agenda,
+.vc_element-icon.om-wpb-icon-agenda-day,
+.vc_element-icon.om-wpb-icon-agenda-item,
+.vc_element-icon.om-wpb-icon-reduce-space,
+.vc_element-icon.om-wpb-icon-tickera {
+	background-image:url('../img/vc-icons.png');
+}
+
+.vc_element-icon.om-wpb-icon-box {
+	background-position:0 0;
+}
+
+.vc_element-icon.om-wpb-icon-counter {
+	background-position:-32px 0;
+}
+
+.vc_element-icon.om-wpb-icon-pricing-table {
+	background-position:-96px 0 !important;
+}
+
+.vc_element-icon.om-wpb-icon-html-table {
+	background-position:-128px 0;
+}
+
+.vc_element-icon.om-wpb-icon-posts {
+	background-position:-192px 0;
+}
+
+.vc_element-icon.om-wpb-icon-testimonials {
+	background-position:-160px 0;
+}
+
+.vc_element-icon.om-wpb-icon-portfolio {
+	background-position:-192px 0;
+}
+
+.vc_element-icon.om-wpb-icon-logos {
+	background-position:-224px 0;
+}
+
+.vc_element-icon.om-wpb-icon-charts {
+	background-position:-256px 0;
+}
+
+.vc_element-icon.om-wpb-icon-person {
+	background-position:-288px 0;
+}
+
+.vc_element-icon.om-wpb-icon-click-box {
+	background-position:-320px 0;
+}
+
+.vc_element-icon.om-wpb-icon-moving-box {
+	background-position:-352px 0;
+}
+
+.vc_element-icon.om-wpb-icon-cib {
+	background-position:-384px 0;
+}
+
+.vc_element-icon.om-wpb-icon-cib2 {
+	background-position:-416px 0;
+}
+
+.vc_element-icon.om-wpb-icon-teaser {
+	background-position:-448px 0;
+}
+
+.vc_element-icon.om-wpb-icon-list {
+	background-position:-512px 0;
+}
+
+.vc_element-icon.om-wpb-icon-max-width {
+	background-position:-544px 0 !important;
+}
+
+.vc_element-icon.om-wpb-icon-a-button {
+	background-position:-64px 0;
+}
+
+.vc_element-icon.om-wpb-icon-agenda {
+	background-position:-576px 0;
+}
+
+.vc_element-icon.om-wpb-icon-agenda-day {
+	background-position:-608px 0;
+}
+
+.vc_element-icon.om-wpb-icon-agenda-item {
+	background-position:-640px 0;
+}
+
+.vc_element-icon.om-wpb-icon-reduce-space {
+	background-position:-672px 0;
+}
+
+.vc_element-icon.om-wpb-icon-tickera {
+	background-position:-704px 0;
+}
+
+.wpb_content_element.wpb_om_list .wpb_element_wrapper pre {
+	font:inherit;
+}

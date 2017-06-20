@@ -1,0 +1,40 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">om-persons</custom-type>
+		<custom-type translate="1">testimonials</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">om-persons-type</taxonomy>
+		<taxonomy translate="1">testimonials-type</taxonomy>
+	</taxonomies>
+	<custom-fields>
+		<custom-field action="translate">om_persons_post</custom-field>
+		<custom-field action="copy">om_persons_email</custom-field>
+		<custom-field action="copy">om_persons_link_site</custom-field>
+		<custom-field action="copy">om_persons_link_behance</custom-field>
+		<custom-field action="copy">om_persons_link_dribbble</custom-field>
+		<custom-field action="copy">om_persons_link_facebook</custom-field>
+		<custom-field action="copy">om_persons_link_flickr</custom-field>
+		<custom-field action="copy">om_persons_link_github</custom-field>
+		<custom-field action="copy">om_persons_link_google</custom-field>
+		<custom-field action="copy">om_persons_link_instagram</custom-field>
+		<custom-field action="copy">om_persons_link_linkedin</custom-field>
+		<custom-field action="copy">om_persons_link_skype</custom-field>
+		<custom-field action="copy">om_persons_link_twitter</custom-field>
+		<custom-field action="copy">om_persons_link_vimeo</custom-field>
+		<custom-field action="copy">om_persons_link_vk</custom-field>
+		<custom-field action="copy">om_persons_link_youtube</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="eventerra_subfooter_text" />
+		<key name="eventerra_site_logo_text" />
+		<key name="eventerra_site_logo_image" />
+		<key name="eventerra_site_logo_image_2x" />
+		<key name="eventerra_header_location" />
+		<key name="eventerra_menu_extra_button_title" />
+		<key name="eventerra_menu_extra_button_link" />
+		<key name="eventerra_menu_extra_dropdown_button_title" />
+		<key name="eventerra_breadcrumbs_caption" />
+		<key name="eventerra_other_speakers_title" />
+	</admin-texts>
+</wpml-config>

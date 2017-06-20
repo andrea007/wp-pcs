@@ -1,0 +1,5343 @@
+# Copyright (C) 2017 OlevMedia
+# This file is distributed under the GNU General Public License version 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Eventerra 1.1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2017-03-13 17:15:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:6
+msgid "Oops, something went wrong&hellip;"
+msgstr ""
+
+#: 404.php:18
+msgid "Here are some useful links"
+msgstr ""
+
+#: 404.php:26
+msgid "Try to search"
+msgstr ""
+
+#: archive.php:65 index.php:81 template-blog.php:89
+msgid "Newer Entries"
+msgstr ""
+
+#: archive.php:66 index.php:82 template-blog.php:90
+msgid "Older Entries"
+msgstr ""
+
+#: archive.php:78
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: archive.php:80
+msgid "Sorry, but there aren't any posts tagged %s yet."
+msgstr ""
+
+#: archive.php:82
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+#: archive.php:84
+msgid "No posts found."
+msgstr ""
+
+#: comments.php:23 functions/theme-options-fields.php:1173
+msgid "Comments"
+msgstr ""
+
+#: comments.php:32
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:44
+msgid "Leave your message here"
+msgstr ""
+
+#: comments.php:44 functions/comments.php:31 functions/comments.php:39
+msgid "*"
+msgstr ""
+
+#: comments.php:67
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: comments.php:76
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:77
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:87
+msgid "Comments are closed."
+msgstr ""
+
+#: functions/breadcrumbs.php:17 functions/breadcrumbs.php:181
+msgid "Home"
+msgstr ""
+
+#: functions/comments.php:31
+msgid "Name"
+msgstr ""
+
+#: functions/comments.php:39
+msgid "Email"
+msgstr ""
+
+#: functions/comments.php:47
+msgid "Website"
+msgstr ""
+
+#: functions/comments.php:80
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions/comments.php:88
+msgid "(Edit)"
+msgstr ""
+
+#: functions/comments.php:105
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/common-meta.php:10
+msgid "Page Title"
+msgstr ""
+
+#: functions/common-meta.php:12
+msgid "Page Title Layout"
+msgstr ""
+
+#: functions/common-meta.php:18
+msgid "Default (as set in Theme Options)"
+msgstr ""
+
+#: functions/common-meta.php:19 functions/theme-options-fields.php:1305
+#: wpb/functions/custom_shortcodes.php:50
+#: wpb-4.12/functions/custom_shortcodes.php:50
+msgid "Standard"
+msgstr ""
+
+#: functions/common-meta.php:20 functions/theme-options-fields.php:1306
+msgid "With a shadow"
+msgstr ""
+
+#: functions/common-meta.php:21 functions/gallery-interface.php:51
+#: functions/theme-options-fields.php:1307
+msgid "Hide"
+msgstr ""
+
+#: functions/common-meta.php:49 functions/theme-options-fields.php:1323
+msgid "Title align"
+msgstr ""
+
+#: functions/common-meta.php:55 functions/theme-options-fields.php:1329
+#: wpb/functions/custom_shortcodes.php:62
+#: wpb/functions/custom_shortcodes.php:1086
+#: wpb/functions/custom_shortcodes.php:1424
+#: wpb/functions/custom_shortcodes.php:1565
+#: wpb/functions/custom_shortcodes.php:1647
+#: wpb-4.12/functions/custom_shortcodes.php:62
+#: wpb-4.12/functions/custom_shortcodes.php:1071
+#: wpb-4.12/functions/custom_shortcodes.php:1410
+#: wpb-4.12/functions/custom_shortcodes.php:1551
+#: wpb-4.12/functions/custom_shortcodes.php:1633
+msgid "Left"
+msgstr ""
+
+#: functions/common-meta.php:56 functions/theme-options-fields.php:1330
+#: wpb/functions/custom_shortcodes.php:63
+#: wpb/functions/custom_shortcodes.php:1085
+#: wpb/functions/custom_shortcodes.php:1426
+#: wpb/functions/custom_shortcodes.php:1567
+#: wpb-4.12/functions/custom_shortcodes.php:63
+#: wpb-4.12/functions/custom_shortcodes.php:1070
+#: wpb-4.12/functions/custom_shortcodes.php:1412
+#: wpb-4.12/functions/custom_shortcodes.php:1553
+msgid "Center"
+msgstr ""
+
+#: functions/common-meta.php:57 functions/theme-options-fields.php:1331
+#: wpb/functions/custom_shortcodes.php:64
+#: wpb/functions/custom_shortcodes.php:1087
+#: wpb/functions/custom_shortcodes.php:1425
+#: wpb/functions/custom_shortcodes.php:1566
+#: wpb/functions/custom_shortcodes.php:1646
+#: wpb-4.12/functions/custom_shortcodes.php:64
+#: wpb-4.12/functions/custom_shortcodes.php:1072
+#: wpb-4.12/functions/custom_shortcodes.php:1411
+#: wpb-4.12/functions/custom_shortcodes.php:1552
+#: wpb-4.12/functions/custom_shortcodes.php:1632
+msgid "Right"
+msgstr ""
+
+#: functions/common-meta.php:61
+msgid "Title alternative text"
+msgstr ""
+
+#: functions/common-meta.php:62
+msgid ""
+"You can specify alternative title text here and apply accent colors (see "
+"\"%s - Styling\") to certain words. Use codes %s to colorize words."
+msgstr ""
+
+#: functions/common-meta.php:62 functions/live-customizer.php:17
+#: functions/live-customizer.php:94
+#: om-framework/classes/class-demo-import.php:79
+#: om-framework/classes/class-theme-options.php:79
+#: om-framework/classes/class-theme-options.php:160
+msgid "Theme Options"
+msgstr ""
+
+#: functions/common-meta.php:68
+msgid "Title shadow alternative text"
+msgstr ""
+
+#: functions/common-meta.php:69
+msgid ""
+"You can specify alternative text for shadow, otherwise page title will be "
+"used"
+msgstr ""
+
+#: functions/common-meta.php:75
+msgid "Subtitle text"
+msgstr ""
+
+#: functions/common-meta.php:76
+msgid "Additional text string below the page title"
+msgstr ""
+
+#: functions/common-meta.php:87 functions/gallery-interface.php:12
+msgid "Slider"
+msgstr ""
+
+#: functions/common-meta.php:91
+msgid "Choose the slider"
+msgstr ""
+
+#: functions/common-meta.php:98
+msgid "Slider layout"
+msgstr ""
+
+#: functions/common-meta.php:104
+msgid "Above page title"
+msgstr ""
+
+#: functions/common-meta.php:105
+msgid "Below page title"
+msgstr ""
+
+#: functions/common-meta.php:115 functions/common-meta.php:117
+msgid "Sidebar"
+msgstr ""
+
+#: functions/common-meta.php:123
+msgid "Hide Sidebar"
+msgstr ""
+
+#: functions/common-meta.php:124
+msgid "Display Sidebar"
+msgstr ""
+
+#: functions/common-meta.php:142
+msgid "Choose the sidebar"
+msgstr ""
+
+#: functions/common-meta.php:143
+msgid "You can create any number of sidebars under \"Appearance > Sidebars\"."
+msgstr ""
+
+#: functions/common-meta.php:149
+msgid "Sidebar Position"
+msgstr ""
+
+#: functions/common-meta.php:150
+msgid "Sidebar position for current page."
+msgstr ""
+
+#: functions/common-meta.php:155
+msgid "Default (As set in \"Theme Options\")"
+msgstr ""
+
+#: functions/common-meta.php:156
+msgid "Left Side"
+msgstr ""
+
+#: functions/common-meta.php:157
+msgid "Right Side"
+msgstr ""
+
+#: functions/demo-import.php:6
+msgid "Demo with Registration Form"
+msgstr ""
+
+#: functions/demo-import.php:41
+msgid "Demo with Tickets Plugin"
+msgstr ""
+
+#: functions/gallery-interface.php:11
+msgid "WordPress Default"
+msgstr ""
+
+#: functions/gallery-interface.php:13 wpb/functions/options.php:572
+#: wpb-4.12/functions/options.php:554
+msgid "Sliced"
+msgstr ""
+
+#: functions/gallery-interface.php:14 wpb/functions/options.php:573
+#: wpb-4.12/functions/options.php:555
+msgid "Masonry"
+msgstr ""
+
+#: functions/gallery-interface.php:50
+msgid "Display"
+msgstr ""
+
+#: functions/icons.php:925
+msgid "No icon"
+msgstr ""
+
+#: functions/live-customizer.php:15
+msgid "More Options"
+msgstr ""
+
+#: functions/live-customizer.php:17
+msgid "For more options see %s section"
+msgstr ""
+
+#: functions/live-customizer.php:49 functions/theme-options-fields.php:662
+#: wpb/functions/options.php:72 wpb/functions/options.php:80
+#: wpb/functions/options.php:92 wpb/functions/options.php:110
+#: wpb/functions/options.php:122 wpb/functions/options.php:138
+#: wpb/functions/options.php:155 wpb/functions/options.php:163
+#: wpb/functions/options.php:176 wpb/functions/options.php:192
+#: wpb/functions/options.php:204 wpb/functions/options.php:216
+#: wpb/functions/options.php:228 wpb/functions/options.php:240
+#: wpb/functions/options.php:252 wpb/functions/options.php:259
+#: wpb/functions/options.php:270 wpb/functions/options.php:288
+#: wpb/functions/options.php:305 wpb/functions/options.php:317
+#: wpb-4.12/functions/options.php:54 wpb-4.12/functions/options.php:62
+#: wpb-4.12/functions/options.php:74 wpb-4.12/functions/options.php:92
+#: wpb-4.12/functions/options.php:104 wpb-4.12/functions/options.php:120
+#: wpb-4.12/functions/options.php:137 wpb-4.12/functions/options.php:145
+#: wpb-4.12/functions/options.php:158 wpb-4.12/functions/options.php:174
+#: wpb-4.12/functions/options.php:186 wpb-4.12/functions/options.php:198
+#: wpb-4.12/functions/options.php:210 wpb-4.12/functions/options.php:222
+#: wpb-4.12/functions/options.php:234 wpb-4.12/functions/options.php:241
+#: wpb-4.12/functions/options.php:252 wpb-4.12/functions/options.php:270
+#: wpb-4.12/functions/options.php:287 wpb-4.12/functions/options.php:299
+msgid "Background"
+msgstr ""
+
+#: functions/live-customizer.php:92
+msgid "Header"
+msgstr ""
+
+#: functions/live-customizer.php:94
+msgid "Logo can be setup only from %s section"
+msgstr ""
+
+#: functions/megamenu.php:83
+#. translators: %s: title of menu item which is invalid
+msgid "%s (Invalid)"
+msgstr ""
+
+#: functions/megamenu.php:87
+#. translators: %s: title of menu item in draft status
+msgid "%s (Pending)"
+msgstr ""
+
+#: functions/megamenu.php:96
+msgid "sub item"
+msgstr ""
+
+#: functions/megamenu.php:111
+msgid "Move up"
+msgstr ""
+
+#: functions/megamenu.php:124
+msgid "Move down"
+msgstr ""
+
+#: functions/megamenu.php:126 functions/megamenu.php:128
+msgid "Edit Menu Item"
+msgstr ""
+
+#: functions/megamenu.php:137
+msgid "URL"
+msgstr ""
+
+#: functions/megamenu.php:144
+msgid "Navigation Label"
+msgstr ""
+
+#: functions/megamenu.php:150
+msgid "Title Attribute"
+msgstr ""
+
+#: functions/megamenu.php:157
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: functions/megamenu.php:162
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: functions/megamenu.php:168
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: functions/megamenu.php:174
+msgid "Description"
+msgstr ""
+
+#: functions/megamenu.php:176
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: functions/megamenu.php:182 wpb/functions/misc.php:97
+#: wpb/functions/misc.php:112 wpb/functions/misc.php:127
+#: wpb/functions/misc.php:142 wpb/functions/misc.php:156
+#: wpb/functions/options.php:1166 wpb-4.12/functions/misc.php:116
+#: wpb-4.12/functions/misc.php:131 wpb-4.12/functions/misc.php:146
+#: wpb-4.12/functions/misc.php:161 wpb-4.12/functions/misc.php:175
+#: wpb-4.12/functions/options.php:1148
+msgid "Icon"
+msgstr ""
+
+#: functions/megamenu.php:193
+msgid "Enable MegaMenu for nested items"
+msgstr ""
+
+#: functions/megamenu.php:216
+msgid "Hide MegaMenu column titles"
+msgstr ""
+
+#: functions/megamenu.php:222
+msgid "Move"
+msgstr ""
+
+#: functions/megamenu.php:223
+msgid "Up one"
+msgstr ""
+
+#: functions/megamenu.php:224
+msgid "Down one"
+msgstr ""
+
+#: functions/megamenu.php:227
+msgid "To the top"
+msgstr ""
+
+#: functions/megamenu.php:234
+msgid "Original: %s"
+msgstr ""
+
+#: functions/megamenu.php:247 om-framework/classes/class-theme-options.php:572
+msgid "Remove"
+msgstr ""
+
+#: functions/megamenu.php:248
+msgid "Cancel"
+msgstr ""
+
+#: functions/metaboxes-theme.php:14 functions.php:130
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions/misc.php:184 functions/misc.php:186 functions/misc.php:188
+msgid "Archive for"
+msgstr ""
+
+#: functions/misc.php:195
+msgid "All posts by"
+msgstr ""
+
+#: functions/misc.php:199
+msgid "Blog Archives"
+msgstr ""
+
+#: functions/misc.php:483
+msgid "Previous Post"
+msgstr ""
+
+#: functions/misc.php:483
+msgid "Next Post"
+msgstr ""
+
+#: functions/misc.php:899
+msgid "Read more"
+msgstr ""
+
+#: functions/page-meta.php:7 functions/theme-options-fields.php:1340
+msgid "Blog options"
+msgstr ""
+
+#: functions/page-meta.php:9
+msgid "Blog Layout"
+msgstr ""
+
+#: functions/page-meta.php:15
+msgid "Small thumbnails"
+msgstr ""
+
+#: functions/page-meta.php:16
+msgid "Large thumbnails"
+msgstr ""
+
+#: functions/page-meta.php:20
+msgid "Cut excerpt within thumbnail height"
+msgstr ""
+
+#: functions/page-meta.php:26
+msgid "Do not cut"
+msgstr ""
+
+#: functions/page-meta.php:27 functions/theme-options-fields.php:191
+#: functions/theme-options-fields.php:341
+#: functions/theme-options-fields.php:447
+#: functions/theme-options-fields.php:477
+#: functions/theme-options-fields.php:548
+#: functions/theme-options-fields.php:1292
+#: wpb/functions/custom_shortcodes.php:174
+#: wpb/functions/custom_shortcodes.php:184
+#: wpb/functions/custom_shortcodes.php:190
+#: wpb/functions/custom_shortcodes.php:354
+#: wpb/functions/custom_shortcodes.php:496
+#: wpb/functions/custom_shortcodes.php:619
+#: wpb/functions/custom_shortcodes.php:675
+#: wpb/functions/custom_shortcodes.php:935
+#: wpb/functions/custom_shortcodes.php:941
+#: wpb/functions/custom_shortcodes.php:947
+#: wpb/functions/custom_shortcodes.php:953
+#: wpb/functions/custom_shortcodes.php:1094
+#: wpb/functions/custom_shortcodes.php:1133
+#: wpb/functions/custom_shortcodes.php:1583
+#: wpb/functions/custom_shortcodes.php:1598
+#: wpb/functions/custom_shortcodes.php:1618 wpb/functions/options.php:494
+#: wpb/functions/options.php:544 wpb/functions/options.php:645
+#: wpb/functions/options.php:701 wpb/functions/options.php:733
+#: wpb/functions/options.php:766 wpb/functions/options.php:794
+#: wpb/functions/options.php:817 wpb/functions/options.php:828
+#: wpb/functions/options.php:871 wpb/functions/options.php:988
+#: wpb/functions/options.php:1020 wpb/functions/options.php:1103
+#: wpb/functions/options.php:1126 wpb/functions/options.php:1147
+#: wpb/functions/options.php:1294 wpb-4.12/functions/custom_shortcodes.php:174
+#: wpb-4.12/functions/custom_shortcodes.php:184
+#: wpb-4.12/functions/custom_shortcodes.php:190
+#: wpb-4.12/functions/custom_shortcodes.php:354
+#: wpb-4.12/functions/custom_shortcodes.php:481
+#: wpb-4.12/functions/custom_shortcodes.php:604
+#: wpb-4.12/functions/custom_shortcodes.php:660
+#: wpb-4.12/functions/custom_shortcodes.php:920
+#: wpb-4.12/functions/custom_shortcodes.php:926
+#: wpb-4.12/functions/custom_shortcodes.php:932
+#: wpb-4.12/functions/custom_shortcodes.php:938
+#: wpb-4.12/functions/custom_shortcodes.php:1079
+#: wpb-4.12/functions/custom_shortcodes.php:1118
+#: wpb-4.12/functions/custom_shortcodes.php:1569
+#: wpb-4.12/functions/custom_shortcodes.php:1584
+#: wpb-4.12/functions/custom_shortcodes.php:1604
+#: wpb-4.12/functions/options.php:476 wpb-4.12/functions/options.php:526
+#: wpb-4.12/functions/options.php:627 wpb-4.12/functions/options.php:683
+#: wpb-4.12/functions/options.php:715 wpb-4.12/functions/options.php:748
+#: wpb-4.12/functions/options.php:776 wpb-4.12/functions/options.php:799
+#: wpb-4.12/functions/options.php:810 wpb-4.12/functions/options.php:853
+#: wpb-4.12/functions/options.php:970 wpb-4.12/functions/options.php:1002
+#: wpb-4.12/functions/options.php:1085 wpb-4.12/functions/options.php:1108
+#: wpb-4.12/functions/options.php:1129 wpb-4.12/functions/options.php:1276
+msgid "Yes, please"
+msgstr ""
+
+#: functions/page-meta.php:44
+msgid "Categories to display"
+msgstr ""
+
+#: functions/plugins.php:5
+msgid ""
+"Version of Visual Composer plugin installed on your WordPress is not yet "
+"tested with the current Theme version. Please, remove Visual Composer "
+"plugin and install one provided with the Theme (Appearance > Install "
+"Plugins)."
+msgstr ""
+
+#: functions/sidebars-manager.php:9 functions/sidebars-manager.php:24
+#: functions/theme-options-fields.php:1593
+msgid "Sidebars"
+msgstr ""
+
+#: functions/sidebars-manager.php:25
+msgid ""
+"Any number of sidebars is possible. You can choose a certain sidebar which "
+"should be displayed on a specific page, when you edit a page. Widgets can "
+"be added into sidebars %s."
+msgstr ""
+
+#: functions/sidebars-manager.php:25 functions/theme-options-fields.php:1665
+#: wpb/functions/custom_shortcodes.php:42
+#: wpb-4.12/functions/custom_shortcodes.php:42
+msgid "here"
+msgstr ""
+
+#: functions/sidebars-manager.php:30
+msgid "Sidebar name"
+msgstr ""
+
+#: functions/sidebars-manager.php:40 functions/sidebars-manager.php:73
+msgid "remove"
+msgstr ""
+
+#: functions/sidebars-manager.php:51
+msgid "Add"
+msgstr ""
+
+#: functions/sidebars-manager.php:107
+msgid "Are you sure you want to remove sidebar "
+msgstr ""
+
+#: functions/social-icons.php:10
+msgid "Behance"
+msgstr ""
+
+#: functions/social-icons.php:11
+msgid "Delicious"
+msgstr ""
+
+#: functions/social-icons.php:12
+msgid "DeviantArt"
+msgstr ""
+
+#: functions/social-icons.php:13
+msgid "Digg"
+msgstr ""
+
+#: functions/social-icons.php:14
+msgid "Dribbble"
+msgstr ""
+
+#: functions/social-icons.php:15
+msgid "Facebook"
+msgstr ""
+
+#: functions/social-icons.php:16
+msgid "Flickr"
+msgstr ""
+
+#: functions/social-icons.php:17
+msgid "Foursquare"
+msgstr ""
+
+#: functions/social-icons.php:18
+msgid "GitHub"
+msgstr ""
+
+#: functions/social-icons.php:19
+msgid "Google+"
+msgstr ""
+
+#: functions/social-icons.php:20
+msgid "Instagram"
+msgstr ""
+
+#: functions/social-icons.php:21
+msgid "Last.fm"
+msgstr ""
+
+#: functions/social-icons.php:22
+msgid "LinkedIn"
+msgstr ""
+
+#: functions/social-icons.php:23
+msgid "OpenID"
+msgstr ""
+
+#: functions/social-icons.php:24
+msgid "Pinterest"
+msgstr ""
+
+#: functions/social-icons.php:25
+msgid "Skype"
+msgstr ""
+
+#: functions/social-icons.php:26
+msgid "SoundCloud"
+msgstr ""
+
+#: functions/social-icons.php:27
+msgid "Spotify"
+msgstr ""
+
+#: functions/social-icons.php:28
+msgid "Tumblr"
+msgstr ""
+
+#: functions/social-icons.php:29
+msgid "Twitter"
+msgstr ""
+
+#: functions/social-icons.php:30
+msgid "Vimeo"
+msgstr ""
+
+#: functions/social-icons.php:31
+msgid "Vine"
+msgstr ""
+
+#: functions/social-icons.php:32
+msgid "VK"
+msgstr ""
+
+#: functions/social-icons.php:33
+msgid "WordPress"
+msgstr ""
+
+#: functions/social-icons.php:34
+msgid "XING"
+msgstr ""
+
+#: functions/social-icons.php:35
+msgid "Yahoo!"
+msgstr ""
+
+#: functions/social-icons.php:36
+msgid "YouTube"
+msgstr ""
+
+#: functions/social-icons.php:93 functions/social-icons.php:134
+msgid "Sort Social Icons"
+msgstr ""
+
+#: functions/social-icons.php:135
+msgid "Sort icons by drag-n-drop. Items at the top will appear first."
+msgstr ""
+
+#: functions/speakers.php:12 functions/theme-options-fields.php:1481
+#: template-sitemap.php:137 wpb/functions/custom_shortcodes.php:376
+#: wpb/functions/custom_shortcodes.php:386
+#: wpb-4.12/functions/custom_shortcodes.php:376
+#: wpb-4.12/functions/custom_shortcodes.php:386
+msgid "Speakers"
+msgstr ""
+
+#: functions/speakers.php:13
+msgid "Speaker"
+msgstr ""
+
+#: functions/speakers.php:14
+msgid "Add New"
+msgstr ""
+
+#: functions/speakers.php:15
+msgid "Add New Speaker"
+msgstr ""
+
+#: functions/speakers.php:16
+msgid "Edit Speaker"
+msgstr ""
+
+#: functions/speakers.php:17
+msgid "New Speaker"
+msgstr ""
+
+#: functions/speakers.php:18
+msgid "View Speaker"
+msgstr ""
+
+#: functions/speakers.php:19
+msgid "Search Speakers"
+msgstr ""
+
+#: functions/speakers.php:20
+msgid "No speakers found"
+msgstr ""
+
+#: functions/speakers.php:21
+msgid "No speakers found in Trash"
+msgstr ""
+
+#: functions/speakers.php:25 functions/speakers.php:39
+msgid "Speakers Categories"
+msgstr ""
+
+#: functions/speakers.php:26
+msgid "Speakers Category"
+msgstr ""
+
+#: functions/speakers.php:27
+msgid "Search Speakers Categories"
+msgstr ""
+
+#: functions/speakers.php:28
+msgid "Popular Speakers Categories"
+msgstr ""
+
+#: functions/speakers.php:29
+msgid "All Speakers Categories"
+msgstr ""
+
+#: functions/speakers.php:30
+msgid "Parent Speakers Category"
+msgstr ""
+
+#: functions/speakers.php:31
+msgid "Parent Speakers Category:"
+msgstr ""
+
+#: functions/speakers.php:32
+msgid "Edit Speakers Category"
+msgstr ""
+
+#: functions/speakers.php:33
+msgid "Update Speakers Category"
+msgstr ""
+
+#: functions/speakers.php:34
+msgid "Add New Speakers Category"
+msgstr ""
+
+#: functions/speakers.php:35
+msgid "New Speakers Category Name"
+msgstr ""
+
+#: functions/speakers.php:36
+msgid "Separate speakers categories with commas"
+msgstr ""
+
+#: functions/speakers.php:37
+msgid "Add or remove speakers categories"
+msgstr ""
+
+#: functions/speakers.php:38
+msgid "Choose from the most used speakers categories"
+msgstr ""
+
+#: functions/speakers.php:42
+msgid "Sort Speakers"
+msgstr ""
+
+#: functions/speakers.php:43
+msgid "Sort Speakers by drag-n-drop. Items at the top will appear first."
+msgstr ""
+
+#: functions/speakers.php:44
+msgid "Speaker Details"
+msgstr ""
+
+#: functions/theme-options-fields.php:9
+msgid "General settings"
+msgstr ""
+
+#: functions/theme-options-fields.php:15
+msgid "You can import demo content in a one click:"
+msgstr ""
+
+#: functions/theme-options-fields.php:15
+msgid "Demo Content Import Tool &rarr;"
+msgstr ""
+
+#: functions/theme-options-fields.php:20
+msgid "Sub-footer text line"
+msgstr ""
+
+#: functions/theme-options-fields.php:29
+msgid "Use lazy load for images"
+msgstr ""
+
+#: functions/theme-options-fields.php:30
+msgid "Check if you want to load images on scroll to the view area"
+msgstr ""
+
+#: functions/theme-options-fields.php:47
+msgid "Disable animation on touch devices"
+msgstr ""
+
+#: functions/theme-options-fields.php:48
+msgid ""
+"Check if you want to disable some animation effects to improve perfomance "
+"on mobile devices"
+msgstr ""
+
+#: functions/theme-options-fields.php:55
+msgid "Enable animation on page transitions"
+msgstr ""
+
+#: functions/theme-options-fields.php:56
+msgid ""
+"Check if you want to enable animation on click, when user is moving to "
+"another page. NOTE: doesn't work in Safari browser."
+msgstr ""
+
+#: functions/theme-options-fields.php:63
+msgid "Display \"Back to Top\" button"
+msgstr ""
+
+#: functions/theme-options-fields.php:64
+msgid "Button in the bottom right corner of the screen"
+msgstr ""
+
+#: functions/theme-options-fields.php:71
+msgid "Enable local links scroll animation"
+msgstr ""
+
+#: functions/theme-options-fields.php:72
+msgid "Animation for links like #something"
+msgstr ""
+
+#: functions/theme-options-fields.php:79
+msgid "Do not replace default WordPress Gallery with the Theme&#39;s custom gallery"
+msgstr ""
+
+#: functions/theme-options-fields.php:80
+msgid "May be useful if you use some plugin for styling default WordPress gallery"
+msgstr ""
+
+#: functions/theme-options-fields.php:89
+msgid "Logo"
+msgstr ""
+
+#: functions/theme-options-fields.php:94
+msgid "Site logo type"
+msgstr ""
+
+#: functions/theme-options-fields.php:95
+msgid "Choose what do you want to use as site logo: image or plain text."
+msgstr ""
+
+#: functions/theme-options-fields.php:99
+msgid "Plain text"
+msgstr ""
+
+#: functions/theme-options-fields.php:100 wpb/functions/options.php:69
+#: wpb-4.12/functions/options.php:51
+msgid "Image"
+msgstr ""
+
+#: functions/theme-options-fields.php:101
+msgid "No logo"
+msgstr ""
+
+#: functions/theme-options-fields.php:107
+msgid "Site logo text"
+msgstr ""
+
+#: functions/theme-options-fields.php:108
+msgid ""
+"Logo text. Note, that you can use codes %s to apply different colors to "
+"words"
+msgstr ""
+
+#: functions/theme-options-fields.php:122
+msgid "Logo color palette: Color 1"
+msgstr ""
+
+#: functions/theme-options-fields.php:123
+#: functions/theme-options-fields.php:136
+#: functions/theme-options-fields.php:149
+msgid "Use code %s in the logo text to apply this color"
+msgstr ""
+
+#: functions/theme-options-fields.php:135
+msgid "Logo color palette: Color 2"
+msgstr ""
+
+#: functions/theme-options-fields.php:148
+msgid "Logo color palette: Color 3"
+msgstr ""
+
+#: functions/theme-options-fields.php:161
+msgid "Logo font"
+msgstr ""
+
+#: functions/theme-options-fields.php:190
+msgid "Uppercase logo text?"
+msgstr ""
+
+#: functions/theme-options-fields.php:203
+msgid "Logo text font size"
+msgstr ""
+
+#: functions/theme-options-fields.php:222
+msgid "Logo text line height"
+msgstr ""
+
+#: functions/theme-options-fields.php:241
+msgid "Site logo image"
+msgstr ""
+
+#: functions/theme-options-fields.php:242
+msgid ""
+"Choose a logo for your theme, or specify the image address of your online "
+"logo (http://example.com/logo.png)."
+msgstr ""
+
+#: functions/theme-options-fields.php:254
+msgid "Site logo image for retina displays (optional)"
+msgstr ""
+
+#: functions/theme-options-fields.php:255
+msgid "Choose double sized image for retina displays for better quality"
+msgstr ""
+
+#: functions/theme-options-fields.php:269
+#: wpb/functions/custom_shortcodes.php:1463
+#: wpb-4.12/functions/custom_shortcodes.php:1449
+msgid "Event"
+msgstr ""
+
+#: functions/theme-options-fields.php:274
+msgid "Time zone of the area the event is going to take place"
+msgstr ""
+
+#: functions/theme-options-fields.php:275
+msgid "UTC time offset"
+msgstr ""
+
+#: functions/theme-options-fields.php:279
+msgid "UTC-12:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:280
+msgid "UTC-11:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:281
+msgid "UTC-10:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:282
+msgid "UTC-09:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:283
+msgid "UTC-09:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:284
+msgid "UTC-08:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:285
+msgid "UTC-07:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:286
+msgid "UTC-06:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:287
+msgid "UTC-05:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:288
+msgid "UTC-04:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:289
+msgid "UTC-04:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:290
+msgid "UTC-03:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:291
+msgid "UTC-03:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:292
+msgid "UTC-02:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:293
+msgid "UTC-01:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:294
+msgid "UTC"
+msgstr ""
+
+#: functions/theme-options-fields.php:295
+msgid "UTC+01:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:296
+msgid "UTC+02:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:297
+msgid "UTC+03:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:298
+msgid "UTC+03:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:299
+msgid "UTC+04:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:300
+msgid "UTC+04:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:301
+msgid "UTC+05:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:302
+msgid "UTC+05:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:303
+msgid "UTC+05:45"
+msgstr ""
+
+#: functions/theme-options-fields.php:304
+msgid "UTC+06:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:305
+msgid "UTC+06:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:306
+msgid "UTC+07:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:307
+msgid "UTC+08:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:308
+msgid "UTC+08:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:309
+msgid "UTC+08:45"
+msgstr ""
+
+#: functions/theme-options-fields.php:310
+msgid "UTC+09:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:311
+msgid "UTC+09:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:312
+msgid "UTC+10:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:313
+msgid "UTC+10:30"
+msgstr ""
+
+#: functions/theme-options-fields.php:314
+msgid "UTC+11:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:315
+msgid "UTC+12:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:316
+msgid "UTC+12:45"
+msgstr ""
+
+#: functions/theme-options-fields.php:317
+msgid "UTC+13:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:318
+msgid "UTC+14:00"
+msgstr ""
+
+#: functions/theme-options-fields.php:324
+msgid "Event location and date in the header"
+msgstr ""
+
+#: functions/theme-options-fields.php:325
+msgid "E.g. New Orleans, Louisiana. 25-30 April, 2018"
+msgstr ""
+
+#: functions/theme-options-fields.php:332
+msgid "Countdown: event start date"
+msgstr ""
+
+#: functions/theme-options-fields.php:333
+msgid "Format must be %s, for example %s"
+msgstr ""
+
+#: functions/theme-options-fields.php:340
+msgid "Hide seconds in countdown timer"
+msgstr ""
+
+#: functions/theme-options-fields.php:350
+#: wpb/functions/custom_shortcodes.php:309
+#: wpb/functions/custom_shortcodes.php:1158
+#: wpb-4.12/functions/custom_shortcodes.php:309
+#: wpb-4.12/functions/custom_shortcodes.php:1143
+msgid "Layout"
+msgstr ""
+
+#: functions/theme-options-fields.php:356
+msgid "Activate responsive mode for mobile devices"
+msgstr ""
+
+#: functions/theme-options-fields.php:357
+msgid "Check if you want your site to be fitted by width on mobile devices"
+msgstr ""
+
+#: functions/theme-options-fields.php:405
+msgid "Footer layout"
+msgstr ""
+
+#: functions/theme-options-fields.php:410
+msgid "4 Columns 1/4 + 1/4 + 1/4 + 1/4"
+msgstr ""
+
+#: functions/theme-options-fields.php:411
+msgid "3 Columns 2/4 + 1/4 + 1/4"
+msgstr ""
+
+#: functions/theme-options-fields.php:412
+msgid "3 Columns 1/4 + 1/4 + 2/4"
+msgstr ""
+
+#: functions/theme-options-fields.php:413
+msgid "3 Columns 1/3 + 1/3 + 1/3"
+msgstr ""
+
+#: functions/theme-options-fields.php:414
+msgid "2 Columns 2/3 + 1/3"
+msgstr ""
+
+#: functions/theme-options-fields.php:415
+msgid "2 Columns 1/3 + 2/3"
+msgstr ""
+
+#: functions/theme-options-fields.php:416
+msgid "2 Columns 1/2 + 1/2"
+msgstr ""
+
+#: functions/theme-options-fields.php:417
+msgid "1 Column"
+msgstr ""
+
+#: functions/theme-options-fields.php:425
+#: functions/theme-options-fields.php:585
+msgid "Menu"
+msgstr ""
+
+#: functions/theme-options-fields.php:430
+msgid "Display drop down symbol for menu items with sublevels"
+msgstr ""
+
+#: functions/theme-options-fields.php:431
+msgid ""
+"Check if you want to display drop down symbol in primary menu for items "
+"which has sublevels"
+msgstr ""
+
+#: functions/theme-options-fields.php:438
+msgid "Highlight active menu item"
+msgstr ""
+
+#: functions/theme-options-fields.php:439
+msgid "Check if you want to highlight active menu item of primary menu"
+msgstr ""
+
+#: functions/theme-options-fields.php:446
+msgid "Apply bold font weight for root menu items"
+msgstr ""
+
+#: functions/theme-options-fields.php:454
+msgid "Uppercase"
+msgstr ""
+
+#: functions/theme-options-fields.php:455
+msgid "Check to apply uppercase for menu items"
+msgstr ""
+
+#: functions/theme-options-fields.php:462
+msgid "Enable MegaMenu addon"
+msgstr ""
+
+#: functions/theme-options-fields.php:463
+msgid ""
+"Check if you want to enable MegaMenu feature or uncheck if you don't need "
+"it or you want to use some other plugin for this purpose"
+msgstr ""
+
+#: functions/theme-options-fields.php:471
+msgid "Highlighted menu button"
+msgstr ""
+
+#: functions/theme-options-fields.php:476
+msgid "Display highlighted menu button"
+msgstr ""
+
+#: functions/theme-options-fields.php:484
+msgid "Highlighted menu button title"
+msgstr ""
+
+#: functions/theme-options-fields.php:496
+msgid "Highlighted menu button link"
+msgstr ""
+
+#: functions/theme-options-fields.php:497
+msgid "You can insert any URL here"
+msgstr ""
+
+#: functions/theme-options-fields.php:508
+msgid "Highlighted menu button target"
+msgstr ""
+
+#: functions/theme-options-fields.php:513
+#: wpb/functions/custom_shortcodes.php:1029 wpb/functions/options.php:414
+#: wpb/functions/options.php:448 wpb/functions/options.php:900
+#: wpb/functions/options.php:926 wpb/functions/options.php:1074
+#: wpb-4.12/functions/custom_shortcodes.php:1014
+#: wpb-4.12/functions/options.php:396 wpb-4.12/functions/options.php:430
+#: wpb-4.12/functions/options.php:882 wpb-4.12/functions/options.php:908
+#: wpb-4.12/functions/options.php:1056
+msgid "Default"
+msgstr ""
+
+#: functions/theme-options-fields.php:514
+#: wpb/functions/custom_shortcodes.php:347
+#: wpb-4.12/functions/custom_shortcodes.php:347
+msgid "New window"
+msgstr ""
+
+#: functions/theme-options-fields.php:524
+msgid "Highlighted menu button color"
+msgstr ""
+
+#: functions/theme-options-fields.php:529
+#: functions/theme-options-fields.php:572
+#: functions/theme-options-fields.php:809
+msgid "Accent color 1"
+msgstr ""
+
+#: functions/theme-options-fields.php:530
+#: functions/theme-options-fields.php:573
+#: functions/theme-options-fields.php:817
+msgid "Accent color 2"
+msgstr ""
+
+#: functions/theme-options-fields.php:531
+#: functions/theme-options-fields.php:574
+#: functions/theme-options-fields.php:825
+msgid "Accent color 3"
+msgstr ""
+
+#: functions/theme-options-fields.php:542
+msgid "Dropdown secondary menu button"
+msgstr ""
+
+#: functions/theme-options-fields.php:547
+msgid "Display dropdown secondary menu button"
+msgstr ""
+
+#: functions/theme-options-fields.php:555
+msgid "Dropdown secondary menu button title"
+msgstr ""
+
+#: functions/theme-options-fields.php:567
+msgid "Dropdown secondary menu button color"
+msgstr ""
+
+#: functions/theme-options-fields.php:585
+msgid ""
+"To display dropdown menu, create and attach the menu to the \"Secondary "
+"menu\" location in the \"%s\" section."
+msgstr ""
+
+#: functions/theme-options-fields.php:597
+msgid "Styling"
+msgstr ""
+
+#: functions/theme-options-fields.php:603
+msgid ""
+"Apply custom styling by inline code (check this option if you have problems "
+"with styling because of styling file rewrite permissions)"
+msgstr ""
+
+#: functions/theme-options-fields.php:611
+msgid "Style Presets:"
+msgstr ""
+
+#: functions/theme-options-fields.php:618
+msgid "Choose one of the preseted styles or create your own one"
+msgstr ""
+
+#: functions/theme-options-fields.php:657
+msgid "Overall Background:"
+msgstr ""
+
+#: functions/theme-options-fields.php:667
+msgid "Theme`s preset"
+msgstr ""
+
+#: functions/theme-options-fields.php:668
+msgid "Custom background"
+msgstr ""
+
+#: functions/theme-options-fields.php:674
+msgid "Background Preset"
+msgstr ""
+
+#: functions/theme-options-fields.php:679
+msgid "Blue Squares"
+msgstr ""
+
+#: functions/theme-options-fields.php:680
+msgid "Crusoe Hexagons"
+msgstr ""
+
+#: functions/theme-options-fields.php:681
+msgid "Windsor Lines"
+msgstr ""
+
+#: functions/theme-options-fields.php:682
+msgid "Jacko Bean Cubes"
+msgstr ""
+
+#: functions/theme-options-fields.php:683
+msgid "Dark Gray Triangles"
+msgstr ""
+
+#: functions/theme-options-fields.php:684
+msgid "Maroon Dotted Lights"
+msgstr ""
+
+#: functions/theme-options-fields.php:695
+#: wpb/functions/custom_shortcodes.php:1573 wpb/functions/options.php:77
+#: wpb-4.12/functions/custom_shortcodes.php:1559
+#: wpb-4.12/functions/options.php:59
+msgid "Background color"
+msgstr ""
+
+#: functions/theme-options-fields.php:708 wpb/functions/options.php:119
+#: wpb-4.12/functions/options.php:101
+msgid "Background image"
+msgstr ""
+
+#: functions/theme-options-fields.php:720 wpb/functions/options.php:131
+#: wpb-4.12/functions/options.php:113
+msgid "Background image position"
+msgstr ""
+
+#: functions/theme-options-fields.php:733 wpb/functions/options.php:143
+#: wpb-4.12/functions/options.php:125
+msgid "Background image attachment"
+msgstr ""
+
+#: functions/theme-options-fields.php:749
+msgid "Background overlay layer"
+msgstr ""
+
+#: functions/theme-options-fields.php:754
+msgid "None"
+msgstr ""
+
+#: functions/theme-options-fields.php:755
+msgid "Solid color"
+msgstr ""
+
+#: functions/theme-options-fields.php:756
+msgid "Gradient"
+msgstr ""
+
+#: functions/theme-options-fields.php:767
+msgid "Background overlay color"
+msgstr ""
+
+#: functions/theme-options-fields.php:781
+msgid "Background overlay color, gradient second color"
+msgstr ""
+
+#: functions/theme-options-fields.php:798
+msgid "Common:"
+msgstr ""
+
+#: functions/theme-options-fields.php:804
+msgid ""
+"Accent colors are used to highlight some key information, buttons, blocks "
+"and etc. Choose three colors. In some content blocks properties you are "
+"able to choose one of these three colors manually."
+msgstr ""
+
+#: functions/theme-options-fields.php:834
+msgid "Header:"
+msgstr ""
+
+#: functions/theme-options-fields.php:839
+msgid "Header text color"
+msgstr ""
+
+#: functions/theme-options-fields.php:848
+msgid "Header menu:"
+msgstr ""
+
+#: functions/theme-options-fields.php:854
+msgid "Menu items color"
+msgstr ""
+
+#: functions/theme-options-fields.php:862
+msgid "Menu items color by hover"
+msgstr ""
+
+#: functions/theme-options-fields.php:870
+msgid "Sub-Menu items color"
+msgstr ""
+
+#: functions/theme-options-fields.php:878
+msgid "Sub-Menu items color by hover"
+msgstr ""
+
+#: functions/theme-options-fields.php:886
+msgid "Sub-Menu items background color"
+msgstr ""
+
+#: functions/theme-options-fields.php:895
+msgid "Main Content:"
+msgstr ""
+
+#: functions/theme-options-fields.php:900
+msgid "Main content background color"
+msgstr ""
+
+#: functions/theme-options-fields.php:908
+msgid "Main text color"
+msgstr ""
+
+#: functions/theme-options-fields.php:916
+msgid "Side text color"
+msgstr ""
+
+#: functions/theme-options-fields.php:965
+msgid "Footer:"
+msgstr ""
+
+#: functions/theme-options-fields.php:970
+msgid "Footer background color"
+msgstr ""
+
+#: functions/theme-options-fields.php:978
+msgid "Footer titles color"
+msgstr ""
+
+#: functions/theme-options-fields.php:986
+msgid "Footer text color"
+msgstr ""
+
+#: functions/theme-options-fields.php:995
+msgid "Footer side text color"
+msgstr ""
+
+#: functions/theme-options-fields.php:1003
+msgid "Sub-footer text color"
+msgstr ""
+
+#: functions/theme-options-fields.php:1014
+msgid "Fonts"
+msgstr ""
+
+#: functions/theme-options-fields.php:1020
+msgid "Base font"
+msgstr ""
+
+#: functions/theme-options-fields.php:1043
+msgid "Highlight font"
+msgstr ""
+
+#: functions/theme-options-fields.php:1044
+msgid "Headers, titles"
+msgstr ""
+
+#: functions/theme-options-fields.php:1066
+msgid "Primary menu font"
+msgstr ""
+
+#: functions/theme-options-fields.php:1089
+msgid "Buttons font"
+msgstr ""
+
+#: functions/theme-options-fields.php:1112
+msgid "Testimonials font"
+msgstr ""
+
+#: functions/theme-options-fields.php:1143
+msgid "Font scaling"
+msgstr ""
+
+#: functions/theme-options-fields.php:1144
+msgid "You can scale all font sizes in the theme by this selector"
+msgstr ""
+
+#: functions/theme-options-fields.php:1158
+msgid "Text Line Height"
+msgstr ""
+
+#: functions/theme-options-fields.php:1178
+msgid "Hide comments block on pages"
+msgstr ""
+
+#: functions/theme-options-fields.php:1179
+msgid ""
+"Check if you want to hide comments block on single pages. To hide comments "
+"on post pages and portfolio - see sections \"Post options\" and \"Portfolio "
+"options\""
+msgstr ""
+
+#: functions/theme-options-fields.php:1186
+msgid "Hide comments block on the post pages"
+msgstr ""
+
+#: functions/theme-options-fields.php:1187
+msgid "Check if you want to hide comments block on the post pages."
+msgstr ""
+
+#: functions/theme-options-fields.php:1197
+msgid "Hide comments block on the portfolio pages"
+msgstr ""
+
+#: functions/theme-options-fields.php:1198
+msgid "Check if you want to hide comments block on the portfolio pages."
+msgstr ""
+
+#: functions/theme-options-fields.php:1209
+msgid "Facebook comments"
+msgstr ""
+
+#: functions/theme-options-fields.php:1214
+msgid "Moderator Facebook user ID"
+msgstr ""
+
+#: functions/theme-options-fields.php:1215
+msgid ""
+"The easiest way to moderate comments - insert Facebook user ID who can "
+"moderate comments. To add multiple moderators, separate the uids by comma "
+"without spaces."
+msgstr ""
+
+#: functions/theme-options-fields.php:1222
+msgid "Your Facebook application ID"
+msgstr ""
+
+#: functions/theme-options-fields.php:1223
+msgid ""
+"Second way to moderate comments - insert Facebook application ID. You will "
+"be able to moderate comments with %s"
+msgstr ""
+
+#: functions/theme-options-fields.php:1223
+msgid "Facebook Comment Moderation Tool"
+msgstr ""
+
+#: functions/theme-options-fields.php:1230
+msgid "Number of posts to display by default"
+msgstr ""
+
+#: functions/theme-options-fields.php:1238
+msgid "Facebook comments color scheme"
+msgstr ""
+
+#: functions/theme-options-fields.php:1250
+msgid "Show Facebook comments on pages"
+msgstr ""
+
+#: functions/theme-options-fields.php:1251
+msgid "Check to show Facebook comments block on single pages"
+msgstr ""
+
+#: functions/theme-options-fields.php:1258
+msgid "Show Facebook comments on post pages"
+msgstr ""
+
+#: functions/theme-options-fields.php:1259
+msgid "Check to show Facebook comments block on single post pages"
+msgstr ""
+
+#: functions/theme-options-fields.php:1266
+msgid "Position of Facebook comments"
+msgstr ""
+
+#: functions/theme-options-fields.php:1280
+msgid "Page titles"
+msgstr ""
+
+#: functions/theme-options-fields.php:1286
+msgid ""
+"You can set default page titles layout here. Also it's possible to set "
+"custom page title layout for a specific page when edit it."
+msgstr ""
+
+#: functions/theme-options-fields.php:1291
+msgid "Uppercase page titles?"
+msgstr ""
+
+#: functions/theme-options-fields.php:1299
+msgid "Page title layout"
+msgstr ""
+
+#: functions/theme-options-fields.php:1345
+msgid "Date format"
+msgstr ""
+
+#: functions/theme-options-fields.php:1350
+msgid "Month DD, YYYY"
+msgstr ""
+
+#: functions/theme-options-fields.php:1351
+msgid "MM/DD/YYYY"
+msgstr ""
+
+#: functions/theme-options-fields.php:1352
+msgid "DD/MM/YYYY"
+msgstr ""
+
+#: functions/theme-options-fields.php:1353
+msgid "Default, see Settings - General Settings - Date Format"
+msgstr ""
+
+#: functions/theme-options-fields.php:1359
+msgid "Excerpt mode"
+msgstr ""
+
+#: functions/theme-options-fields.php:1360
+msgid ""
+"&lt;!--more--&gt; tag can be inserted with \"Insert More Tag\" button at "
+"the toolbar pane. Custom excerpt field can be enabled under \"Screen "
+"options - Excerpt\" when you edit the post"
+msgstr ""
+
+#: functions/theme-options-fields.php:1364
+msgid "Excerpt separated by &lt;!--more--&gt; tag or set by custom excerpt field"
+msgstr ""
+
+#: functions/theme-options-fields.php:1365
+msgid "Excerpt generated automatically if not set by custom excerpt field"
+msgstr ""
+
+#: functions/theme-options-fields.php:1371
+msgid "Auto excerpt length"
+msgstr ""
+
+#: functions/theme-options-fields.php:1372
+msgid ""
+"Specify the length of excerpt in number of words, if the automatically "
+"generated excerpt chosen above"
+msgstr ""
+
+#: functions/theme-options-fields.php:1379
+msgid "Hide post author"
+msgstr ""
+
+#: functions/theme-options-fields.php:1380
+msgid "Check, if you want to hide post author name"
+msgstr ""
+
+#: functions/theme-options-fields.php:1387
+msgid "Hide post categories"
+msgstr ""
+
+#: functions/theme-options-fields.php:1388
+msgid "Check, if you want to hide post categories"
+msgstr ""
+
+#: functions/theme-options-fields.php:1395
+msgid "Hide post tags"
+msgstr ""
+
+#: functions/theme-options-fields.php:1396
+msgid "Check, if you want to hide post tags"
+msgstr ""
+
+#: functions/theme-options-fields.php:1403
+msgid "Hide post date"
+msgstr ""
+
+#: functions/theme-options-fields.php:1404
+msgid "Check, if you want to hide post date"
+msgstr ""
+
+#: functions/theme-options-fields.php:1411
+msgid "Hide comments counter"
+msgstr ""
+
+#: functions/theme-options-fields.php:1412
+msgid "Check, if you want to hide post comments counter"
+msgstr ""
+
+#: functions/theme-options-fields.php:1419
+msgid "Show featured image on the post page"
+msgstr ""
+
+#: functions/theme-options-fields.php:1420
+msgid ""
+"Check to show the featured image at the beginning of the post on the single "
+"post page"
+msgstr ""
+
+#: functions/theme-options-fields.php:1427
+msgid "Previous/next navigation links"
+msgstr ""
+
+#: functions/theme-options-fields.php:1428
+msgid "Show previous/next links on post pages"
+msgstr ""
+
+#: functions/theme-options-fields.php:1435
+msgid "Pagination mode"
+msgstr ""
+
+#: functions/theme-options-fields.php:1436
+msgid ""
+"Choose the pagination mode for blog (number of posts per page can be set "
+"under \"Settings - Reading\")"
+msgstr ""
+
+#: functions/theme-options-fields.php:1440
+msgid "Older/Newer links"
+msgstr ""
+
+#: functions/theme-options-fields.php:1441
+msgid "Links to pages (1, 2, 3, ...)"
+msgstr ""
+
+#: functions/theme-options-fields.php:1448
+msgid "Archive/Category Options"
+msgstr ""
+
+#: functions/theme-options-fields.php:1453
+msgid "Pull sidebar/slider settings for Archive/Category pages from page:"
+msgstr ""
+
+#: functions/theme-options-fields.php:1462
+msgid "Frontpage displays latest posts"
+msgstr ""
+
+#: functions/theme-options-fields.php:1467
+msgid "Pull sidebar/slider settings for Frontpage from page:"
+msgstr ""
+
+#: functions/theme-options-fields.php:1468
+msgid "Use this option if Frontpage displays latest posts"
+msgstr ""
+
+#: functions/theme-options-fields.php:1487
+msgid "Hide Other Speakers block on speaker single page"
+msgstr ""
+
+#: functions/theme-options-fields.php:1494
+msgid "Other Speakers block title"
+msgstr ""
+
+#: functions/theme-options-fields.php:1495
+msgid "Other Speakers block title on speaker single page"
+msgstr ""
+
+#: functions/theme-options-fields.php:1497 single-om-persons.php:79
+msgid "Other Speakers"
+msgstr ""
+
+#: functions/theme-options-fields.php:1514
+msgid "Lightbox"
+msgstr ""
+
+#: functions/theme-options-fields.php:1519
+msgid "PrettyPhoto Lightbox"
+msgstr ""
+
+#: functions/theme-options-fields.php:1520
+#: functions/theme-options-fields.php:1566
+msgid "Check to show navigation chain"
+msgstr ""
+
+#: functions/theme-options-fields.php:1524
+msgid "Use Lightbox for images and galleries"
+msgstr ""
+
+#: functions/theme-options-fields.php:1525
+msgid "Disable Lightbox"
+msgstr ""
+
+#: functions/theme-options-fields.php:1526
+msgid "Disable Lightbox and disable click on image in galleries"
+msgstr ""
+
+#: functions/theme-options-fields.php:1533
+msgid "Show title"
+msgstr ""
+
+#: functions/theme-options-fields.php:1541
+msgid "Show social buttons"
+msgstr ""
+
+#: functions/theme-options-fields.php:1549
+msgid "Overlay gallery on the fullscreen image on mouse over"
+msgstr ""
+
+#: functions/theme-options-fields.php:1560
+msgid "Breadcrumbs"
+msgstr ""
+
+#: functions/theme-options-fields.php:1565
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: functions/theme-options-fields.php:1573
+msgid "Breadcrumbs caption"
+msgstr ""
+
+#: functions/theme-options-fields.php:1581
+msgid "Current page title"
+msgstr ""
+
+#: functions/theme-options-fields.php:1582
+msgid "Check to include current page title to breadcrumbs"
+msgstr ""
+
+#: functions/theme-options-fields.php:1598
+msgid "Sidebar position"
+msgstr ""
+
+#: functions/theme-options-fields.php:1599
+msgid "Select sidebar alignment."
+msgstr ""
+
+#: functions/theme-options-fields.php:1626
+msgid "Sticky sidebar"
+msgstr ""
+
+#: functions/theme-options-fields.php:1627
+msgid "Check to enable sidebar sliding up and down while scrolling the page."
+msgstr ""
+
+#: functions/theme-options-fields.php:1637
+msgid "Social icons"
+msgstr ""
+
+#: functions/theme-options-fields.php:1642
+msgid "Social icons in the header"
+msgstr ""
+
+#: functions/theme-options-fields.php:1643
+msgid "Check to display social icons in the header."
+msgstr ""
+
+#: functions/theme-options-fields.php:1650
+msgid "Social icons in the footer"
+msgstr ""
+
+#: functions/theme-options-fields.php:1651
+msgid "Check to display social icons in the footer."
+msgstr ""
+
+#: functions/theme-options-fields.php:1659
+msgid ""
+"Specify necessary links and icons will be shown in the header. Note, that "
+"link should begins with http://"
+msgstr ""
+
+#: functions/theme-options-fields.php:1665
+msgid "You can set order of icons for the front page %s"
+msgstr ""
+
+#: functions/theme-options-fields.php:1674
+msgid "link"
+msgstr ""
+
+#: functions/theme-options-fields.php:1685
+msgid "Sliders"
+msgstr ""
+
+#: functions/theme-options-fields.php:1691
+msgid "LayerSlider"
+msgstr ""
+
+#: functions/theme-options-fields.php:1699
+msgid "LayerSlider can be deactivated via %s."
+msgstr ""
+
+#: functions/theme-options-fields.php:1699
+#: functions/theme-options-fields.php:1721
+#: functions/theme-options-fields.php:1745
+msgid "plugins manager tool"
+msgstr ""
+
+#: functions/theme-options-fields.php:1705
+msgid "LayerSlider can be installed and activated via %s."
+msgstr ""
+
+#: functions/theme-options-fields.php:1705
+#: functions/theme-options-fields.php:1727
+#: functions/theme-options-fields.php:1760
+msgid "theme plugins manager tool"
+msgstr ""
+
+#: functions/theme-options-fields.php:1713
+msgid "Revolution slider"
+msgstr ""
+
+#: functions/theme-options-fields.php:1721
+msgid "Revolution slider can be deactivated via %s."
+msgstr ""
+
+#: functions/theme-options-fields.php:1727
+msgid "Revolution slider can be installed and activated via %s."
+msgstr ""
+
+#: functions/theme-options-fields.php:1736
+msgid "Visual Composer"
+msgstr ""
+
+#: functions/theme-options-fields.php:1745
+msgid "Visual Composer can be deactivated via %s."
+msgstr ""
+
+#: functions/theme-options-fields.php:1751
+msgid ""
+"Check this option if you want to deactivate all addons and modifications, "
+"provided by the Theme. It can be handy, if you want to use some other addon "
+"for Visual Composer, but it cause a conflict."
+msgstr ""
+
+#: functions/theme-options-fields.php:1760
+msgid "Visual Composer can be installed and activated via %s."
+msgstr ""
+
+#: functions/theme-options-fields.php:1770
+msgid "Theme updates"
+msgstr ""
+
+#: functions/theme-options-fields.php:1776
+msgid ""
+"If you want to receive notifications about new Theme versions in WordPress "
+"Dashboard, please, specify your ThemeForest(Envato) username and API key "
+"below."
+msgstr ""
+
+#: functions/theme-options-fields.php:1781
+msgid "Your ThemeForest(Envato) username"
+msgstr ""
+
+#: functions/theme-options-fields.php:1789
+msgid "Your ThemeForest(Envato) API key"
+msgstr ""
+
+#: functions/theme-options-fields.php:1799
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/theme-options-fields.php:1805
+msgid "Here you can add custom CSS code"
+msgstr ""
+
+#: functions/theme-options-fields.php:1817
+msgid "WPML"
+msgstr ""
+
+#: functions/theme-options-fields.php:1823
+msgid "Display WPML language selector in the header"
+msgstr ""
+
+#: functions.php:14
+msgid "The theme requires WordPress 4.4 or greater. Please, update to proceed."
+msgstr ""
+
+#: functions.php:42
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:43
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:44
+msgid "Menu for 404 Error page"
+msgstr ""
+
+#: functions.php:132
+msgid "Sidebar that appears on the right/left (depends on Theme Options)"
+msgstr ""
+
+#: functions.php:142 functions.php:155
+msgid "Footer 1st Column 1/4"
+msgstr ""
+
+#: functions.php:143 functions.php:150 functions.php:156
+msgid "Footer 2nd Column 1/4"
+msgstr ""
+
+#: functions.php:144 functions.php:151
+msgid "Footer 3rd Column 1/4"
+msgstr ""
+
+#: functions.php:145
+msgid "Footer 4th Column 1/4"
+msgstr ""
+
+#: functions.php:149
+msgid "Footer 1st Column 2/4"
+msgstr ""
+
+#: functions.php:157
+msgid "Footer 3rd Column 2/4"
+msgstr ""
+
+#: functions.php:161 functions.php:172
+msgid "Footer 1st Column 1/3"
+msgstr ""
+
+#: functions.php:162 functions.php:168
+msgid "Footer 2nd Column 1/3"
+msgstr ""
+
+#: functions.php:163
+msgid "Footer 3rd Column 1/3"
+msgstr ""
+
+#: functions.php:167
+msgid "Footer 1st Column 2/3"
+msgstr ""
+
+#: functions.php:173
+msgid "Footer 2nd Column 2/3"
+msgstr ""
+
+#: functions.php:177
+msgid "Footer 1st Column 1/2"
+msgstr ""
+
+#: functions.php:178
+msgid "Footer 2nd Column 1/2"
+msgstr ""
+
+#: functions.php:182
+msgid "Footer"
+msgstr ""
+
+#: functions.php:188
+msgid "Appears in the footer of the site"
+msgstr ""
+
+#: functions.php:202
+msgid "Extra:"
+msgstr ""
+
+#: functions.php:203
+msgid ""
+"This is an extra sidebar - it can be displayed on specific page instead of "
+"\"Main sidebar\""
+msgstr ""
+
+#: functions.php:326
+msgid ""
+"Version of Visual Composer plugin installed on your WordPress is outdated "
+"and not compatible with current Theme. Please, navigate to \"Appearance > "
+"Install Plugins\" and update Visual Composer plugin."
+msgstr ""
+
+#: functions.php:406
+msgid "Your Name"
+msgstr ""
+
+#: functions.php:406 functions.php:408
+msgid "(required)"
+msgstr ""
+
+#: functions.php:408
+msgid "Your Email"
+msgstr ""
+
+#: functions.php:410
+msgid "Subject"
+msgstr ""
+
+#: functions.php:412
+msgid "Your Message"
+msgstr ""
+
+#: functions.php:414
+msgid "Send"
+msgstr ""
+
+#: header.php:51
+msgid "days"
+msgstr ""
+
+#: header.php:51
+msgid "hrs"
+msgstr ""
+
+#: header.php:51
+msgid "min"
+msgstr ""
+
+#: header.php:51
+msgid "sec"
+msgstr ""
+
+#: header.php:51
+msgid "time left"
+msgstr ""
+
+#: includes/post-meta.php:47
+msgid "by"
+msgstr ""
+
+#: index.php:92 template-blog.php:100
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: index.php:94 template-blog.php:102
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:56
+msgid "Demo Content"
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:66
+msgid "One Click Demo Content Import"
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:70
+msgid "Import of demo content completed! Enjoy!"
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:75
+msgid "Please, note:"
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:78
+msgid ""
+"Please, make sure that you have <b>installed all recommended for the Theme "
+"plugins</b> before importing demo content to get correctly working demo."
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:79
+msgid ""
+"All settings which were made under \"Theme Options\" will be replaced with "
+"the \"Demo\". If you have already made any changes under \"Theme Options\" "
+"and want to save them, navigate to %s and export current settings."
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:80
+msgid ""
+"<b>All demo images are only for demo purpose.</b> A license requeried for "
+"some images from demo content in case you want to use it on the final "
+"website."
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:81
+msgid ""
+"In case you want to remove all demo content and bring WordPress to the "
+"clean state you can use %s."
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:81
+msgid "WordPress Reset plugin"
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:105
+msgid "Import demo content WITH media files"
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:107
+msgid ""
+"This will import all demo images, but it can take much time to complete an "
+"import."
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:112
+msgid "Import demo content WITHOUT media files"
+msgstr ""
+
+#: om-framework/classes/class-demo-import.php:114
+msgid ""
+"This is a quick import, which will import all pages, posts, menus, etc. "
+"without demo images."
+msgstr ""
+
+#: om-framework/classes/class-framework.php:37
+msgid "Latin Extended"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:38
+msgid "Arabic"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:39
+msgid "Cyrillic"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:40
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:41
+msgid "Devanagari"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:42
+msgid "Greek"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:43
+msgid "Greek Extended"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:44
+msgid "Hebrew"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:45
+msgid "Khmer"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:46
+msgid "Telugu"
+msgstr ""
+
+#: om-framework/classes/class-framework.php:47
+msgid "Vietnamese"
+msgstr ""
+
+#: om-framework/classes/class-live-customizer.php:128
+msgid "Variant"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:131
+#: om-framework/classes/class-theme-options.php:412
+msgid "Choose a file"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:131
+#: om-framework/classes/class-theme-options.php:412
+msgid "Select"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:131
+msgid "Browse"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:183
+#: om-framework/classes/class-meta-box.php:222
+#: om-framework/classes/class-theme-options.php:302
+#: widgets/testimonials/testimonials.php:118
+#: wpb/functions/attribute-types.php:38 wpb/functions/attribute-types.php:71
+#: wpb-4.12/functions/attribute-types.php:38
+#: wpb-4.12/functions/attribute-types.php:71
+msgid "All Categories"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:264
+msgid "Manage Images"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:282
+msgid "Choose which images you want to show in gallery"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:292
+msgid "Custom images set from Media Library"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:293
+msgid ""
+"Images uploaded and attached to current post via WordPress standard Media "
+"Manager"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:303
+msgid "Gallery images"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:312
+msgid "Chosen Images"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:313
+msgid "No images yet, choose from the images below"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:321
+msgid "Upload images"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:321
+msgid "Add media"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:322
+msgid "Refresh"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:342
+msgid "Select a Slider"
+msgstr ""
+
+#: om-framework/classes/class-meta-box.php:353
+#: om-framework/classes/class-meta-box.php:365
+msgid "No sliders created yet"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:154
+msgid "Options Updated"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:155
+msgid "Options Reset"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:156
+msgid "Options Imported"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:157
+msgid "Sorry, there has been an error while import"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:165
+#: om-framework/classes/class-theme-options.php:180
+msgid "Save All Changes"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:178
+msgid "Reset Options"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:189
+msgid "(+) Export / Import Options"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:192
+msgid "Export:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:194
+msgid "Download Export File"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:199
+msgid "Import:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:201
+msgid "Choose a file from your computer:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:203
+msgid "Upload and Import"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:303
+msgid "No Categories"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:335
+msgid "None (default)"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:346
+#: wpb/vc_templates/vc_posts_grid.php:127
+#: wpb-4.12/vc_templates/vc_posts_grid.php:127
+msgid "All"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:347
+#: wpb/functions/custom_shortcodes.php:1387
+#: wpb/functions/custom_shortcodes.php:1514 wpb/functions/options.php:282
+#: wpb/functions/options.php:374 wpb-4.12/functions/custom_shortcodes.php:1373
+#: wpb-4.12/functions/custom_shortcodes.php:1500
+#: wpb-4.12/functions/options.php:264 wpb-4.12/functions/options.php:356
+#: wpb-4.12/functions/options.php:1292
+msgid "No"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:451
+msgid "Source:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:453
+msgid "Standard fonts"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:454
+msgid "Google.Fonts"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:455
+msgid "Any external fonts (e.g. Typekit)"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:459
+#: om-framework/classes/class-theme-options.php:525
+msgid "Font family:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:468
+msgid "Font name:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:469
+msgid "Choose the the font from %s and enter the name."
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:473
+msgid "Font weight for normal text:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:477
+#: om-framework/classes/class-theme-options.php:510
+msgid "standard"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:488
+msgid "Font weight for semibold text:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:503
+msgid "Font weight for bold text:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:516
+msgid "Please, make sure that chosen font supports chosen weight"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:517
+msgid ""
+"Latin charset by default. Include additional character sets for fonts (make "
+"sure at %s before that charset is available for chosen font):"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:524
+msgid "Embed code for the &lt;head&gt; section:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:526
+msgid ""
+"Enter the value for \"font-family\" attribute, also you can specify the "
+"stack of the fonts"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:565
+msgid "No presets created yet."
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:571
+msgid "Apply"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:577
+msgid "Save current styling options as new preset:"
+msgstr ""
+
+#: om-framework/classes/class-theme-options.php:577
+msgid "Save"
+msgstr ""
+
+#: om-framework/libraries/envato-theme-updater/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: om-framework/libraries/envato-theme-updater/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: om-framework/libraries/envato-theme-updater/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: om-framework/libraries/envato-theme-updater/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Install Required Plugins"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:336
+msgid "Install Plugins"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:338
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:341
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:378
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:927
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2649
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3696
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3275
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3068
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:400
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid "Dismiss this notice"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:608
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:609
+msgid "Update Required"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1034
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1034
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1037
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1037
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2082
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2389
+msgid "Required"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "Recommended"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2408
+msgid "WordPress Repository"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2411
+msgid "External Source"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2414
+msgid "Pre-Packaged"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2431
+msgid "Not Installed"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2435
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2437
+msgid "Active"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2443
+msgid "Required Update not Available"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2446
+msgid "Requires Update"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2449
+msgid "Update recommended"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2508
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2512
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2516
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2606
+msgid "Installed version:"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+msgid "Minimum required version:"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2626
+msgid "Available version:"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2649
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2663
+msgid "Plugin"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2664
+msgid "Source"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2665
+msgid "Type"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2669
+msgid "Version"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2670
+msgid "Status"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2719
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2724
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2730
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2833
+msgid "Install"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2839
+msgid "Update"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2842
+msgid "Activate"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2873
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2875
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2916
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2918
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3024
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3050
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3274
+msgid "Plugin activation failed."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3614
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3617
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3619
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3623
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3625
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3625
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3633
+msgid "Show Details"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3625
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3633
+msgid "Hide Details"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3626
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3628
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3631
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3633
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3634
+msgid "All installations have been completed."
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3636
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: om-framework/libraries/widgets-importer/widgets-import.php:35
+msgid "You must upload a <b>.wie</b> file generated by this plugin."
+msgstr ""
+
+#: om-framework/libraries/widgets-importer/widgets-import.php:82
+msgid "Import file could not be found. Please try again."
+msgstr ""
+
+#: om-framework/libraries/widgets-importer/widgets-import.php:117
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: om-framework/libraries/widgets-importer/widgets-import.php:159
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: om-framework/libraries/widgets-importer/widgets-import.php:181
+msgid "Site does not support widget"
+msgstr ""
+
+#: om-framework/libraries/widgets-importer/widgets-import.php:217
+msgid "Widget already exists"
+msgstr ""
+
+#: om-framework/libraries/widgets-importer/widgets-import.php:279
+msgid "Imported"
+msgstr ""
+
+#: om-framework/libraries/widgets-importer/widgets-import.php:282
+msgid "Imported to Inactive"
+msgstr ""
+
+#: om-framework/libraries/widgets-importer/widgets-import.php:289
+msgid "No Title"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/parsers.php:42
+#: om-framework/libraries/wordpress-importer/parsers.php:72
+#: om-framework/libraries/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/parsers.php:84
+#: om-framework/libraries/wordpress-importer/parsers.php:89
+#: om-framework/libraries/wordpress-importer/parsers.php:279
+#: om-framework/libraries/wordpress-importer/parsers.php:467
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:132
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:141
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:192
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:196
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:197
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused "
+"by a permissions problem."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:213
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:238
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of "
+"this site. For example, you may want to import all the entries as admins "
+"entries."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:267
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually "
+"changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:284
+msgid "Submit"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:372
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:423
+msgid "Failed to import category %s"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:463
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:509
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:650
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:535
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:557
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:616
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:781
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:788
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:851
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:864
+msgid "Invalid file type"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:912
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:920
+msgid "Remote server did not respond"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:926
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:933
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:938
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:944
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:1044
+msgid "Import WordPress"
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:1051
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:1066
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: om-framework/libraries/wordpress-importer/wordpress-importer.php:1067
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: search.php:6
+msgid "Search"
+msgstr ""
+
+#: search.php:19
+msgid "Search Results for: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: search.php:42
+msgid "Your search for \"%s\" did not match any entries"
+msgstr ""
+
+#: search.php:45
+msgid "Suggestions:"
+msgstr ""
+
+#: search.php:47
+msgid "Make sure all words are spelled correctly."
+msgstr ""
+
+#: search.php:48
+msgid "Try different keywords."
+msgstr ""
+
+#: search.php:49
+msgid "Try more general keywords."
+msgstr ""
+
+#: searchform.php:2
+msgid "Type and press enter to search"
+msgstr ""
+
+#: template-sitemap.php:34
+msgid "Site Feeds"
+msgstr ""
+
+#: template-sitemap.php:36
+msgid "Main RSS Feed"
+msgstr ""
+
+#: template-sitemap.php:37
+msgid "Comments RSS Feed"
+msgstr ""
+
+#: template-sitemap.php:49
+msgid "Pages"
+msgstr ""
+
+#: template-sitemap.php:64 wpb/functions/custom_shortcodes.php:872
+#: wpb-4.12/functions/custom_shortcodes.php:857
+msgid "Posts"
+msgstr ""
+
+#: template-sitemap.php:83
+msgid "Categories"
+msgstr ""
+
+#: template-sitemap.php:100
+msgid "Tags"
+msgstr ""
+
+#: template-sitemap.php:121
+msgid "Monthly Archives"
+msgstr ""
+
+#: widgets/contacts/contacts.php:18
+msgid "Contacts"
+msgstr ""
+
+#: widgets/contacts/contacts.php:21
+msgid "Widget to display contacts: address, phone, email."
+msgstr ""
+
+#: widgets/contacts/contacts.php:116 widgets/facebook/facebook.php:130
+#: widgets/testimonials/testimonials.php:109 widgets/tweets/tweets.php:160
+msgid "Title:"
+msgstr ""
+
+#: widgets/contacts/contacts.php:122
+msgid "Address:"
+msgstr ""
+
+#: widgets/contacts/contacts.php:128
+msgid "Phone:"
+msgstr ""
+
+#: widgets/contacts/contacts.php:134
+msgid "Email:"
+msgstr ""
+
+#: widgets/facebook/facebook.php:18
+msgid "Facebook Like Box"
+msgstr ""
+
+#: widgets/facebook/facebook.php:21
+msgid ""
+"Widget that enables Facebook Page owners to attract and gain Likes from "
+"your own website."
+msgstr ""
+
+#: widgets/facebook/facebook.php:136
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: widgets/facebook/facebook.php:142
+msgid "Use Small Header"
+msgstr ""
+
+#: widgets/facebook/facebook.php:148
+msgid "Hide Cover Photo"
+msgstr ""
+
+#: widgets/facebook/facebook.php:154
+msgid "Show Friend's Faces"
+msgstr ""
+
+#: widgets/facebook/facebook.php:160
+msgid "Show Page Posts"
+msgstr ""
+
+#: widgets/facebook/facebook.php:166
+msgid "Custom height (px):"
+msgstr ""
+
+#: widgets/testimonials/testimonials.php:18
+#: widgets/testimonials/testimonials.php:26
+#: wpb/functions/custom_shortcodes.php:87
+#: wpb/functions/custom_shortcodes.php:97
+#: wpb-4.12/functions/custom_shortcodes.php:87
+#: wpb-4.12/functions/custom_shortcodes.php:97
+msgid "Testimonials"
+msgstr ""
+
+#: widgets/testimonials/testimonials.php:21
+msgid "Use this widget to display testimonials"
+msgstr ""
+
+#: widgets/testimonials/testimonials.php:115
+msgid "Testimonials category:"
+msgstr ""
+
+#: widgets/testimonials/testimonials.php:139
+msgid ""
+"A list of testimonials ID separated with a comma to display certain "
+"testimonials."
+msgstr ""
+
+#: widgets/testimonials/testimonials.php:145
+msgid "Autorotate (interval in milliseconds. Leave empty to disable):"
+msgstr ""
+
+#: widgets/tweets/tweets.php:18
+msgid "Latest Tweets"
+msgstr ""
+
+#: widgets/tweets/tweets.php:21
+msgid "A widget that displays your latest tweets."
+msgstr ""
+
+#: widgets/tweets/tweets.php:32
+msgid "less than a minute ago"
+msgstr ""
+
+#: widgets/tweets/tweets.php:34
+msgid "about a minute ago"
+msgstr ""
+
+#: widgets/tweets/tweets.php:36
+msgid "minutes ago"
+msgstr ""
+
+#: widgets/tweets/tweets.php:38
+msgid "about an hour ago"
+msgstr ""
+
+#: widgets/tweets/tweets.php:40
+msgid "about"
+msgstr ""
+
+#: widgets/tweets/tweets.php:40
+msgid "hours ago"
+msgstr ""
+
+#: widgets/tweets/tweets.php:42
+msgid "1 day ago"
+msgstr ""
+
+#: widgets/tweets/tweets.php:44
+msgid "days ago"
+msgstr ""
+
+#: widgets/tweets/tweets.php:104
+msgid "An error has occured."
+msgstr ""
+
+#: widgets/tweets/tweets.php:166
+msgid "Twitter username e.g. mopc007"
+msgstr ""
+
+#: widgets/tweets/tweets.php:172
+msgid "Number of tweets"
+msgstr ""
+
+#: widgets/tweets/tweets.php:178
+msgid "Include retweets"
+msgstr ""
+
+#: widgets/tweets/tweets.php:184
+msgid "Exclude replies"
+msgstr ""
+
+#: widgets/tweets/tweets.php:190
+msgid "Follow Text e.g. Follow @mopc007"
+msgstr ""
+
+#: widgets/tweets/tweets.php:201
+msgid "OAuth Consumer key"
+msgstr ""
+
+#: widgets/tweets/tweets.php:207
+msgid "OAuth Consumer secret"
+msgstr ""
+
+#: widgets/tweets/tweets.php:213
+msgid "Access token"
+msgstr ""
+
+#: widgets/tweets/tweets.php:219
+msgid "Access token secret"
+msgstr ""
+
+#: wpb/functions/attribute-types.php:19
+#: wpb-4.12/functions/attribute-types.php:19
+msgid "Get code"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:13
+#: wpb-4.12/functions/custom_shortcodes.php:13
+msgid "Data HTML Table"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:16
+#: wpb/functions/custom_shortcodes.php:90
+#: wpb/functions/custom_shortcodes.php:286
+#: wpb/functions/custom_shortcodes.php:379
+#: wpb/functions/custom_shortcodes.php:606
+#: wpb/functions/custom_shortcodes.php:700
+#: wpb/functions/custom_shortcodes.php:875
+#: wpb/functions/custom_shortcodes.php:1004
+#: wpb/functions/custom_shortcodes.php:1069
+#: wpb/functions/custom_shortcodes.php:1120
+#: wpb/functions/custom_shortcodes.php:1153
+#: wpb/functions/custom_shortcodes.php:1213
+#: wpb/functions/custom_shortcodes.php:1359
+#: wpb/functions/custom_shortcodes.php:1459
+#: wpb/functions/custom_shortcodes.php:1544
+#: wpb-4.12/functions/custom_shortcodes.php:16
+#: wpb-4.12/functions/custom_shortcodes.php:90
+#: wpb-4.12/functions/custom_shortcodes.php:286
+#: wpb-4.12/functions/custom_shortcodes.php:379
+#: wpb-4.12/functions/custom_shortcodes.php:591
+#: wpb-4.12/functions/custom_shortcodes.php:685
+#: wpb-4.12/functions/custom_shortcodes.php:860
+#: wpb-4.12/functions/custom_shortcodes.php:989
+#: wpb-4.12/functions/custom_shortcodes.php:1054
+#: wpb-4.12/functions/custom_shortcodes.php:1105
+#: wpb-4.12/functions/custom_shortcodes.php:1138
+#: wpb-4.12/functions/custom_shortcodes.php:1199
+#: wpb-4.12/functions/custom_shortcodes.php:1345
+#: wpb-4.12/functions/custom_shortcodes.php:1445
+#: wpb-4.12/functions/custom_shortcodes.php:1530
+msgid "Content"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:18
+#: wpb-4.12/functions/custom_shortcodes.php:18
+msgid "Apply styling to data table"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:23
+#: wpb-4.12/functions/custom_shortcodes.php:23
+msgid "Table HTML"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:42
+#: wpb-4.12/functions/custom_shortcodes.php:42
+msgid "Enter your table HTML markup. More information about table HTML markup %s"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:47
+#: wpb-4.12/functions/custom_shortcodes.php:47
+msgid "Style"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:51
+#: wpb-4.12/functions/custom_shortcodes.php:51
+msgid "Bordered"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:52
+#: wpb-4.12/functions/custom_shortcodes.php:52
+msgid "Striped"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:53
+#: wpb-4.12/functions/custom_shortcodes.php:53
+msgid "Stripe on hover"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:59
+#: wpb/functions/custom_shortcodes.php:1082
+#: wpb-4.12/functions/custom_shortcodes.php:59
+#: wpb-4.12/functions/custom_shortcodes.php:1067
+msgid "Align"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:70
+#: wpb/functions/custom_shortcodes.php:198
+#: wpb/functions/custom_shortcodes.php:358
+#: wpb/functions/custom_shortcodes.php:500
+#: wpb/functions/custom_shortcodes.php:679
+#: wpb/functions/custom_shortcodes.php:768
+#: wpb/functions/custom_shortcodes.php:957
+#: wpb/functions/custom_shortcodes.php:1046
+#: wpb/functions/custom_shortcodes.php:1098
+#: wpb/functions/custom_shortcodes.php:1199
+#: wpb/functions/custom_shortcodes.php:1242
+#: wpb/functions/custom_shortcodes.php:1319
+#: wpb/functions/custom_shortcodes.php:1655 wpb/functions/options.php:668
+#: wpb-4.12/functions/custom_shortcodes.php:70
+#: wpb-4.12/functions/custom_shortcodes.php:198
+#: wpb-4.12/functions/custom_shortcodes.php:358
+#: wpb-4.12/functions/custom_shortcodes.php:485
+#: wpb-4.12/functions/custom_shortcodes.php:664
+#: wpb-4.12/functions/custom_shortcodes.php:753
+#: wpb-4.12/functions/custom_shortcodes.php:942
+#: wpb-4.12/functions/custom_shortcodes.php:1031
+#: wpb-4.12/functions/custom_shortcodes.php:1083
+#: wpb-4.12/functions/custom_shortcodes.php:1185
+#: wpb-4.12/functions/custom_shortcodes.php:1228
+#: wpb-4.12/functions/custom_shortcodes.php:1305
+#: wpb-4.12/functions/custom_shortcodes.php:1641
+#: wpb-4.12/functions/options.php:650
+msgid "Extra class name"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:72
+#: wpb/functions/custom_shortcodes.php:200
+#: wpb/functions/custom_shortcodes.php:360
+#: wpb/functions/custom_shortcodes.php:502
+#: wpb/functions/custom_shortcodes.php:681
+#: wpb/functions/custom_shortcodes.php:770
+#: wpb/functions/custom_shortcodes.php:959
+#: wpb/functions/custom_shortcodes.php:1048
+#: wpb/functions/custom_shortcodes.php:1100
+#: wpb/functions/custom_shortcodes.php:1201
+#: wpb/functions/custom_shortcodes.php:1244
+#: wpb/functions/custom_shortcodes.php:1321
+#: wpb/functions/custom_shortcodes.php:1657 wpb/functions/options.php:670
+#: wpb-4.12/functions/custom_shortcodes.php:72
+#: wpb-4.12/functions/custom_shortcodes.php:200
+#: wpb-4.12/functions/custom_shortcodes.php:360
+#: wpb-4.12/functions/custom_shortcodes.php:487
+#: wpb-4.12/functions/custom_shortcodes.php:666
+#: wpb-4.12/functions/custom_shortcodes.php:755
+#: wpb-4.12/functions/custom_shortcodes.php:944
+#: wpb-4.12/functions/custom_shortcodes.php:1033
+#: wpb-4.12/functions/custom_shortcodes.php:1085
+#: wpb-4.12/functions/custom_shortcodes.php:1187
+#: wpb-4.12/functions/custom_shortcodes.php:1230
+#: wpb-4.12/functions/custom_shortcodes.php:1307
+#: wpb-4.12/functions/custom_shortcodes.php:1643
+#: wpb-4.12/functions/options.php:652
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:91
+#: wpb-4.12/functions/custom_shortcodes.php:91
+msgid "Testimonials block"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:97
+#: wpb-4.12/functions/custom_shortcodes.php:97
+msgid ""
+"Testimonials are managed under \"%s\" section. This block just displays "
+"testimonials."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:109
+#: wpb-4.12/functions/custom_shortcodes.php:109
+msgid "Filter testimonials"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:112
+#: wpb/functions/custom_shortcodes.php:393
+#: wpb-4.12/functions/custom_shortcodes.php:112
+#: wpb-4.12/functions/custom_shortcodes.php:393
+msgid "Do not filter, display all"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:113
+#: wpb-4.12/functions/custom_shortcodes.php:113
+msgid "Choose certain testimonials"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:114
+#: wpb/functions/custom_shortcodes.php:395
+#: wpb-4.12/functions/custom_shortcodes.php:114
+#: wpb-4.12/functions/custom_shortcodes.php:395
+msgid "Filter by category"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:119
+#: wpb-4.12/functions/custom_shortcodes.php:119
+msgid "Certain testimonials to display"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:121
+#: wpb-4.12/functions/custom_shortcodes.php:121
+msgid "Enter testimonial title to include it."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:135
+#: wpb-4.12/functions/custom_shortcodes.php:135
+msgid "Filter testimonials by category"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:136
+#: wpb-4.12/functions/custom_shortcodes.php:136
+msgid "Enter testimonial categories"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:151
+#: wpb-4.12/functions/custom_shortcodes.php:151
+msgid "Layout mode"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:155
+#: wpb-4.12/functions/custom_shortcodes.php:155
+msgid "In one box with sliding"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:156
+#: wpb-4.12/functions/custom_shortcodes.php:156
+msgid "Full list"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:161
+#: wpb-4.12/functions/custom_shortcodes.php:161
+msgid "Autorotate"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:164
+#: wpb-4.12/functions/custom_shortcodes.php:164
+msgid "Interval in milliseconds. Leave empty to disable autorotate"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:172
+#: wpb-4.12/functions/custom_shortcodes.php:172
+msgid "Pause autorotate on hover"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:182
+#: wpb-4.12/functions/custom_shortcodes.php:182
+msgid "Randomize testimonials"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:188
+#: wpb-4.12/functions/custom_shortcodes.php:188
+msgid "Display only one random item"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:283
+#: wpb-4.12/functions/custom_shortcodes.php:283
+msgid "Logos"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:287
+#: wpb-4.12/functions/custom_shortcodes.php:287
+msgid "Align set of logotypes"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:291
+#: wpb/functions/custom_shortcodes.php:880
+#: wpb-4.12/functions/custom_shortcodes.php:291
+#: wpb-4.12/functions/custom_shortcodes.php:865
+msgid "Widget title"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:293
+#: wpb/functions/custom_shortcodes.php:882
+#: wpb-4.12/functions/custom_shortcodes.php:293
+#: wpb-4.12/functions/custom_shortcodes.php:867
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:297
+#: wpb-4.12/functions/custom_shortcodes.php:297
+msgid "Images"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:298
+#: wpb-4.12/functions/custom_shortcodes.php:298
+msgid "Choose image to display."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:303
+#: wpb-4.12/functions/custom_shortcodes.php:303
+msgid "Image size"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:305 wpb/functions/options.php:536
+#: wpb-4.12/functions/custom_shortcodes.php:305
+#: wpb-4.12/functions/options.php:518
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" "
+"or other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"full\" size."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:312
+#: wpb-4.12/functions/custom_shortcodes.php:312
+msgid "Display all"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:313
+#: wpb-4.12/functions/custom_shortcodes.php:313
+msgid "Carousel"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:318
+#: wpb-4.12/functions/custom_shortcodes.php:318
+msgid "On click"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:321
+#: wpb-4.12/functions/custom_shortcodes.php:321
+msgid "Do nothing"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:322
+#: wpb-4.12/functions/custom_shortcodes.php:322
+msgid "Open custom link"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:323
+#: wpb-4.12/functions/custom_shortcodes.php:323
+msgid "Open link, defined in the \"Description\" field of an image"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:328
+#: wpb-4.12/functions/custom_shortcodes.php:328
+msgid "Custom links"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:330
+#: wpb-4.12/functions/custom_shortcodes.php:330
+msgid "Enter links for each image. Divide links with linebreaks (Enter) . "
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:338
+#: wpb-4.12/functions/custom_shortcodes.php:338
+msgid "Link target"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:340
+#: wpb-4.12/functions/custom_shortcodes.php:340
+msgid "Select where to open custom links."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:346
+#: wpb-4.12/functions/custom_shortcodes.php:346
+msgid "Same window"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:352
+#: wpb-4.12/functions/custom_shortcodes.php:352
+msgid "Apply grayscale filter?"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:380
+#: wpb/functions/custom_shortcodes.php:1300
+#: wpb-4.12/functions/custom_shortcodes.php:380
+#: wpb-4.12/functions/custom_shortcodes.php:1286
+msgid "Event speakers"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:386
+#: wpb-4.12/functions/custom_shortcodes.php:386
+msgid "Speakers are managed under \"%s\" section. This block just displays them."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:390
+#: wpb-4.12/functions/custom_shortcodes.php:390
+msgid "Filter speakers"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:394
+#: wpb-4.12/functions/custom_shortcodes.php:394
+msgid "Choose certain speakers"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:400
+#: wpb-4.12/functions/custom_shortcodes.php:400
+msgid "Certain speakers to display"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:402
+#: wpb-4.12/functions/custom_shortcodes.php:402
+msgid "Enter speaker name to include it."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:416
+#: wpb-4.12/functions/custom_shortcodes.php:416
+msgid "Filter speakers by category"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:417
+#: wpb-4.12/functions/custom_shortcodes.php:417
+msgid "Enter speaker categories"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:444
+#: wpb-4.12/functions/custom_shortcodes.php:444
+msgid "Speaker short description"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:447
+#: wpb-4.12/functions/custom_shortcodes.php:447
+msgid "Display below the photo"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:448
+#: wpb-4.12/functions/custom_shortcodes.php:448
+msgid "Display next to the photo"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:449
+#: wpb-4.12/functions/custom_shortcodes.php:449
+msgid "Do not display"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:462
+#: wpb-4.12/functions/custom_shortcodes.php:462
+msgid "Columns in grid"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:478
+msgid "Sorting order"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:482
+msgid "Custom (can be set in Speakers - Sort Speakers)"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:483
+msgid "Alphabetical order"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:493
+#: wpb-4.12/functions/custom_shortcodes.php:478
+msgid "Display link to speaker`s page"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:507 wpb/functions/options.php:342
+#: wpb-4.12/functions/custom_shortcodes.php:492
+#: wpb-4.12/functions/options.php:324
+msgid "Top margin"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:508
+#: wpb-4.12/functions/custom_shortcodes.php:493
+msgid ""
+"Custom top margin. You can use px, em, %, etc. or enter just number and it "
+"will use pixels."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:510
+#: wpb/functions/custom_shortcodes.php:518
+#: wpb-4.12/functions/custom_shortcodes.php:495
+#: wpb-4.12/functions/custom_shortcodes.php:503
+msgid "Margins"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:515 wpb/functions/options.php:350
+#: wpb-4.12/functions/custom_shortcodes.php:500
+#: wpb-4.12/functions/options.php:332
+msgid "Bottom margin"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:516
+#: wpb-4.12/functions/custom_shortcodes.php:501
+msgid ""
+"Custom bottom margin. You can use px, em, %, etc. or enter just number and "
+"it will use pixels."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:602
+#: wpb-4.12/functions/custom_shortcodes.php:587
+msgid "Clickable Wide Box"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:605
+#: wpb-4.12/functions/custom_shortcodes.php:590
+msgid "Call to action box"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:610
+#: wpb/functions/custom_shortcodes.php:714
+#: wpb/functions/custom_shortcodes.php:1009
+#: wpb/functions/custom_shortcodes.php:1218
+#: wpb-4.12/functions/custom_shortcodes.php:595
+#: wpb-4.12/functions/custom_shortcodes.php:699
+#: wpb-4.12/functions/custom_shortcodes.php:994
+#: wpb-4.12/functions/custom_shortcodes.php:1204
+msgid "Title"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:617
+#: wpb-4.12/functions/custom_shortcodes.php:602
+msgid "Apply uppercase to the title?"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:623
+#: wpb-4.12/functions/custom_shortcodes.php:608
+msgid "Subtitle"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:630
+#: wpb/functions/custom_shortcodes.php:705 wpb/functions/options.php:1031
+#: wpb-4.12/functions/custom_shortcodes.php:615
+#: wpb-4.12/functions/custom_shortcodes.php:690
+#: wpb-4.12/functions/options.php:1013
+msgid "URL (Link)"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:632
+#: wpb/functions/custom_shortcodes.php:707
+#: wpb-4.12/functions/custom_shortcodes.php:617
+#: wpb-4.12/functions/custom_shortcodes.php:692
+msgid "Button link."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:636
+#: wpb-4.12/functions/custom_shortcodes.php:621
+msgid "Size"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:639
+#: wpb/functions/custom_shortcodes.php:731
+#: wpb/functions/custom_shortcodes.php:1410 wpb/functions/options.php:300
+#: wpb/functions/options.php:404 wpb-4.12/functions/custom_shortcodes.php:624
+#: wpb-4.12/functions/custom_shortcodes.php:716
+#: wpb-4.12/functions/custom_shortcodes.php:1396
+#: wpb-4.12/functions/options.php:282 wpb-4.12/functions/options.php:386
+msgid "Small"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:640
+#: wpb/functions/custom_shortcodes.php:732 wpb/functions/options.php:301
+#: wpb/functions/options.php:405 wpb-4.12/functions/custom_shortcodes.php:625
+#: wpb-4.12/functions/custom_shortcodes.php:717
+#: wpb-4.12/functions/options.php:283 wpb-4.12/functions/options.php:387
+msgid "Medium"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:641
+#: wpb/functions/custom_shortcodes.php:733
+#: wpb/functions/custom_shortcodes.php:1412 wpb/functions/options.php:302
+#: wpb/functions/options.php:406 wpb-4.12/functions/custom_shortcodes.php:626
+#: wpb-4.12/functions/custom_shortcodes.php:718
+#: wpb-4.12/functions/custom_shortcodes.php:1398
+#: wpb-4.12/functions/options.php:284 wpb-4.12/functions/options.php:388
+msgid "Large"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:642
+#: wpb/functions/custom_shortcodes.php:734
+#: wpb/functions/custom_shortcodes.php:1413 wpb/functions/options.php:303
+#: wpb/functions/options.php:407 wpb-4.12/functions/custom_shortcodes.php:627
+#: wpb-4.12/functions/custom_shortcodes.php:719
+#: wpb-4.12/functions/custom_shortcodes.php:1399
+#: wpb-4.12/functions/options.php:285 wpb-4.12/functions/options.php:389
+msgid "X-Large"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:647 wpb/functions/options.php:783
+#: wpb/functions/options.php:1043 wpb-4.12/functions/custom_shortcodes.php:632
+#: wpb-4.12/functions/options.php:765 wpb-4.12/functions/options.php:1025
+msgid "Color"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:649
+#: wpb/functions/custom_shortcodes.php:742
+#: wpb/functions/custom_shortcodes.php:1029
+#: wpb/functions/custom_shortcodes.php:1234
+#: wpb/functions/custom_shortcodes.php:1633 wpb/functions/options.php:1336
+#: wpb-4.12/functions/custom_shortcodes.php:634
+#: wpb-4.12/functions/custom_shortcodes.php:727
+#: wpb-4.12/functions/custom_shortcodes.php:1014
+#: wpb-4.12/functions/custom_shortcodes.php:1220
+#: wpb-4.12/functions/custom_shortcodes.php:1619
+#: wpb-4.12/functions/options.php:1350
+msgid "Theme Accent Color 1"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:649
+#: wpb/functions/custom_shortcodes.php:742
+#: wpb/functions/custom_shortcodes.php:1029
+#: wpb/functions/custom_shortcodes.php:1235
+#: wpb/functions/custom_shortcodes.php:1634 wpb/functions/options.php:1337
+#: wpb-4.12/functions/custom_shortcodes.php:634
+#: wpb-4.12/functions/custom_shortcodes.php:727
+#: wpb-4.12/functions/custom_shortcodes.php:1014
+#: wpb-4.12/functions/custom_shortcodes.php:1221
+#: wpb-4.12/functions/custom_shortcodes.php:1620
+#: wpb-4.12/functions/options.php:1351
+msgid "Theme Accent Color 2"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:649
+#: wpb/functions/custom_shortcodes.php:742
+#: wpb/functions/custom_shortcodes.php:1029
+#: wpb/functions/custom_shortcodes.php:1236
+#: wpb/functions/custom_shortcodes.php:1635 wpb/functions/options.php:1338
+#: wpb-4.12/functions/custom_shortcodes.php:634
+#: wpb-4.12/functions/custom_shortcodes.php:727
+#: wpb-4.12/functions/custom_shortcodes.php:1014
+#: wpb-4.12/functions/custom_shortcodes.php:1222
+#: wpb-4.12/functions/custom_shortcodes.php:1621
+#: wpb-4.12/functions/options.php:1352
+msgid "Theme Accent Color 3"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:649
+#: wpb/functions/custom_shortcodes.php:742
+#: wpb/functions/custom_shortcodes.php:1029 wpb/functions/options.php:429
+#: wpb/functions/options.php:876 wpb/functions/options.php:901
+#: wpb/functions/options.php:927 wpb/functions/options.php:1046
+#: wpb/functions/options.php:1075 wpb/functions/options.php:1324
+#: wpb-4.12/functions/custom_shortcodes.php:634
+#: wpb-4.12/functions/custom_shortcodes.php:727
+#: wpb-4.12/functions/custom_shortcodes.php:1014
+#: wpb-4.12/functions/options.php:411 wpb-4.12/functions/options.php:858
+#: wpb-4.12/functions/options.php:883 wpb-4.12/functions/options.php:909
+#: wpb-4.12/functions/options.php:1028 wpb-4.12/functions/options.php:1057
+msgid "Custom"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:655
+#: wpb-4.12/functions/custom_shortcodes.php:640
+msgid "Custom Color"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:666
+#: wpb-4.12/functions/custom_shortcodes.php:651
+msgid "Text Color"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:672
+#: wpb/functions/custom_shortcodes.php:1594 wpb/functions/options.php:541
+#: wpb/functions/options.php:698 wpb/functions/options.php:730
+#: wpb/functions/options.php:763 wpb/functions/options.php:791
+#: wpb/functions/options.php:1099 wpb/functions/options.php:1122
+#: wpb/functions/options.php:1143 wpb-4.12/functions/custom_shortcodes.php:657
+#: wpb-4.12/functions/custom_shortcodes.php:1580
+#: wpb-4.12/functions/options.php:523 wpb-4.12/functions/options.php:680
+#: wpb-4.12/functions/options.php:712 wpb-4.12/functions/options.php:745
+#: wpb-4.12/functions/options.php:773 wpb-4.12/functions/options.php:1081
+#: wpb-4.12/functions/options.php:1104 wpb-4.12/functions/options.php:1125
+msgid "Remove left/right margins?"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:673
+#: wpb/functions/custom_shortcodes.php:1595 wpb/functions/options.php:699
+#: wpb/functions/options.php:731 wpb/functions/options.php:764
+#: wpb/functions/options.php:792 wpb/functions/options.php:1100
+#: wpb/functions/options.php:1123 wpb/functions/options.php:1144
+#: wpb-4.12/functions/custom_shortcodes.php:658
+#: wpb-4.12/functions/custom_shortcodes.php:1581
+#: wpb-4.12/functions/options.php:681 wpb-4.12/functions/options.php:713
+#: wpb-4.12/functions/options.php:746 wpb-4.12/functions/options.php:774
+#: wpb-4.12/functions/options.php:1082 wpb-4.12/functions/options.php:1105
+#: wpb-4.12/functions/options.php:1126
+msgid ""
+"Using this option you can remove the gap between element and content box "
+"edge"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:696
+#: wpb-4.12/functions/custom_shortcodes.php:681
+msgid "Clickable Icon Box"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:697
+#: wpb-4.12/functions/custom_shortcodes.php:682
+msgid "Icon, Title, Text"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:721 wpb/functions/options.php:1005
+#: wpb-4.12/functions/custom_shortcodes.php:706
+#: wpb-4.12/functions/options.php:987
+msgid "Text"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:727
+#: wpb-4.12/functions/custom_shortcodes.php:712
+msgid "Icon Size"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:740
+#: wpb-4.12/functions/custom_shortcodes.php:725
+msgid "Icon Background Color"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:749
+#: wpb-4.12/functions/custom_shortcodes.php:734
+msgid "Icon Custom Background Color"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:761
+#: wpb/functions/custom_shortcodes.php:1027
+#: wpb-4.12/functions/custom_shortcodes.php:746
+#: wpb-4.12/functions/custom_shortcodes.php:1012
+msgid "Icon Color"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:876
+#: wpb-4.12/functions/custom_shortcodes.php:861
+msgid "Posts block"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:896
+#: wpb/functions/custom_shortcodes.php:1188
+#: wpb-4.12/functions/custom_shortcodes.php:881
+#: wpb-4.12/functions/custom_shortcodes.php:1174
+msgid "Columns"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:907
+#: wpb-4.12/functions/custom_shortcodes.php:892
+msgid "Total number"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:911
+#: wpb-4.12/functions/custom_shortcodes.php:896
+msgid "Leave empty to display all posts"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:915
+#: wpb-4.12/functions/custom_shortcodes.php:900
+msgid "Posts category"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:918
+#: wpb-4.12/functions/custom_shortcodes.php:903
+msgid ""
+"Choose a category (or multiple caterogires), to display posts from certain "
+"category."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:922
+#: wpb-4.12/functions/custom_shortcodes.php:907
+msgid "Display only these posts"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:929
+#: wpb-4.12/functions/custom_shortcodes.php:914
+msgid "If you want to display only certain posts, choose them here."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:933
+#: wpb-4.12/functions/custom_shortcodes.php:918
+msgid "Randomize posts"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:939
+#: wpb-4.12/functions/custom_shortcodes.php:924
+msgid "Hide thumbnail"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:945
+#: wpb-4.12/functions/custom_shortcodes.php:930
+msgid "Hide meta (date, categories, tags)"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:951
+#: wpb-4.12/functions/custom_shortcodes.php:936
+msgid "Hide excerpt"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1000
+#: wpb/functions/custom_shortcodes.php:1017
+#: wpb/functions/custom_shortcodes.php:1161
+#: wpb-4.12/functions/custom_shortcodes.php:985
+#: wpb-4.12/functions/custom_shortcodes.php:1002
+#: wpb-4.12/functions/custom_shortcodes.php:1146
+msgid "List"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1002
+#: wpb-4.12/functions/custom_shortcodes.php:987
+msgid "Icon Bulleted List"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1019
+#: wpb-4.12/functions/custom_shortcodes.php:1004
+msgid "Enter list items. Divide items with linebreaks (Enter)."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1020
+#: wpb-4.12/functions/custom_shortcodes.php:1005
+msgid "List item 1"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1020
+#: wpb-4.12/functions/custom_shortcodes.php:1005
+msgid "List item 2"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1020
+#: wpb-4.12/functions/custom_shortcodes.php:1005
+msgid "List item 3"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1035
+#: wpb-4.12/functions/custom_shortcodes.php:1020
+msgid "Icon Custom Color"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1064
+#: wpb-4.12/functions/custom_shortcodes.php:1049
+msgid "Max Width Container"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1065
+#: wpb-4.12/functions/custom_shortcodes.php:1050
+msgid "Limit maximum width of the container"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1076
+#: wpb-4.12/functions/custom_shortcodes.php:1061
+msgid "Maximum container width"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1078
+#: wpb-4.12/functions/custom_shortcodes.php:1063
+msgid ""
+"Specify maximum width of the container in pixels or any other CSS "
+"measurement unit"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1092
+#: wpb-4.12/functions/custom_shortcodes.php:1077
+msgid "Do not apply on mobile devices"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1116
+#: wpb-4.12/functions/custom_shortcodes.php:1101
+msgid "Reduce Empty Space"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1117
+#: wpb-4.12/functions/custom_shortcodes.php:1102
+msgid "Use it between elements to reduce empty space"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1124
+#: wpb-4.12/functions/custom_shortcodes.php:1109
+msgid "Height of the space to reduce"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1128
+#: wpb-4.12/functions/custom_shortcodes.php:1113
+msgid ""
+"Specify height of the space to reduce in pixels or any other CSS "
+"measurement unit"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1132 wpb/functions/options.php:1293
+#: wpb-4.12/functions/custom_shortcodes.php:1117
+#: wpb-4.12/functions/options.php:1275
+msgid "Hide on mobile devices"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1149
+#: wpb-4.12/functions/custom_shortcodes.php:1134
+msgid "Agenda / Schedule"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1162
+#: wpb-4.12/functions/custom_shortcodes.php:1147
+msgid "Grid"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1167
+#: wpb-4.12/functions/custom_shortcodes.php:1152
+msgid "Display Room/Place field"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1170
+#: wpb/functions/custom_shortcodes.php:1177
+#: wpb/functions/custom_shortcodes.php:1184
+#: wpb/functions/custom_shortcodes.php:1283
+#: wpb/functions/custom_shortcodes.php:1315
+#: wpb/functions/custom_shortcodes.php:1388
+#: wpb/functions/custom_shortcodes.php:1515
+#: wpb-4.12/functions/custom_shortcodes.php:1155
+#: wpb-4.12/functions/custom_shortcodes.php:1162
+#: wpb-4.12/functions/custom_shortcodes.php:1169
+#: wpb-4.12/functions/custom_shortcodes.php:1269
+#: wpb-4.12/functions/custom_shortcodes.php:1301
+#: wpb-4.12/functions/custom_shortcodes.php:1374
+#: wpb-4.12/functions/custom_shortcodes.php:1501
+msgid "Yes"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1174
+#: wpb-4.12/functions/custom_shortcodes.php:1159
+msgid "Display Speakers field"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1181
+#: wpb-4.12/functions/custom_shortcodes.php:1166
+msgid "Expand item description by click"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1208
+#: wpb-4.12/functions/custom_shortcodes.php:1194
+msgid "Agenda Day"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1221
+#: wpb-4.12/functions/custom_shortcodes.php:1207
+msgid "Enter day title."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1225
+#: wpb-4.12/functions/custom_shortcodes.php:1211
+msgid "Date"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1227
+#: wpb-4.12/functions/custom_shortcodes.php:1213
+msgid "Enter the date."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1231
+#: wpb-4.12/functions/custom_shortcodes.php:1217
+msgid "Color of the day block"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1251
+#: wpb-4.12/functions/custom_shortcodes.php:1237
+msgid "Agenda Item"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1260
+#: wpb-4.12/functions/custom_shortcodes.php:1246
+msgid "Time"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1266
+#: wpb-4.12/functions/custom_shortcodes.php:1252
+msgid "Title of the event"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1272
+#: wpb-4.12/functions/custom_shortcodes.php:1258
+msgid "Description of the event"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1280
+#: wpb-4.12/functions/custom_shortcodes.php:1266
+msgid "Featured"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1282
+#: wpb-4.12/functions/custom_shortcodes.php:1268
+msgid "If selected, item will stand out."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1287
+#: wpb-4.12/functions/custom_shortcodes.php:1273
+msgid "Room/Place"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1292
+#: wpb-4.12/functions/custom_shortcodes.php:1278
+msgid "Link"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1294
+#: wpb-4.12/functions/custom_shortcodes.php:1280
+msgid "Link to some page from this item if needed."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1302
+#: wpb-4.12/functions/custom_shortcodes.php:1288
+msgid ""
+"Enter speaker name to include it. You need to activate Olevmedia Persons "
+"plugin and create Speakers to use this option."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1312
+#: wpb-4.12/functions/custom_shortcodes.php:1298
+msgid "Display link to speaker page"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1355
+#: wpb-4.12/functions/custom_shortcodes.php:1341
+msgid "Tickera: Ticket"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1356
+#: wpb-4.12/functions/custom_shortcodes.php:1342
+msgid "Add to cart/buy ticket button"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1359
+#: wpb/functions/custom_shortcodes.php:1459
+#: wpb/functions/custom_shortcodes.php:1544
+#: wpb-4.12/functions/custom_shortcodes.php:1345
+#: wpb-4.12/functions/custom_shortcodes.php:1445
+#: wpb-4.12/functions/custom_shortcodes.php:1530
+msgid "Tickera"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1363
+#: wpb/functions/custom_shortcodes.php:1477
+#: wpb/functions/custom_shortcodes.php:1603
+#: wpb-4.12/functions/custom_shortcodes.php:1349
+#: wpb-4.12/functions/custom_shortcodes.php:1463
+#: wpb-4.12/functions/custom_shortcodes.php:1589
+msgid "Ticket Type"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1368
+#: wpb/functions/custom_shortcodes.php:1468
+#: wpb/functions/custom_shortcodes.php:1608
+#: wpb-4.12/functions/custom_shortcodes.php:1354
+#: wpb-4.12/functions/custom_shortcodes.php:1454
+#: wpb-4.12/functions/custom_shortcodes.php:1594
+msgid "Link Title"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1370
+#: wpb/functions/custom_shortcodes.php:1470
+#: wpb-4.12/functions/custom_shortcodes.php:1356
+#: wpb-4.12/functions/custom_shortcodes.php:1456
+msgid "Add to Cart"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1375
+#: wpb/functions/custom_shortcodes.php:1503
+#: wpb/functions/custom_shortcodes.php:1623
+#: wpb-4.12/functions/custom_shortcodes.php:1361
+#: wpb-4.12/functions/custom_shortcodes.php:1489
+#: wpb-4.12/functions/custom_shortcodes.php:1609
+msgid "Soldout Message"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1377
+#: wpb/functions/custom_shortcodes.php:1505
+#: wpb-4.12/functions/custom_shortcodes.php:1363
+#: wpb-4.12/functions/custom_shortcodes.php:1491
+msgid "Tickets are sold out."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1378
+#: wpb/functions/custom_shortcodes.php:1626
+#: wpb-4.12/functions/custom_shortcodes.php:1364
+#: wpb-4.12/functions/custom_shortcodes.php:1612
+msgid "The message which will be shown when all tickets are sold."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1383
+#: wpb-4.12/functions/custom_shortcodes.php:1369
+msgid "Show Price"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1394
+#: wpb-4.12/functions/custom_shortcodes.php:1380
+msgid "Price Position"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1398
+#: wpb-4.12/functions/custom_shortcodes.php:1384
+msgid "After"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1399
+#: wpb-4.12/functions/custom_shortcodes.php:1385
+msgid "Before"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1405
+#: wpb-4.12/functions/custom_shortcodes.php:1391
+msgid "Button size"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1409
+#: wpb-4.12/functions/custom_shortcodes.php:1395
+msgid "Mini"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1411
+#: wpb-4.12/functions/custom_shortcodes.php:1397
+msgid "Normal"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1419
+#: wpb-4.12/functions/custom_shortcodes.php:1405
+msgid "Alignment"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1423
+#: wpb-4.12/functions/custom_shortcodes.php:1409
+msgid "Inline"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1432
+#: wpb/functions/custom_shortcodes.php:1521
+#: wpb-4.12/functions/custom_shortcodes.php:1418
+#: wpb-4.12/functions/custom_shortcodes.php:1507
+msgid "Link Type"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1433
+#: wpb/functions/custom_shortcodes.php:1522
+#: wpb-4.12/functions/custom_shortcodes.php:1419
+#: wpb-4.12/functions/custom_shortcodes.php:1508
+msgid ""
+"If Buy Now is selected, after clicking on the link, user will be redirected "
+"automatically to the cart page."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1437
+#: wpb/functions/custom_shortcodes.php:1491
+#: wpb/functions/custom_shortcodes.php:1526
+#: wpb-4.12/functions/custom_shortcodes.php:1423
+#: wpb-4.12/functions/custom_shortcodes.php:1477
+#: wpb-4.12/functions/custom_shortcodes.php:1512
+msgid "Cart"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1438
+#: wpb/functions/custom_shortcodes.php:1527
+#: wpb-4.12/functions/custom_shortcodes.php:1424
+#: wpb-4.12/functions/custom_shortcodes.php:1513
+msgid "Buy Now"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1455
+#: wpb-4.12/functions/custom_shortcodes.php:1441
+msgid "Tickera: all Tickets"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1456
+#: wpb-4.12/functions/custom_shortcodes.php:1442
+msgid "Displays all types of event tickets"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1475
+#: wpb-4.12/functions/custom_shortcodes.php:1461
+msgid "Ticket Type Column Title"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1482
+#: wpb-4.12/functions/custom_shortcodes.php:1468
+msgid "Price Column Title"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1484
+#: wpb-4.12/functions/custom_shortcodes.php:1470
+msgid "Price"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1489
+#: wpb-4.12/functions/custom_shortcodes.php:1475
+msgid "Cart Column Title"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1496
+#: wpb-4.12/functions/custom_shortcodes.php:1482
+msgid "Quantity Column Title"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1498
+#: wpb-4.12/functions/custom_shortcodes.php:1484
+msgid "Qty."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1510
+#: wpb-4.12/functions/custom_shortcodes.php:1496
+msgid "Show Quantity Selector"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1540
+#: wpb-4.12/functions/custom_shortcodes.php:1526
+msgid "Tickera: CTA Buy Ticket"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1541
+#: wpb-4.12/functions/custom_shortcodes.php:1527
+msgid "CTA box with Buy Ticket button"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1548
+#: wpb-4.12/functions/custom_shortcodes.php:1534
+msgid "Heading"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1549
+#: wpb-4.12/functions/custom_shortcodes.php:1535
+msgid "Enter text for heading line."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1551
+#: wpb-4.12/functions/custom_shortcodes.php:1537
+msgid "Hey! I am first heading line feel free to change me"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1555
+#: wpb-4.12/functions/custom_shortcodes.php:1541
+msgid "Subheading"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1556
+#: wpb-4.12/functions/custom_shortcodes.php:1542
+msgid "Enter text for subheading line."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1561
+#: wpb-4.12/functions/custom_shortcodes.php:1547
+msgid "Text alignment"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1568
+#: wpb-4.12/functions/custom_shortcodes.php:1554
+msgid "Justify"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1575
+#: wpb-4.12/functions/custom_shortcodes.php:1561
+msgid "Select custom background color."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1580 wpb/functions/options.php:985
+#: wpb-4.12/functions/custom_shortcodes.php:1566
+#: wpb-4.12/functions/options.php:967
+msgid "Add background stripes?"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1588 wpb/functions/options.php:897
+#: wpb/functions/options.php:1071 wpb-4.12/functions/custom_shortcodes.php:1574
+#: wpb-4.12/functions/options.php:879 wpb-4.12/functions/options.php:1053
+msgid "Text color"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1590
+#: wpb-4.12/functions/custom_shortcodes.php:1576
+msgid "Select custom text color."
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1610
+#: wpb-4.12/functions/custom_shortcodes.php:1596
+msgid "Buy Ticket"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1615 wpb/functions/options.php:869
+#: wpb/functions/options.php:1017 wpb-4.12/functions/custom_shortcodes.php:1601
+#: wpb-4.12/functions/options.php:851 wpb-4.12/functions/options.php:999
+msgid "Apply uppercase?"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1625
+#: wpb-4.12/functions/custom_shortcodes.php:1611
+msgid "Sold out"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1630
+#: wpb-4.12/functions/custom_shortcodes.php:1616
+msgid "Button Color"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1642
+#: wpb-4.12/functions/custom_shortcodes.php:1628
+msgid "Button alignment"
+msgstr ""
+
+#: wpb/functions/custom_shortcodes.php:1648
+#: wpb-4.12/functions/custom_shortcodes.php:1634
+msgid "Bottom"
+msgstr ""
+
+#: wpb/functions/misc.php:77 wpb-4.12/functions/misc.php:96
+msgid "Font Awesome"
+msgstr ""
+
+#: wpb/functions/misc.php:78 wpb-4.12/functions/misc.php:97
+msgid "Open Iconic"
+msgstr ""
+
+#: wpb/functions/misc.php:79 wpb-4.12/functions/misc.php:98
+msgid "Typicons"
+msgstr ""
+
+#: wpb/functions/misc.php:80 wpb-4.12/functions/misc.php:99
+msgid "Entypo"
+msgstr ""
+
+#: wpb/functions/misc.php:81 wpb-4.12/functions/misc.php:100
+msgid "Linecons"
+msgstr ""
+
+#: wpb/functions/misc.php:85 wpb-4.12/functions/misc.php:104
+msgid "No Icon"
+msgstr ""
+
+#: wpb/functions/misc.php:90 wpb-4.12/functions/misc.php:109
+msgid "Icon library"
+msgstr ""
+
+#: wpb/functions/misc.php:93 wpb-4.12/functions/misc.php:112
+msgid "Select icon library."
+msgstr ""
+
+#: wpb/functions/misc.php:108 wpb/functions/misc.php:123
+#: wpb/functions/misc.php:138 wpb/functions/misc.php:167
+#: wpb-4.12/functions/misc.php:127 wpb-4.12/functions/misc.php:142
+#: wpb-4.12/functions/misc.php:157 wpb-4.12/functions/misc.php:186
+msgid "Select icon from library."
+msgstr ""
+
+#: wpb/functions/misc.php:335 wpb-4.12/functions/misc.php:354
+msgid "Wrong name for shortcode:%s. Name required"
+msgstr ""
+
+#: wpb/functions/misc.php:337 wpb-4.12/functions/misc.php:356
+msgid "Wrong attribute for '%s' shortcode. Attribute 'param_name' required"
+msgstr ""
+
+#: wpb/functions/modifications.php:129 wpb-4.12/functions/options.php:1299
+msgid "Bounce"
+msgstr ""
+
+#: wpb/functions/modifications.php:130 wpb-4.12/functions/options.php:1300
+msgid "Fade In"
+msgstr ""
+
+#: wpb/functions/modifications.php:131 wpb-4.12/functions/options.php:1301
+msgid "Zoom In"
+msgstr ""
+
+#: wpb/functions/modifications.php:132 wpb-4.12/functions/options.php:1302
+msgid "Zoom In Down"
+msgstr ""
+
+#: wpb/functions/modifications.php:133 wpb-4.12/functions/options.php:1303
+msgid "Zoom In Up"
+msgstr ""
+
+#: wpb/functions/modifications.php:134 wpb-4.12/functions/options.php:1304
+msgid "Zoom Out"
+msgstr ""
+
+#: wpb/functions/modifications.php:135 wpb-4.12/functions/options.php:1305
+msgid "Spin"
+msgstr ""
+
+#: wpb/functions/modifications.php:136 wpb-4.12/functions/options.php:1306
+msgid "Spin around Left Top"
+msgstr ""
+
+#: wpb/functions/modifications.php:137 wpb-4.12/functions/options.php:1307
+msgid "Spin around Right Top"
+msgstr ""
+
+#: wpb/functions/modifications.php:138 wpb-4.12/functions/options.php:1308
+msgid "Flip"
+msgstr ""
+
+#: wpb/functions/modifications.php:139 wpb-4.12/functions/options.php:1309
+msgid "Flip X"
+msgstr ""
+
+#: wpb/functions/modifications.php:140 wpb-4.12/functions/options.php:1310
+msgid "Flip Y"
+msgstr ""
+
+#: wpb/functions/options.php:57 wpb-4.12/functions/options.php:39
+msgid "Font color"
+msgstr ""
+
+#: wpb/functions/options.php:59 wpb-4.12/functions/options.php:41
+msgid "Select custom font color or leave empty to use default."
+msgstr ""
+
+#: wpb/functions/options.php:64 wpb-4.12/functions/options.php:46
+msgid "Row Background"
+msgstr ""
+
+#: wpb/functions/options.php:67 wpb-4.12/functions/options.php:49
+msgid "Solid Color"
+msgstr ""
+
+#: wpb/functions/options.php:68 wpb-4.12/functions/options.php:50
+msgid "Gradient Color"
+msgstr ""
+
+#: wpb/functions/options.php:70 wpb-4.12/functions/options.php:52
+msgid "Video"
+msgstr ""
+
+#: wpb/functions/options.php:89 wpb-4.12/functions/options.php:71
+msgid "Background color 2"
+msgstr ""
+
+#: wpb/functions/options.php:91 wpb-4.12/functions/options.php:73
+msgid "Second color of the gradient."
+msgstr ""
+
+#: wpb/functions/options.php:101 wpb-4.12/functions/options.php:83
+msgid "Gradient type"
+msgstr ""
+
+#: wpb/functions/options.php:104 wpb-4.12/functions/options.php:86
+msgid "Vertical"
+msgstr ""
+
+#: wpb/functions/options.php:105 wpb-4.12/functions/options.php:87
+msgid "Horisontal"
+msgstr ""
+
+#: wpb/functions/options.php:106 wpb/functions/options.php:107
+#: wpb/functions/options.php:283 wpb/functions/options.php:284
+#: wpb-4.12/functions/options.php:88 wpb-4.12/functions/options.php:89
+#: wpb-4.12/functions/options.php:265 wpb-4.12/functions/options.php:266
+msgid "Diagonal"
+msgstr ""
+
+#: wpb/functions/options.php:108 wpb-4.12/functions/options.php:90
+msgid "Radial"
+msgstr ""
+
+#: wpb/functions/options.php:121 wpb-4.12/functions/options.php:103
+msgid "Select background image for the row."
+msgstr ""
+
+#: wpb/functions/options.php:146 wpb-4.12/functions/options.php:128
+msgid "Scroll"
+msgstr ""
+
+#: wpb/functions/options.php:147 wpb-4.12/functions/options.php:129
+msgid "Fixed"
+msgstr ""
+
+#: wpb/functions/options.php:148 wpb-4.12/functions/options.php:130
+msgid "Parallax, up direction"
+msgstr ""
+
+#: wpb/functions/options.php:149 wpb-4.12/functions/options.php:131
+msgid "Parallax, down direction"
+msgstr ""
+
+#: wpb/functions/options.php:160 wpb-4.12/functions/options.php:142
+msgid "Background image dimming"
+msgstr ""
+
+#: wpb/functions/options.php:162 wpb-4.12/functions/options.php:144
+msgid "Choose a color and set alpha slider to the desired value to dim an image."
+msgstr ""
+
+#: wpb/functions/options.php:173 wpb-4.12/functions/options.php:155
+msgid "Background Video File"
+msgstr ""
+
+#: wpb/functions/options.php:175 wpb-4.12/functions/options.php:157
+msgid "Select background video for the row."
+msgstr ""
+
+#: wpb/functions/options.php:185 wpb-4.12/functions/options.php:167
+msgid "MP4 Video File URL (Optional)"
+msgstr ""
+
+#: wpb/functions/options.php:187 wpb/functions/options.php:199
+#: wpb/functions/options.php:211 wpb/functions/options.php:223
+#: wpb/functions/options.php:235 wpb/functions/options.php:247
+#: wpb-4.12/functions/options.php:169 wpb-4.12/functions/options.php:181
+#: wpb-4.12/functions/options.php:193 wpb-4.12/functions/options.php:205
+#: wpb-4.12/functions/options.php:217 wpb-4.12/functions/options.php:229
+msgid "Use as a fallback format in addition to the main video file."
+msgstr ""
+
+#: wpb/functions/options.php:197 wpb-4.12/functions/options.php:179
+msgid "M4V Video File URL (Optional)"
+msgstr ""
+
+#: wpb/functions/options.php:209 wpb-4.12/functions/options.php:191
+msgid "WebM Video File URL (Optional)"
+msgstr ""
+
+#: wpb/functions/options.php:221 wpb-4.12/functions/options.php:203
+msgid "OGV Video File URL (Optional)"
+msgstr ""
+
+#: wpb/functions/options.php:233 wpb-4.12/functions/options.php:215
+msgid "WMV Video File URL (Optional)"
+msgstr ""
+
+#: wpb/functions/options.php:245 wpb-4.12/functions/options.php:227
+msgid "FLV Video File URL (Optional)"
+msgstr ""
+
+#: wpb/functions/options.php:257 wpb-4.12/functions/options.php:239
+msgid "Fallback background color"
+msgstr ""
+
+#: wpb/functions/options.php:268 wpb-4.12/functions/options.php:250
+msgid "Fallback background image"
+msgstr ""
+
+#: wpb/functions/options.php:279 wpb-4.12/functions/options.php:261
+msgid "Fancy bottom edge"
+msgstr ""
+
+#: wpb/functions/options.php:285 wpb/functions/options.php:286
+#: wpb-4.12/functions/options.php:267 wpb-4.12/functions/options.php:268
+msgid "Corner"
+msgstr ""
+
+#: wpb/functions/options.php:297 wpb-4.12/functions/options.php:279
+msgid "Edge size"
+msgstr ""
+
+#: wpb/functions/options.php:314 wpb-4.12/functions/options.php:296
+msgid "Edge transient color"
+msgstr ""
+
+#: wpb/functions/options.php:316 wpb-4.12/functions/options.php:298
+msgid ""
+"Set this color if you want to apply transition to custom color (for "
+"instance background color of next section). Leave empty to disable "
+"transition."
+msgstr ""
+
+#: wpb/functions/options.php:326 wpb-4.12/functions/options.php:308
+msgid "Top padding"
+msgstr ""
+
+#: wpb/functions/options.php:328 wpb/functions/options.php:336
+#: wpb/functions/options.php:344 wpb/functions/options.php:352
+#: wpb-4.12/functions/options.php:310 wpb-4.12/functions/options.php:318
+#: wpb-4.12/functions/options.php:326 wpb-4.12/functions/options.php:334
+msgid "You can use px, em, %, etc. or enter just number and it will use pixels."
+msgstr ""
+
+#: wpb/functions/options.php:329 wpb/functions/options.php:337
+#: wpb/functions/options.php:345 wpb/functions/options.php:353
+#: wpb/functions/options.php:361 wpb-4.12/functions/options.php:311
+#: wpb-4.12/functions/options.php:319 wpb-4.12/functions/options.php:327
+#: wpb-4.12/functions/options.php:335 wpb-4.12/functions/options.php:343
+msgid "Extra"
+msgstr ""
+
+#: wpb/functions/options.php:334 wpb-4.12/functions/options.php:316
+msgid "Bottom padding"
+msgstr ""
+
+#: wpb/functions/options.php:358 wpb-4.12/functions/options.php:340
+msgid "Custom CSS Style"
+msgstr ""
+
+#: wpb/functions/options.php:360 wpb-4.12/functions/options.php:342
+msgid "You can add custom CSS style for the row."
+msgstr ""
+
+#: wpb/functions/options.php:370 wpb-4.12/functions/options.php:352
+msgid "Delimiter"
+msgstr ""
+
+#: wpb/functions/options.php:371 wpb-4.12/functions/options.php:353
+msgid "Delimiter at right hand side, between columns."
+msgstr ""
+
+#: wpb/functions/options.php:375 wpb-4.12/functions/options.php:357
+msgid "Vertical line"
+msgstr ""
+
+#: wpb/functions/options.php:376 wpb-4.12/functions/options.php:358
+msgid "Horisontal line"
+msgstr ""
+
+#: wpb/functions/options.php:377 wpb-4.12/functions/options.php:359
+msgid "Dot"
+msgstr ""
+
+#: wpb/functions/options.php:378 wpb-4.12/functions/options.php:360
+msgid "Arrow"
+msgstr ""
+
+#: wpb/functions/options.php:386 wpb-4.12/functions/options.php:368
+msgid "Maximum content width"
+msgstr ""
+
+#: wpb/functions/options.php:389 wpb-4.12/functions/options.php:371
+msgid ""
+"You can restrict maximum width of the content in the column in pixels or "
+"any other CSS measurement unit"
+msgstr ""
+
+#: wpb/functions/options.php:402 wpb-4.12/functions/options.php:384
+msgid "Title size"
+msgstr ""
+
+#: wpb/functions/options.php:415 wpb-4.12/functions/options.php:397
+msgid "Title Color"
+msgstr ""
+
+#: wpb/functions/options.php:420 wpb-4.12/functions/options.php:402
+msgid "Title Custom Color"
+msgstr ""
+
+#: wpb/functions/options.php:426 wpb-4.12/functions/options.php:408
+msgid "Border Color"
+msgstr ""
+
+#: wpb/functions/options.php:428 wpb-4.12/functions/options.php:410
+msgid "Same as Title Color"
+msgstr ""
+
+#: wpb/functions/options.php:437 wpb-4.12/functions/options.php:419
+msgid "Border Custom Color"
+msgstr ""
+
+#: wpb/functions/options.php:492 wpb-4.12/functions/options.php:474
+msgid "Add shadow?"
+msgstr ""
+
+#: wpb/functions/options.php:542 wpb-4.12/functions/options.php:524
+msgid "Using this option you can remove the gap between image and content box edge"
+msgstr ""
+
+#: wpb/functions/options.php:548 wpb-4.12/functions/options.php:530
+msgid "YouTube/Vemeo video popup"
+msgstr ""
+
+#: wpb/functions/options.php:553 wpb-4.12/functions/options.php:535
+msgid "Link to YouTube/Vemeo video"
+msgstr ""
+
+#: wpb/functions/options.php:571 wpb-4.12/functions/options.php:553
+msgid "OM slider"
+msgstr ""
+
+#: wpb/functions/options.php:587 wpb-4.12/functions/options.php:569
+msgid "Video popup (Custom Links - links to YouTube/Vemeo videos)"
+msgstr ""
+
+#: wpb/functions/options.php:601 wpb-4.12/functions/options.php:583
+msgid "Columns number"
+msgstr ""
+
+#: wpb/functions/options.php:622 wpb-4.12/functions/options.php:604
+msgid "Images width/height ratio"
+msgstr ""
+
+#: wpb/functions/options.php:643 wpb-4.12/functions/options.php:625
+msgid "Display captions"
+msgstr ""
+
+#: wpb/functions/options.php:807 wpb-4.12/functions/options.php:789
+msgid "Additional Text"
+msgstr ""
+
+#: wpb/functions/options.php:808 wpb-4.12/functions/options.php:790
+msgid "Smaller size second line"
+msgstr ""
+
+#: wpb/functions/options.php:815 wpb-4.12/functions/options.php:797
+msgid "Apply uppercase to the text?"
+msgstr ""
+
+#: wpb/functions/options.php:821 wpb-4.12/functions/options.php:803
+msgid "Note: you can use codes %s to colorize certain words."
+msgstr ""
+
+#: wpb/functions/options.php:826 wpb-4.12/functions/options.php:808
+msgid "Add shadow text?"
+msgstr ""
+
+#: wpb/functions/options.php:833 wpb-4.12/functions/options.php:815
+msgid "Shadow text"
+msgstr ""
+
+#: wpb/functions/options.php:834 wpb-4.12/functions/options.php:816
+msgid "Text, which will be visible as a shadow on the background"
+msgstr ""
+
+#: wpb/functions/options.php:861 wpb-4.12/functions/options.php:843
+msgid "Box"
+msgstr ""
+
+#: wpb/functions/options.php:862 wpb-4.12/functions/options.php:844
+msgid "Plain"
+msgstr ""
+
+#: wpb/functions/options.php:878 wpb-4.12/functions/options.php:860
+msgid ""
+"Select button color. In case \"Plain\" style is chosen this color is set to "
+"icon background."
+msgstr ""
+
+#: wpb/functions/options.php:884 wpb/functions/options.php:1058
+#: wpb-4.12/functions/options.php:866 wpb-4.12/functions/options.php:1040
+msgid "Custom color"
+msgstr ""
+
+#: wpb/functions/options.php:886 wpb-4.12/functions/options.php:868
+msgid "Select button custom color."
+msgstr ""
+
+#: wpb/functions/options.php:908 wpb/functions/options.php:1087
+#: wpb-4.12/functions/options.php:890 wpb-4.12/functions/options.php:1069
+msgid "Custom text color"
+msgstr ""
+
+#: wpb/functions/options.php:923 wpb-4.12/functions/options.php:905
+msgid "Icon color"
+msgstr ""
+
+#: wpb/functions/options.php:938 wpb-4.12/functions/options.php:920
+msgid "Custom icon color"
+msgstr ""
+
+#: wpb/functions/options.php:1012 wpb/functions/options.php:1026
+#: wpb/functions/options.php:1038 wpb/functions/options.php:1053
+#: wpb/functions/options.php:1066 wpb/functions/options.php:1082
+#: wpb/functions/options.php:1094 wpb-4.12/functions/options.php:994
+#: wpb-4.12/functions/options.php:1008 wpb-4.12/functions/options.php:1020
+#: wpb-4.12/functions/options.php:1035 wpb-4.12/functions/options.php:1048
+#: wpb-4.12/functions/options.php:1064 wpb-4.12/functions/options.php:1076
+msgid "Button"
+msgstr ""
+
+#: wpb/functions/options.php:1032 wpb-4.12/functions/options.php:1014
+msgid "Add link to button."
+msgstr ""
+
+#: wpb/functions/options.php:1044 wpb-4.12/functions/options.php:1026
+msgid "Select button color."
+msgstr ""
+
+#: wpb/functions/options.php:1060 wpb-4.12/functions/options.php:1042
+msgid "Select custom color for button."
+msgstr ""
+
+#: wpb/functions/options.php:1161 wpb-4.12/functions/options.php:1143
+msgid "Pie label inside circle"
+msgstr ""
+
+#: wpb/functions/options.php:1164 wpb-4.12/functions/options.php:1146
+msgid "Number"
+msgstr ""
+
+#: wpb/functions/options.php:1165 wpb-4.12/functions/options.php:1147
+msgid "Display widget title"
+msgstr ""
+
+#: wpb/functions/options.php:1205 wpb-4.12/functions/options.php:1187
+msgid "Font size"
+msgstr ""
+
+#: wpb/functions/options.php:1207 wpb-4.12/functions/options.php:1189
+msgid "Specify custom label font size or leave empty for default size"
+msgstr ""
+
+#: wpb/functions/options.php:1212 wpb/functions/options.php:1267
+#: wpb-4.12/functions/options.php:1194 wpb-4.12/functions/options.php:1249
+msgid "Width"
+msgstr ""
+
+#: wpb/functions/options.php:1214 wpb-4.12/functions/options.php:1196
+msgid "Leave this field blank for auto width or specify maximum width"
+msgstr ""
+
+#: wpb/functions/options.php:1227 wpb/functions/options.php:1260
+#: wpb-4.12/functions/options.php:1209 wpb-4.12/functions/options.php:1242
+msgid "Preset colors"
+msgstr ""
+
+#: wpb/functions/options.php:1228 wpb/functions/options.php:1261
+#: wpb-4.12/functions/options.php:1210 wpb-4.12/functions/options.php:1243
+msgid "Custom colors"
+msgstr ""
+
+#: wpb/functions/options.php:1234 wpb-4.12/functions/options.php:1216
+msgid "Maximum width"
+msgstr ""
+
+#: wpb/functions/options.php:1236 wpb/functions/options.php:1269
+#: wpb-4.12/functions/options.php:1218 wpb-4.12/functions/options.php:1251
+msgid "100%"
+msgstr ""
+
+#: wpb/functions/options.php:1237 wpb/functions/options.php:1270
+#: wpb-4.12/functions/options.php:1219 wpb-4.12/functions/options.php:1252
+msgid "90%"
+msgstr ""
+
+#: wpb/functions/options.php:1238 wpb/functions/options.php:1271
+#: wpb-4.12/functions/options.php:1220 wpb-4.12/functions/options.php:1253
+msgid "80%"
+msgstr ""
+
+#: wpb/functions/options.php:1239 wpb/functions/options.php:1272
+#: wpb-4.12/functions/options.php:1221 wpb-4.12/functions/options.php:1254
+msgid "70%"
+msgstr ""
+
+#: wpb/functions/options.php:1240 wpb/functions/options.php:1273
+#: wpb-4.12/functions/options.php:1222 wpb-4.12/functions/options.php:1255
+msgid "60%"
+msgstr ""
+
+#: wpb/functions/options.php:1241 wpb/functions/options.php:1274
+#: wpb-4.12/functions/options.php:1223 wpb-4.12/functions/options.php:1256
+msgid "50%"
+msgstr ""
+
+#: wpb/functions/options.php:1242 wpb/functions/options.php:1275
+#: wpb-4.12/functions/options.php:1224 wpb-4.12/functions/options.php:1257
+msgid "40%"
+msgstr ""
+
+#: wpb/functions/options.php:1243 wpb/functions/options.php:1276
+#: wpb-4.12/functions/options.php:1225 wpb-4.12/functions/options.php:1258
+msgid "30%"
+msgstr ""
+
+#: wpb/functions/options.php:1247 wpb/functions/options.php:1280
+#: wpb-4.12/functions/options.php:1229 wpb-4.12/functions/options.php:1262
+msgid "Specify maximum width of the chart"
+msgstr ""
+
+#: wpb/functions/options.php:1306
+msgid "Delay before CSS Animation starts (milliseconds)"
+msgstr ""
+
+#: wpb/functions/options.php:1326 wpb-4.12/functions/options.php:1324
+msgid "Custom animation for this element"
+msgstr ""
+
+#: wpb/vc_templates/vc_posts_grid.php:169
+#: wpb/vc_templates/vc_posts_slider.php:180
+#: wpb-4.12/vc_templates/vc_posts_grid.php:169
+#: wpb-4.12/vc_templates/vc_posts_slider.php:180
+msgid "Nothing found."
+msgstr ""
+
+#: wpb/vc_templates/vc_posts_slider.php:140
+#: wpb-4.12/vc_templates/vc_posts_slider.php:140
+msgid "Permalink to %s"
+msgstr ""
+
+#: wpb-4.12/functions/options.php:1288
+msgid "CSS Animation"
+msgstr ""
+
+#: wpb-4.12/functions/options.php:1293
+msgid "Top to bottom"
+msgstr ""
+
+#: wpb-4.12/functions/options.php:1294
+msgid "Bottom to top"
+msgstr ""
+
+#: wpb-4.12/functions/options.php:1295
+msgid "Left to right"
+msgstr ""
+
+#: wpb-4.12/functions/options.php:1296
+msgid "Right to left"
+msgstr ""
+
+#: wpb-4.12/functions/options.php:1297
+msgid "Appear from center"
+msgstr ""
+
+#: wpb-4.12/functions/options.php:1312
+msgid ""
+"Select type of animation if you want this element to be animated when it "
+"enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: wpb-4.12/functions/options.php:1316
+msgid "Delay before animation starts (milliseconds)"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Eventerra"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"http://themeforest.net/item/eventerra-event-conference-wordpress-theme/15717"
+"811"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Event / Conference WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "OlevMedia"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.olevmedia.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Without Header/Footer"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Sitemap"
+msgstr ""
+
+#: functions.php:251 om-framework/classes/class-styling.php:48
+#. Translators: If there are characters in your language that are not supported
+#. by chosen font(s), translate this to 'off'. Do not translate into your
+#. own language.
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1221
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3064
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2458
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2504
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: om-framework/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2598
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
